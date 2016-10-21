@@ -31,10 +31,13 @@ See http://docs.radixtheme.org/en/latest/drupal/
 On `vagrant@drupalvm:/vagrant/drupal/web$`
 
 ```
+$ sudo apt-get install nodejs-legacy
 $ sudo apt-get install npm
 $ sudo npm install gulp -g
 $ sudo npm install bower -g
 ```
+The first line (nodejs-legacy) fixes an [error documented here](http://stackoverflow.com/questions/21168141/cannot-install-packages-using-node-package-manager-in-ubuntu).
+
 Note that drush is already installed via the DrupalVM setup.
 
 More info:
@@ -65,16 +68,15 @@ On `vagrant@drupalvm:/vagrant/drupal/web$`
 
 # Initial Setup for Development
 1. Get all the package dependencies. This may take a few minutes.
-In `vagrant@drupalvm:/vagrant/drupal/web/sites/all/themes/dulcet$`
 
     ```
+    $ cd dulcet
     $ npm run setup
     ```
 
     This will download several node modules and their dependencies (to `node_modules` folder), as well as the bootstrap-sass, font-awesome, and jquery bower components (`to bower_components` folder). Note that these directories are listed in `.gitignore` so they are not part of the code repo.
 
-2. Compile Assets
-In `vagrant@drupalvm:/vagrant/drupal/web/sites/all/themes/dulcet$`
+2. Compile Assets (in dulcet directory)
 
     ```
     $ gulp
