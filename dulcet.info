@@ -1,0 +1,41 @@
+name        = Dulcet - Duke Libraries
+description = Drupal theme for Duke University Libraries website, 2017
+screenshot  = screenshot.png
+core        = 7.x
+
+; Base - Radix
+base theme  = radix
+
+
+; Regions
+regions[js_masthead] = 'JS Masthead'
+regions[breadcrumb] = 'Breadcrumb'
+regions[content] = Content
+regions[sidebar_first] = Sidebar
+
+; Breakpoints
+breakpoints[xs] = (max-width: 767px)
+breakpoints[sm] = (min-width: 768px) and (max-width: 991px)
+breakpoints[md] = (min-width: 992px) and (max-width: 1199px)
+breakpoints[lg] = (min-width: 1200px)
+
+; Panels
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
+
+; CSS - General
+stylesheets[all][]     = assets/css/dulcet.style.css
+
+; Javascript
+scripts[] = assets/js/dulcet.script.js
+
+; Maximum depth for dropdown menus (1 = no dropdowns, 2 = single dropdown,
+; 3 or greater = nested dropdown menus).
+settings[main_menu_max_depth] = 2
+
+; Information added by Drupal.org packaging script on 2016-08-03
+version = "7.x-3.5"
+core = "7.x"
+project = "radix"
+datestamp = "1470238162"
+

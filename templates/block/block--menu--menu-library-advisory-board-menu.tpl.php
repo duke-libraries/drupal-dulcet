@@ -1,0 +1,23 @@
+<?php $tag = $block->subject ? 'section' : 'div'; ?>
+<<?php print $tag; ?><?php print $attributes; ?>>
+  <div class="block-inner clearfix">
+    <?php print render($title_prefix); ?>
+    <?php if ($block->subject): ?>
+      <h2<?php print $title_attributes; ?>><?php print $block->subject; ?></h2>
+    <?php endif; ?>
+    <?php print render($title_suffix); ?>
+    
+    <div <?php print $content_attributes; ?>>
+      
+      <!-- content above menu -->
+            <p class="sidebar-logo"><a href="/about/advisory-boards/lab">
+            	<img src="<?php print base_path(); ?>sites/default/files/dul/about/lab/lab_board_menu.jpg" class="img-polaroid" alt="image" width="95%" style="max-width: 260px;"></a>
+            </p>
+        <!-- / content above menu -->
+      
+      
+      <?php print $content ?>
+    
+    </div>
+  </div>
+</<?php print $tag; ?>>
