@@ -27,21 +27,47 @@ See http://docs.radixtheme.org/en/latest/drupal/
 1. Set up a [DrupalVM](https://www.drupalvm.com/), built with Vagrant & Ansible
 2. Configure & import sample data & files (_consult internal docs for DUL_)
 
-### Install Requirements
-On `vagrant@drupalvm:/vagrant/drupal/web$`
+### Install a recent version of Node.js
+Instructions derived from [this helpful documentation](http://jmfeurprier.com/2015/10/02/how-to-install-node-js-with-ubuntu-and-vagrant-in-a-synced-folder/)
+
+On `vagrant@drupalvm`
 
 ```
-$ sudo apt-get install nodejs-legacy
-$ sudo apt-get install npm
+$ sudo apt-get update
+$ sudo apt-get install -y g++
+$ sudo curl -sL https://deb.nodesource.com/setup_0.12 | sudo sh
+$ sudo apt-get install -y nodejs
+```
+Running Node.js & NPM in a Vagrant environment presents a few additional challenges [documented here](http://jmfeurprier.com/2015/10/02/how-to-install-node-js-with-ubuntu-and-vagrant-in-a-synced-folder/), so these instructions vary from those provided in the [Radix theme setup instructions](http://docs.radixtheme.org/en/latest/drupal/).
+
+### Make a symlink for node_modules folder
+This helps avoid filesystem failures from node.js packages.
+
+On `vagrant@drupalvm`:
+```
+$ mkdir /home/vagrant/node_modules
+$ cd /var/www/drupalvm
+$ ln -s /home/vagrant/node_modules/ node_modules
+```
+
+### Install Gulp & Bower globally
+On `vagrant@drupalvm`:
+```
 $ sudo npm install gulp -g
 $ sudo npm install bower -g
 ```
-The first line (nodejs-legacy) fixes an [error documented here](http://stackoverflow.com/questions/21168141/cannot-install-packages-using-node-package-manager-in-ubuntu).
-
-Note that drush is already installed via the DrupalVM setup.
+### Change owner & group for NPM & Bower config directories
+On `vagrant@drupalvm`:
+```
+$ sudo chown -R $USER:$GROUP ~/.npm
+$ sudo chown -R $USER:$GROUP ~/.config
+```
+This changes owner & group for these directories from `root/root` to `vagrant/vagrant` to prevent problems with package installation/setup. [More info here...](https://github.com/bower/bower/issues/2262).
 
 More info:
-[Radix Drupal theme documentation](http://docs.radixtheme.org/en/latest/drupal/)
+
+- [Radix Drupal theme documentation](http://docs.radixtheme.org/en/latest/drupal/)
+- [Installing Node.js with Vagrant & Ubuntu](http://jmfeurprier.com/2015/10/02/how-to-install-node-js-with-ubuntu-and-vagrant-in-a-synced-folder/)
 
 ### Download Radix & Dulcet Themes
 
@@ -67,14 +93,15 @@ On `vagrant@drupalvm:/vagrant/drupal/web$`
     ```
 
 # Initial Setup for Development
-1. Get all the package dependencies. This may take a few minutes.
+1. In the dulcet theme directory, get all the package dependencies. This may take a few minutes.
+
+    On `vagrant@drupalvm:/vagrant/drupal/web/sites/all/themes/dulcet$`
 
     ```
-    $ cd dulcet
     $ npm run setup
     ```
 
-    This will download several node modules and their dependencies (to `node_modules` folder), as well as the bootstrap-sass, font-awesome, and jquery bower components (`to bower_components` folder). Note that these directories are listed in `.gitignore` so they are not part of the code repo.
+    This will download several node modules and their dependencies (to `node_modules` folder), as well as the bootstrap-sass, font-awesome, and jquery bower components (`to bower_components` folder). Note that these directories are listed in `.gitignore` so they are not part of the code repo for dulcet.
 
 2. Compile Assets (in dulcet directory)
 
