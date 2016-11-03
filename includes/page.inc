@@ -23,7 +23,7 @@ function dulcet_preprocess_page(&$variables) {
 	} elseif (preg_match('/^\/rubenstein/', $_SERVER['REQUEST_URI'])) {
 
 		$variables['physical_address'] = '411 Chapel Drive<br />Durham, NC 27708<br />'
-			. '(919) 660-5822 <br />Rubenstein Library Research Services</div>';
+			. '(919) 660-5822 <br />Rubenstein Library Research Services';
 
 	}
 
