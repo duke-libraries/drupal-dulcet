@@ -1,0 +1,61 @@
+// Styles for Footer
+// -----------------------------------------------------------------------------
+
+#footer-dulcet {
+  margin-top: 20px;
+  background-color: #eee;
+  border-top: #ddd 6px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-media-icons {
+  margin-top: 10px;
+	margin-bottom: 15px;
+	overflow: hidden;
+  @media (max-width: $screen-sm) {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0 10px 0;
+  }
+}
+
+.social-media-icons div {
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-right: 6px;
+	&.twitter {
+	  background: url("../images/footer_icon_sprite_2015.png") no-repeat 0 0;
+  }
+  &.facebook {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -24px 0;
+  }
+  &.youtube {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -48px 0;
+  }
+  &.flickr {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -72px 0;
+  }
+  &.pinterest {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -96px 0;
+  }
+  &.instagram {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -96px 0;
+  }
+  &.rss {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -120px 0;
+  }
+}
+
+#duke-logo {
+  margin-bottom: 20px;
+}
+
+a.drupal-shib-login {
+	border: 1px solid #ddd;
+	padding: 5px 10px 5px 5px;
+	color: #999;
+	background: #f3f3f3;
+	font-weight: normal;
+}

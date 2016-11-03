@@ -5958,8 +5958,7 @@ button.close {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  -webkit-filter: none;
-          filter: none; }
+  filter: none; }
 
 .fa-stack {
   position: relative;
@@ -8860,5 +8859,56 @@ ul.dropdown-menu li {
 
 .hide-title h1#page-title {
   display: none; }
+
+.feature-box-content img {
+  max-width: 100%;
+  height: auto; }
+
+#footer-dulcet {
+  margin-top: 20px;
+  background-color: #eee;
+  border-top: #ddd 6px solid;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.social-media-icons {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  overflow: hidden; }
+  @media (max-width: 768px) {
+    .social-media-icons {
+      border-top: 1px dotted #ccc;
+      border-bottom: 1px dotted #ccc;
+      padding: 10px 0 10px 0; } }
+
+.social-media-icons div {
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-right: 6px; }
+  .social-media-icons div.twitter {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat 0 0; }
+  .social-media-icons div.facebook {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -24px 0; }
+  .social-media-icons div.youtube {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -48px 0; }
+  .social-media-icons div.flickr {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -72px 0; }
+  .social-media-icons div.pinterest {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -96px 0; }
+  .social-media-icons div.instagram {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -96px 0; }
+  .social-media-icons div.rss {
+    background: url("../images/footer_icon_sprite_2015.png") no-repeat -120px 0; }
+
+#duke-logo {
+  margin-bottom: 20px; }
+
+a.drupal-shib-login {
+  border: 1px solid #ddd;
+  padding: 5px 10px 5px 5px;
+  color: #999;
+  background: #f3f3f3;
+  font-weight: normal; }
 
 /*# sourceMappingURL=dulcet.style.css.map */
