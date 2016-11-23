@@ -1,0 +1,363 @@
+/* DUL Homepage Styles */
+
+
+/* VARIABLES */
+
+$discovery-tabs-bg: #235f9c;
+$discovery-tabs-bg-off: #e8e5e2;
+$discovery-tabs-text: #fff;
+$discovery-tabs-text-off: #555;
+
+
+
+/* Typography */
+
+
+
+
+
+/* Layout */
+
+.radix-dul {
+  margin-top: 1em;
+}
+
+
+
+/* DISCOVERY UI */
+
+
+/* Search Tabs */
+.home-discovery .search-resources-tabs {
+  background: $discovery-tabs-bg url(/sites/all/themes/madlib/images/library-background-blue.jpg) no-repeat 170px 0;
+  border-top: 3px solid #184d83;
+}
+
+
+.home-discovery .search-resources-tabs .col-md-3 {
+  overflow: hidden;
+}
+
+.home-discovery .search-resources-tabs .tab-content .homeSearchBox {
+  height: 3em;
+  display: block;
+  float: left;
+}
+
+.home-discovery .search-resources-tabs .tab-content .btn {
+  padding: .6em 1.2em;
+  height: 3em;
+  font-weight: 800;
+  background: #1a4672;
+  border: 1px solid #1a4672;
+  display: block;
+  float: left;
+}
+
+.home-discovery .search-resources-tabs .tab-content .btn:hover {
+  background: #092846;
+  border: 1px solid #092846;
+}
+
+.home-discovery .search-resources-tabs .tab-content .inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-discovery .search-resources-tabs .tab-content .inline li {
+  margin-top: .5em;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.home-discovery .search-resources-tabs .tab-content .inline li a {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.home-discovery .search-resources-tabs .tab-content label.checkbox {
+  font-weight: normal;
+  color: #fff;
+  font-size: .95em;
+  margin-right: 1em;
+  margin-top: .5em;
+}
+
+
+
+.home-discovery .search-resources-tabs #myTab {
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  background: $discovery-tabs-bg-off;
+  color: $discovery-tabs-text-off;
+  border: 1px solid lighten($discovery-tabs-text-off, 50%);
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: $discovery-tabs-bg;
+  color: $discovery-tabs-text;
+  border: 1px solid $discovery-tabs-bg;
+}
+
+.home-discovery .tab-content {
+  padding: 2.25em 0 0 2em;
+}
+
+.home-discovery .homeSearchBox {
+  border: 1px solid darken($discovery-tabs-bg, 10%) !important;
+  width: 100%;
+  max-width: 30em;
+  padding: .6em;
+}
+
+.home-discovery #booksandmore .homeSearchBox {
+  max-width: 22em;
+}
+
+.home-discovery #catalogcodeinput {
+  width: 8em;
+  height: 3em;
+  border: 1px solid darken($discovery-tabs-bg, 10%) !important;
+  display: block;
+  float: left;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+  padding: .5em;
+  padding-right: 1.5em;
+  border-radius: 0;
+}
+
+
+/* Search Links */
+.home-discovery .search-links {
+  display: block;
+  background: #444;
+  overflow: hidden;
+  padding: .5em;
+  border-top: .25em solid #fff;
+}
+
+.home-discovery .search-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home-discovery .search-links ul li {
+  list-style: none;
+  float: left;
+}
+
+.home-discovery .search-links ul li a {
+  color: #ccc;
+  border-right: 1px solid #666;
+  display: block;
+  font-size: 9pt;
+  padding: 0 16px 0 16px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.home-discovery .search-links .fa-cog {
+  font-size: 1.5em;
+}
+
+
+.page-home .pane-aggregator-feed-51 h3 {
+  font-weight: 500;
+}
+
+/* Carousel */
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+.page-home .cycle-slideshow {
+  float: left;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.page-home .cycle-slideshow .more-link {
+  display: none;
+}
+
+.page-home .cycle-slideshow li {
+  overflow: visible;
+  vertical-align: text-top;
+}
+
+.page-home .cycle-slideshow li a {
+  color: #666;
+}
+
+
+.page-home .cycle-slideshow .blog-content {
+    text-align: center;
+    margin: 0 0 2% 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.page-home .cycle-slideshow .blog-content img {
+  width: calc(100% - 10px);
+  margin-left: 10px;
+}
+
+.page-home .cycle-slideshow .blog-content p {
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  margin: 5px 0 0 10px;
+  line-height: 1.1em;
+}
+
+.page-home .carousel-control {
+  height: 60px;
+  margin-top: 0;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 35pt;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+  position: relative !important;
+  margin-left: 0;
+  padding-left: 0;
+  left: 0;
+  color: #999;
+  padding-top: 35px;
+  width: auto !important;
+  display: block !important;
+}
+
+.page-home #prev {
+  float: left;
+}
+
+
+
+.page-home .home-events {
+  margin-top: 1.5em;
+  border: 0;
+}
+
+.page-home .home-events h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.page-home .home-events ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-home .home-events ul li {
+  border-bottom: 1px dotted #ddd;
+  padding: 4px 0 8px 0;
+  margin-bottom: 8px;
+  margin-left: 0;
+  font-size: 10pt;
+  line-height: 1.2;
+}
+
+.page-home .home-events .date {
+  font-style: italic;
+}
+
+.page-home .home-events .view-all {
+  text-align: right;
+}
+
+.page-home .radix-layouts-sidebar {
+  padding: 15px;
+  background: url(/sites/all/themes/madlib/images/striped-grey.png) repeat left top;
+  overflow: hidden;
+  width: calc(25% - 15px);
+}
+
+.page-home .radix-layouts-sidebar h2,
+.page-home .radix-layouts-sidebar h3 {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 1.35em;
+  color: $dul-headers;
+}
+
+.page-home .radix-layouts-sidebar .pane-dul-hours,
+.page-home .radix-layouts-sidebar .home-more,
+.page-home .radix-layouts-sidebar .home-give {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 1px dotted #ccc;
+}
+
+.page-home .radix-layouts-sidebar .home-give {
+  margin-bottom: 0;
+}
+
+.page-home .home-more {
+  padding-bottom: 1.5em;
+}
+
+.page-home .home-more h3 {
+  margin-bottom: .75em;
+}
+
+.page-home .home-more .more-item {
+  margin-left: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.page-home .home-more .more-item a {
+  padding: 5px 10px 9px 40px;
+  white-space: nowrap;
+  display: block;
+  margin-top: 10px;
+}
+
+.page-home .home-more .ask {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat 0 0;
+}
+
+.page-home .home-more .research {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -30px 0;
+}
+
+.page-home .home-more .cite {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -60px 0;
+}
+
+.page-home .home-more .delivery {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -90px 0;
+}
+
+.page-home .home-more .reserve {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -120px 0;
+}
+
+.page-home .radix-layouts-sidebar .home-give .btn {
+  width: 100%;
+}

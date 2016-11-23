@@ -1,3 +1,5 @@
+require('es6-promise').polyfill();
+
 // Include gulp.
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
