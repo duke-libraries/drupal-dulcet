@@ -109,7 +109,7 @@ $discovery-tabs-text-off: #555;
 }
 
 .home-discovery .tab-content {
-  padding: 2.25em 0 0 2em;
+  padding: 2.25em 0 0 .75em;
 }
 
 .home-discovery .homeSearchBox {
@@ -167,6 +167,10 @@ $discovery-tabs-text-off: #555;
   padding: 0 16px 0 16px;
   letter-spacing: 1px;
   font-weight: 800;
+}
+
+.home-discovery .search-links ul li.last a {
+  border-right: none;
 }
 
 .home-discovery .search-links .fa-cog {
