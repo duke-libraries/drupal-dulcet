@@ -4,6 +4,17 @@ $dul-headers:         #001A57;
 $dul-links:           #0062A0;
 
 
+/* TYPOGRAPHY */
+
+.page-header h1 {
+  font-weight: 500;
+}
+
+.x-large {
+  font-size: 130%;
+}
+
+
 
 .hide-title h1#page-title {
   display: none;

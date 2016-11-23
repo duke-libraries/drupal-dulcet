@@ -8926,6 +8926,13 @@ ul.dropdown-menu li {
   width: 100%; }
 
 /* COLORS */
+/* TYPOGRAPHY */
+.page-header h1 {
+  font-weight: 500; }
+
+.x-large {
+  font-size: 130%; }
+
 .hide-title h1#page-title {
   display: none; }
 
