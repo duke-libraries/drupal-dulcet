@@ -8650,6 +8650,9 @@ ul.dropdown-menu li {
 .radix-dul {
   margin-top: 1em; }
 
+.page-home .region-breadcrumb {
+  display: none !important; }
+
 /* DISCOVERY UI */
 /* Search Tabs */
 .home-discovery .search-resources-tabs {
