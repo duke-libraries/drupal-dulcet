@@ -118,12 +118,12 @@ $discovery-tabs-text-off: #555;
 .home-discovery .homeSearchBox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
   width: 100%;
-  max-width: 30em;
+  max-width: 28.25em;
   padding: .6em;
 }
 
 .home-discovery #booksandmore .homeSearchBox {
-  max-width: 22em;
+  max-width: 20.25em;
 }
 
 .home-discovery #catalogcodeinput {
@@ -166,7 +166,7 @@ $discovery-tabs-text-off: #555;
   color: #ccc;
   border-right: 1px solid #666;
   display: block;
-  font-size: 9pt;
+  font-size: .8em;
   padding: 0 16px 0 16px;
   letter-spacing: 1px;
   font-weight: 800;
@@ -233,6 +233,7 @@ $discovery-tabs-text-off: #555;
   overflow: hidden;
   margin: 5px 0 0 10px;
   line-height: 1.1em;
+  font-size: .9em;
 }
 
 .page-home .carousel-control {
@@ -268,7 +269,7 @@ $discovery-tabs-text-off: #555;
 
 .page-home .home-events h3 {
   margin-top: 0;
-  font-size: 1.3em;
+  font-size: 1.25em;
   font-weight: 500;
 }
 
@@ -283,7 +284,7 @@ $discovery-tabs-text-off: #555;
   padding: 4px 0 8px 0;
   margin-bottom: 8px;
   margin-left: 0;
-  font-size: 10pt;
+  font-size: .9em;
   line-height: 1.2;
 }
 
@@ -306,7 +307,7 @@ $discovery-tabs-text-off: #555;
 .page-home .radix-layouts-sidebar h3 {
   margin-top: 0;
   font-weight: 500;
-  font-size: 1.35em;
+  font-size: 1.25em;
   color: $dul-headers;
 }
 
@@ -323,8 +324,8 @@ $discovery-tabs-text-off: #555;
   margin-bottom: 0;
 }
 
-.page-home .home-more {
-  padding-bottom: 1.5em;
+.page-home .radix-layouts-sidebar .home-more {
+  padding-bottom: 15px;
 }
 
 .page-home .home-more h3 {
