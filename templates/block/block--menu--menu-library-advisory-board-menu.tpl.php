@@ -11,7 +11,7 @@
       
       <!-- content above menu -->
             <p class="sidebar-logo"><a href="/about/advisory-boards/lab">
-            	<img src="<?php print base_path(); ?>sites/default/files/dul/about/lab/lab_board_menu.jpg" class="img-polaroid" alt="image" width="95%" style="max-width: 260px;"></a>
+            	<img src="<?php print base_path(); ?>sites/default/files/dul/about/lab/lab_board_menu.jpg" class="img-thumbnail" alt="image" width="95%" style="max-width: 260px;"></a>
             </p>
         <!-- / content above menu -->
       

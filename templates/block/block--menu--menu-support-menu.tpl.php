@@ -25,10 +25,10 @@
       
       <!-- content below menu -->
       
-      <ul class="nav nav-list unstyled"><li class="divider"></li></ul>
+      <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
       
       <div style="text-align:center; padding: 10px;">
-      <a href="https://www.gifts.duke.edu/library" target="_blank"><button style="width:100%;" class="btn btn-large btn-primary">Give Now</button></a>
+      <a href="https://www.gifts.duke.edu/library" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
       </div>
       
       <!-- / content below menu -->
