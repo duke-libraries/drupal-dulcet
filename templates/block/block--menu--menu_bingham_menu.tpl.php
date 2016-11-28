@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
       
       <!-- content above menu -->
-      <p class="sidebar-logo"><a href="/rubenstein/"> <img class="rl-logo" src="<?php print base_path(); ?>/sites/default/files/rubenstein/rl-logo-white-border-normal-padded-transp.png" class="rl-logo menu-thumb" title="David M. Rubenstein Rare Book &amp; Manuscript Library"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/rubenstein/bingham/">Sallie Bingham Center for Women's History &amp; Culture</a></li></ul>
+      <p class="sidebar-logo"><a href="/rubenstein/"> <img class="rl-logo img-thumbnail" src="<?php print base_path(); ?>/sites/default/files/rubenstein/rl-logo img-thumbnail-white-border-normal-padded-transp.png" class="rl-logo img-thumbnail menu-thumb" title="David M. Rubenstein Rare Book &amp; Manuscript Library"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/rubenstein/bingham/">Sallie Bingham Center for Women's History &amp; Culture</a></li></ul>
       <!-- / content above menu -->
       
       
