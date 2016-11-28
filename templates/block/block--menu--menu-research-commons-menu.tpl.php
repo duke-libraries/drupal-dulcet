@@ -18,7 +18,7 @@
       
       <!-- content below menu -->
           <div class="sideContact">
-          	<ul class="nav nav-list unstyled">
+          	<ul class="nav nav-list list-unstyled">
           		<li class="divider"></li>
           		<li class="nav-header nav-header-gray"><a href="/research/commons"> Contact Us </a></li>
           		<li style="font-size: 9pt; font-weight: normal;"><a href="mailto:research-commons@duke.edu"> research-commons@duke.edu </a></li>

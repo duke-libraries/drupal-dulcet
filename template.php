@@ -75,7 +75,7 @@ function dulcet_aggregator_block_item($variables) {
 	$div_img_shadow = sprintf('<a onClick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="%s">'
 	
 		. '<div class="blog-content">'
-		. '<img alt="news image" class="img-polaroid" src="%s" />', $hrefUrl, $imgSrc);
+		. '<img alt="news image" class="img-thumbnail" src="%s" />', $hrefUrl, $imgSrc);
 	
 	$div_news_caption = sprintf('<p>'
 		. $linkTitle
@@ -156,7 +156,7 @@ function dulcet_theme(&$existing, $type, $theme, $path) {
  * @ingroup themable
  */
 function dulcet_dul_search_form_wrapper(&$vars) {
-	$output = '<div class="input-append">';
+	$output = '<div class="input-group">';
 	$output .= $vars['element']['#children'];
 	$output .= '<button type="submit" class="btn btn-success bannerSearch">';
 	$output .= '<i class="icon-search icon-white"></i>';

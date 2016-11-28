@@ -22,7 +22,7 @@
 
       <!-- content below menu -->
 
-      <ul class="nav nav-list unstyled">
+      <ul class="nav nav-list list-unstyled">
 
       <li class="divider"></li>
 

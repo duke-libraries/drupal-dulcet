@@ -17,12 +17,12 @@
       <?php print $content ?>
       
       <!-- content below menu -->
-      <ul class="nav nav-list unstyled"><li class="divider"></li><li class="nav-header">Connect With Us</li></ul><div> <a href="http://www.facebook.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a><a href="http://www.twitter.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt=""> </a></div>
+      <ul class="nav nav-list list-unstyled"><li class="divider"></li><li class="nav-header">Connect With Us</li></ul><div> <a href="http://www.facebook.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a><a href="http://www.twitter.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt=""> </a></div>
 
-      <ul class="nav nav-list unstyled"><li class="divider"></li></ul>
+      <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
 
       <div style="text-align:center; padding: 10px;">
-      <a href="https://www.gifts.duke.edu/fund?additional_designations=John+Hope+Franklin+Center-Franklin+Collection+Fund+3942501" target="_blank"><button style="width:100%;" class="btn btn-large btn-primary">Give Now</button></a>
+      <a href="https://www.gifts.duke.edu/fund?additional_designations=John+Hope+Franklin+Center-Franklin+Collection+Fund+3942501" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
       </div>
 
       <!-- / content below menu -->

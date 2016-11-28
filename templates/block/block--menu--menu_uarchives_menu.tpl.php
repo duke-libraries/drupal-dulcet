@@ -17,7 +17,7 @@
       <?php print $content ?>
 
       <!-- content below menu -->
-      <ul class="nav nav-list unstyled"><li class="divider"></li><li class="nav-header">Connect With Us</li></ul><div> <a href="http://www.facebook.com/dukeuniversityarchives"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a><a href="http://www.flickr.com/photos/dukeyearlook/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png"> </a> <a href="http://twitter.com/dukeuarchives/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png"> </a></div>
+      <ul class="nav nav-list list-unstyled"><li class="divider"></li><li class="nav-header">Connect With Us</li></ul><div> <a href="http://www.facebook.com/dukeuniversityarchives"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a><a href="http://www.flickr.com/photos/dukeyearlook/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png"> </a> <a href="http://twitter.com/dukeuarchives/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png"> </a></div>
       <!-- / content below menu -->
 
     </div>

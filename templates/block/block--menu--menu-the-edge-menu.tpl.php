@@ -18,7 +18,7 @@
 
       <!-- content below menu -->
           <div class="sideContact">
-          	<ul class="nav nav-list unstyled">
+          	<ul class="nav nav-list list-unstyled">
           		<li class="divider"></li>
           		<li class="nav-header nav-header-gray">Contact Us</li>
           		<li style="font-size: 9pt; font-weight: normal;"><a href="mailto:edge@duke.edu"> edge@duke.edu </a></li>
