@@ -8864,6 +8864,9 @@ ul.dropdown-menu li {
   max-width: 100%;
   height: auto; }
 
+img.rl-logo {
+  background: #333; }
+
 #footer-dulcet {
   margin-top: 20px;
   background-color: #eee;
