@@ -27,11 +27,6 @@
         <?php print render($page['breadcrumb']); ?>
       <?php endif; ?>
 
-      <?php if ($breadcrumb): ?>
-        <div id="breadcrumb" class="visible-desktop">
-          <?php print $breadcrumb; ?>
-        </div>
-      <?php endif; ?>
       <?php if ($messages): ?>
         <div id="messages">
           <?php print $messages; ?>
