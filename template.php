@@ -166,28 +166,6 @@ function dulcet_dul_search_form_wrapper(&$vars) {
 	return $output;
 }
 
-/**
- * Custom breadcrumb theme function.
- *
- * @ingroup themable
- */
-function dulcet_breadcrumb($variables) {
-	$breadcrumb = $variables['breadcrumb'];
-
-  if (!empty($breadcrumb)) {
-    // Provide a navigational heading to give context for breadcrumb links to
-    // screen-reader users. Make the heading invisible with .element-invisible.
-    $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
-
-    $output .= '<div class="breadcrumbBasic">';
-		$output .= implode('', $breadcrumb);
-		$output .= '<div class="currentPage">' . drupal_get_title() . '</div>';
-		$output .= '</div>';
-    return $output;
-  }
-
-}
-
 
 /**
  * Appending class names to menu UL.
