@@ -16,7 +16,7 @@
       <h4><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Services', eventLabel: 'Services Portal'});" href="/services">Services for...</a></h4>
         <div class="row">
           <div class="col-md-6">
-          	<ul class="list-unstyled">
+          	<ul class="list-list-unstyled">
           		<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Services', eventLabel: 'Faculty Instructors'});" href="/services/faculty">Faculty &amp; Instructors</a></li>
           		<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Services', eventLabel: 'Graduate Students'});" href="/services/graduate">Graduate Students</a></li>
           		<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Services', eventLabel: 'Undergraduate Students'});" href="/services/undergraduate">Undergraduate Students</a></li>
@@ -24,7 +24,7 @@
           	</ul>
           </div>
           <div class="col-md-6">
-          	<ul class="list-unstyled">
+          	<ul class="list-list-unstyled">
           		<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Services', eventLabel: 'Alumni'});" href="/services/alumni">Alumni</a></li>
           		<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Services', eventLabel: 'Donors'});" href="/services/donors">Donors</a></li>	
           		<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Services', eventLabel: 'Visitors'});" href="/services/visitors">Visitors</a></li>								
@@ -49,7 +49,7 @@
       	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'RSS'});" href="http://blogs.library.duke.edu/" title="RSS"><div class="rss"></div></a>
 
       </div>
-      <ul class="list-unstyled">
+      <ul class="list-list-unstyled">
       	<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Re-use and Attribution'});" href="/about/reuse-attribution">Re-use &amp; Attribution</a> / <a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Privacy'});" href="/about/privacy">Privacy</a></li>
       	<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Support the Libraries'});" href="/support">Support the Libraries</a></li>
       </ul>
