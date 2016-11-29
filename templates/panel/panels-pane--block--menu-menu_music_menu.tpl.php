@@ -40,13 +40,13 @@
   <div class="pane-content">
 
         <!-- content above menu -->
-            <p><a href="#"> <img src="<?php print base_path(); ?>sites/default/files/east/music/music-library-windows.jpg" class="img-polaroid"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="#"> Music Library </a></li></ul>
+            <p><a href="#"> <img src="<?php print base_path(); ?>sites/default/files/east/music/music-library-windows.jpg" class="img-thumbnail"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="#"> Music Library </a></li></ul>
         <!-- / content above menu -->
     
     <?php print render($content); ?>
     
         <!-- content below menu -->
-            <div class="sideContact"><ul class="nav nav-list unstyled"><li class="divider"></li><li class="nav-header nav-header-gray"><a href="#"> Contact Us </a></li><li style="font-size: 9pt; font-weight: normal; padding: 3px;">(919) 660-5950</li><li style="font-size: 9pt; font-weight: normal;"><a href="#"> music-requests@duke.edu </a></li></ul></div><ul class="nav nav-list unstyled"><li class="nav-header">Connect With Music</li></ul><div><a href="http://twitter.com/DukeMusicLib"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt=""> </a> <a href="https://www.facebook.com/DukeMusicLibrary"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a></div>
+            <div class="sideContact"><ul class="nav nav-list list-unstyled"><li class="divider"></li><li class="nav-header nav-header-gray"><a href="#"> Contact Us </a></li><li style="font-size: 9pt; font-weight: normal; padding: 3px;">(919) 660-5950</li><li style="font-size: 9pt; font-weight: normal;"><a href="#"> music-requests@duke.edu </a></li></ul></div><ul class="nav nav-list list-unstyled"><li class="nav-header">Connect With Music</li></ul><div><a href="http://twitter.com/DukeMusicLib"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt=""> </a> <a href="https://www.facebook.com/DukeMusicLibrary"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a></div>
         <!-- / content below menu -->
         
   </div>
