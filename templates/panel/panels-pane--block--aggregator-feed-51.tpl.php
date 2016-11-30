@@ -46,7 +46,17 @@
     	<a class="left carousel-control" href="#" id="prev">&lsaquo;</a>
     	<!-- / content above block -->
 
-        <div class="cycle-slideshow" data-cycle-pause-on-hover="true" data-cycle-fx="carousel" data-cycle-carousel-visible="2" data-cycle-carousel-fluid="true" data-cycle-timeout="5000" data-cycle-speed="1000" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-carousel-glide="true" data-cycle-slides="> div > ul > li">
+        <div class="cycle-slideshow"
+        data-cycle-pause-on-hover="true"
+        data-cycle-fx="carousel"
+        data-cycle-carousel-visible="2"
+        data-cycle-carousel-fluid="true"
+        data-cycle-timeout="8000"
+        data-cycle-speed="2000"
+        data-cycle-prev="#prev"
+        data-cycle-next="#next"
+        data-cycle-carousel-glide="true"
+        data-cycle-slides="> div > ul > li">
 
           <?php print render($content); ?>
 

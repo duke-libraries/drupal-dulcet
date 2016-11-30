@@ -2,6 +2,9 @@
 // SASS partials import
 // -----------------------------------------------------------------------------
 
+@import "dulcet/variables";
+
+
 // Bootstrap global partials.
 // -----------------------------------------------------------------------------
 @import "base/variables";
@@ -12,8 +15,11 @@
 // -----------------------------------------------------------------------------
 @import "bootswatch/variables";
 
+
+
 // Dulcet - Duke Libraries global partials.
 // -----------------------------------------------------------------------------
+
 @import "radix/mixins";
 @import "base/mixins";
 @import "base/helpers";

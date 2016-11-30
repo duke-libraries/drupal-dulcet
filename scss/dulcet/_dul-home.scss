@@ -1,169 +1,34 @@
-/* COLORS */
-
-$dul-headers:         #001A57;
-$dul-links:           #0062A0;
+/* DUL Homepage Styles */
 
 
-/* TYPOGRAPHY */
+/* VARIABLES */
 
-.page-header h1 {
-  font-weight: 500;
+$discovery-tabs-bg: #235f9c;
+$discovery-tabs-bg-off: #e8e5e2;
+$discovery-tabs-text: #fff;
+$discovery-tabs-text-off: #555;
+
+
+
+/* Typography */
+
+
+
+
+
+/* Layout */
+
+.radix-dul {
+  margin-top: 1em;
 }
 
-.x-large {
-  font-size: 130%;
-}
-
-
-
-.hide-title h1#page-title {
-  display: none;
-}
-
-.feature-box-content img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-img.rl-logo {
-  background: #333;
-}
-
-
-/* No Gutter (applies to all child divs) */
-.no-gutter > [class*='col-'] {
-  padding-right:0;
-  padding-left:0;
-}
-
-/* No Padding (apply to individual divs) */
-.no-padding-left {
-  padding-left: 0 !important;
-}
-
-.no-padding-right {
-  padding-right: 0 !important;
-}
-
-.no-padding-both {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-
-
-/* Flex Coulmns */
-.row-flex,
-.row-flex > div[class*='col-'] {
-
-}
-
-
-.row-flex-wrap {
-	-webkit-flex-flow: row wrap;
-  align-content: flex-start;
-  flex:0;
-}
-
-.row-flex > div[class*='col-'],
-.container-flex > div[class*='col-'] {
-	 /*margin:-.2px;*/ /* hack adjust for wrapping */
-}
-
-.container-flex > div[class*='col-'] div,
-.row-flex > div[class*='col-'] div {
-	width:100%;
-}
-
-
-.flex-col {
-  display: flex;
-  display: -webkit-flex;
-  flex: 1 100%;
-	flex-flow: column nowrap;
-}
-
-.flex-grow {
-	display: flex;
-  -webkit-flex: 2;
-  flex: 2;
-}
-
-
-
-/* Vertical Tabs */
-@include breakpoint(md) {
-
-  /* bootstrap vertical tabs // http://dbtek.github.io/bootstrap-vertical-tabs/ */
-  .tabs-left, .tabs-right {
-    border-bottom: none;
-    /*padding-top: 2px;*/
-  }
-  .tabs-left {
-    /*border-right: 1px solid #ddd;*/
-  }
-  .tabs-right {
-    border-left: 1px solid #ddd;
-  }
-  .tabs-left>li, .tabs-right>li {
-    float: none;
-    /*margin-bottom: 2px;*/
-  }
-  .tabs-left>li {
-    margin-right: -1px;
-  }
-  .tabs-right>li {
-    margin-left: -1px;
-  }
-  .tabs-left>li.active>a,
-  .tabs-left>li.active>a:hover,
-  .tabs-left>li.active>a:focus {
-    border-bottom-color: #ddd;
-    border-right-color: transparent;
-  }
-
-  .tabs-right>li.active>a,
-  .tabs-right>li.active>a:hover,
-  .tabs-right>li.active>a:focus {
-    border-bottom: 1px solid #ddd;
-    border-left-color: transparent;
-  }
-  .tabs-left>li>a {
-    /*border-radius: 4px 0 0 4px;*/
-    margin-right: 0;
-    display:block;
-  }
-  .tabs-right>li>a {
-    /*border-radius: 0 4px 4px 0;*/
-    margin-right: 0;
-  }
-
-}
-
-
-/* MISC STYLES */
-
-.carousel-control.right,
-.carousel-control.left {
-  background-image: none;
-}
-
-.img-polaroid {
-  padding: 4px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0,0,0,0.2);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+.page-home .region-breadcrumb {
+  display: none !important;
 }
 
 
 /* DISCOVERY UI */
 
-$discovery-tabs-bg: #235f9c !default;
-$discovery-tabs-bg-off: #e8e5e2 !default;
-$discovery-tabs-text: #fff !default;
-$discovery-tabs-text-off: #555 !default;
 
 /* Search Tabs */
 .home-discovery .search-resources-tabs {
@@ -186,17 +51,15 @@ $discovery-tabs-text-off: #555 !default;
   padding: .6em 1.2em;
   height: 3em;
   font-weight: 800;
-  background: $brand-success;
-  border: 1px solid darken($brand-success, 5%);
-  /*border: 1px solid #1a4672;*/
+  background: #1a4672;
+  border: 1px solid #1a4672;
   display: block;
   float: left;
 }
 
 .home-discovery .search-resources-tabs .tab-content .btn:hover {
-  background: darken($brand-success, 5%);
-  border: 1px solid darken($brand-success, 10%);
-  /*border: 1px solid #1a4672;*/
+  background: #092846;
+  border: 1px solid #092846;
 }
 
 .home-discovery .search-resources-tabs .tab-content .inline {
@@ -255,12 +118,12 @@ $discovery-tabs-text-off: #555 !default;
 .home-discovery .homeSearchBox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
   width: 100%;
-  max-width: 30em;
+  max-width: 28.25em;
   padding: .6em;
 }
 
 .home-discovery #booksandmore .homeSearchBox {
-  max-width: 22em;
+  max-width: 20.25em;
 }
 
 .home-discovery #catalogcodeinput {
@@ -306,7 +169,7 @@ $discovery-tabs-text-off: #555 !default;
   font-size: .8em;
   padding: 0 16px 0 16px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .home-discovery .search-links ul li.last a {
@@ -315,4 +178,194 @@ $discovery-tabs-text-off: #555 !default;
 
 .home-discovery .search-links .fa-cog {
   font-size: 1.5em;
+}
+
+
+.page-home .pane-aggregator-feed-51 h3 {
+  font-weight: 500;
+}
+
+/* Carousel */
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+.page-home .cycle-slideshow {
+  float: left;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.page-home .cycle-slideshow .more-link {
+  display: none;
+}
+
+.page-home .cycle-slideshow li {
+  overflow: visible;
+  vertical-align: text-top;
+}
+
+.page-home .cycle-slideshow li a {
+  color: #666;
+}
+
+
+.page-home .cycle-slideshow .blog-content {
+    text-align: center;
+    margin: 0 0 2% 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.page-home .cycle-slideshow .blog-content img {
+  width: calc(100% - 10px);
+  margin-left: 10px;
+}
+
+.page-home .cycle-slideshow .blog-content p {
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  margin: 5px 0 0 10px;
+  line-height: 1.1em;
+  font-size: .9em;
+}
+
+.page-home .carousel-control {
+  height: 60px;
+  margin-top: 0;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 35pt;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  z-index: 10;
+  position: relative !important;
+  margin-left: 0;
+  padding-left: 0;
+  left: 0;
+  color: #999;
+  padding-top: 35px;
+  width: auto !important;
+  display: block !important;
+}
+
+.page-home #prev {
+  float: left;
+}
+
+
+
+.page-home .home-events {
+  margin-top: 1.5em;
+  border: 0;
+}
+
+.page-home .home-events h3 {
+  margin-top: 0;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.page-home .home-events ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-home .home-events ul li {
+  border-bottom: 1px dotted #ddd;
+  padding: 4px 0 8px 0;
+  margin-bottom: 8px;
+  margin-left: 0;
+  font-size: .9em;
+  line-height: 1.2;
+}
+
+.page-home .home-events .date {
+  font-style: italic;
+}
+
+.page-home .home-events .view-all {
+  text-align: right;
+}
+
+.page-home .radix-layouts-sidebar {
+  padding: 15px;
+  background: url(/sites/all/themes/madlib/images/striped-grey.png) repeat left top;
+  overflow: hidden;
+  width: calc(25% - 15px);
+}
+
+.page-home .radix-layouts-sidebar h2,
+.page-home .radix-layouts-sidebar h3 {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 1.25em;
+  color: $dul-headers;
+}
+
+.page-home .radix-layouts-sidebar .pane-dul-hours,
+.page-home .radix-layouts-sidebar .home-more,
+.page-home .radix-layouts-sidebar .home-give {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 1px dotted #ccc;
+}
+
+.page-home .radix-layouts-sidebar .home-give {
+  margin-bottom: 0;
+}
+
+.page-home .radix-layouts-sidebar .home-more {
+  padding-bottom: 15px;
+}
+
+.page-home .home-more h3 {
+  margin-bottom: .75em;
+}
+
+.page-home .home-more .more-item {
+  margin-left: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.page-home .home-more .more-item a {
+  padding: 5px 10px 9px 40px;
+  white-space: nowrap;
+  display: block;
+  margin-top: 10px;
+}
+
+.page-home .home-more .ask {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat 0 0;
+}
+
+.page-home .home-more .research {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -30px 0;
+}
+
+.page-home .home-more .cite {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -60px 0;
+}
+
+.page-home .home-more .delivery {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -90px 0;
+}
+
+.page-home .home-more .reserve {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -120px 0;
+}
+
+.page-home .radix-layouts-sidebar .home-give .btn {
+  width: 100%;
 }
