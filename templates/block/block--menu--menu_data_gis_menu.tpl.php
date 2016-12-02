@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
       
       <!-- content above menu -->
-            <p class="sidebar-logo"><a href="/data"><img src="<?php print base_path(); ?>sites/default/files/datagis/images/data_gis_logo.png" class="img-polaroid" alt="image" width="155"></a></p><ul class="nav nav-list"><!--<li class="nav-header nav-header-gray"><a href="/data">Data and GIS Services</a></li>--></ul>
+            <p class="sidebar-logo"><a href="/data"><img src="<?php print base_path(); ?>sites/default/files/datagis/images/data_gis_logo.png" class="img-thumbnail" alt="image" width="155"></a></p><ul class="nav nav-list"><!--<li class="nav-header nav-header-gray"><a href="/data">Data and GIS Services</a></li>--></ul>
         <!-- / content above menu -->
       
       
@@ -18,7 +18,7 @@
       
       <!-- content below menu -->
             <div class="sideContact" style="margin-bottom:0 !important;">
-            	<ul class="nav nav-list unstyled">
+            	<ul class="nav nav-list list-unstyled">
             		<li class="divider"></li>
             		<li class="nav-header nav-header-gray"><a href="#"> Contact Us </a></li>
             		<li style="font-size: 9pt; font-weight: normal; padding: 6px 0 6px 0;"><a href="mailto:askdata@duke.edu">askdata@duke.edu</a></li>

@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
       
       <!-- content above menu -->
-      <p class="sidebar-logo"><a href="/research/commons"> <img class="rl-logo" src="<?php print base_path(); ?>sites/default/files/dul/rc_icon.jpg" class="rl-logo menu-thumb" title="Research Commons" width="155" style="border:5px solid #ccc;"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/research/commons">Research Commons</a></li></ul>
+      <p class="sidebar-logo"><a href="/research/commons"> <img class="rl-logo img-thumbnail" src="<?php print base_path(); ?>sites/default/files/dul/rc_icon.jpg" class="rl-logo img-thumbnail menu-thumb" title="Research Commons" width="155" style="border:5px solid #ccc;"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/research/commons">Research Commons</a></li></ul>
       <!-- / content above menu -->
       
       
@@ -18,7 +18,7 @@
       
       <!-- content below menu -->
           <div class="sideContact">
-          	<ul class="nav nav-list unstyled">
+          	<ul class="nav nav-list list-unstyled">
           		<li class="divider"></li>
           		<li class="nav-header nav-header-gray"><a href="/research/commons"> Contact Us </a></li>
           		<li style="font-size: 9pt; font-weight: normal;"><a href="mailto:research-commons@duke.edu"> research-commons@duke.edu </a></li>

@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
 
       <!-- content above menu -->
-      <p class="sidebar-logo"><a href="/edge"> <img class="rl-logo" src="<?php print base_path(); ?>sites/default/files/dul/the_edge_icon.png" class="rl-logo menu-thumb" title="The Edge" width="155" style="border:5px solid #ccc;"> </a></p>
+      <p class="sidebar-logo"><a href="/edge"> <img class="rl-logo img-thumbnail" src="<?php print base_path(); ?>sites/default/files/dul/the_edge_icon.png" class="rl-logo img-thumbnail menu-thumb" title="The Edge" width="155" style="border:5px solid #ccc;"> </a></p>
       <!-- / content above menu -->
 
 
@@ -18,7 +18,7 @@
 
       <!-- content below menu -->
           <div class="sideContact">
-          	<ul class="nav nav-list unstyled">
+          	<ul class="nav nav-list list-unstyled">
           		<li class="divider"></li>
           		<li class="nav-header nav-header-gray">Contact Us</li>
           		<li style="font-size: 9pt; font-weight: normal;"><a href="mailto:edge@duke.edu"> edge@duke.edu </a></li>
