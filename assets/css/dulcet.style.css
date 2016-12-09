@@ -9034,10 +9034,6 @@ img.rl-logo {
     margin-right: 0; } }
 
 /* MISC STYLES */
-.carousel-control.right,
-.carousel-control.left {
-  background-image: none; }
-
 .img-polaroid {
   padding: 4px;
   background-color: #fff;
