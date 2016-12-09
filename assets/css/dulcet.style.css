@@ -9033,6 +9033,35 @@ img.rl-logo {
     /*border-radius: 0 4px 4px 0;*/
     margin-right: 0; } }
 
+/* FOOTER STYLES */
+#footer-dulcet div,
+#footer-dulcet .list-unstyled li {
+  line-height: 1.2;
+  font-size: 99%; }
+
+#footer-dulcet div a,
+#footer-dulcet .list-unstyled li a {
+  line-height: 1.4;
+  padding-bottom: .25em;
+  display: inline-block;
+  font-size: 99%; }
+
+#footer-dulcet h4 {
+  border-bottom: 1px dotted #aaa;
+  padding-bottom: 0;
+  margin-bottom: .25em;
+  font-weight: 400; }
+
+#footer-dulcet .newsletter-signup {
+  margin-bottom: 1.5em; }
+
+#footer-dulcet .social-media-icons {
+  margin-top: 1em !important;
+  margin-bottom: .35em !important; }
+
+#footer-dulcet .col-md-1 img {
+  padding-left: 5px; }
+
 /* MISC STYLES */
 .img-polaroid {
   padding: 4px;
