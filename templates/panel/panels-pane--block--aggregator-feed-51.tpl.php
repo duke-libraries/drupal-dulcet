@@ -51,7 +51,7 @@
         data-cycle-fx="carousel"
         data-cycle-carousel-visible="2"
         data-cycle-carousel-fluid="true"
-        data-cycle-timeout="8000"
+        data-cycle-timeout="0"
         data-cycle-speed="2000"
         data-cycle-prev="#prev"
         data-cycle-next="#next"
