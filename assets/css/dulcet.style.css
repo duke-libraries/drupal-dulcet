@@ -4090,7 +4090,10 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 0; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -8940,7 +8943,7 @@ ul.dropdown-menu li {
 .x-large {
   font-size: 130%; }
 
-.hide-title h1#page-title {
+.hide-title h1#page-title, .hide-title .page-header {
   display: none; }
 
 .feature-box-content img {
@@ -9116,5 +9119,214 @@ a.drupal-shib-login {
   color: #999;
   background: #f3f3f3;
   font-weight: normal; }
+
+#thumbLessWrapper {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background: #eee;
+  padding: 15px 6px 15px 15px; }
+
+ul#thumbLess {
+  margin-left: 0; }
+
+.view-content .item-list img {
+  max-width: 100%; }
+
+.view-content .item-list ul {
+  margin: 0;
+  padding: 0; }
+
+.view-content .item-list ul li {
+  margin-left: 0;
+  margin-bottom: 0.5em; }
+
+.view-content .item-list ul li, ul#thumbLess li {
+  width: 130px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top; }
+
+div.smallerThumbs .view-content .item-list ul li {
+  width: 105px; }
+
+div.smallerThumbs .views-field-title {
+  font-size: 14px; }
+
+div.smallerThumbs .views-field-author {
+  font-size: 13px;
+  line-height: 1.2em;
+  margin-top: 0.5em; }
+
+.pager li > a, .pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 0; }
+
+.pager li.pager-current {
+  padding: 5px 14px; }
+
+.item-list ul {
+  margin: 0; }
+  .item-list ul li {
+    margin-left: 0;
+    margin-bottom: 0.5em; }
+
+.more-link {
+  text-align: left;
+  font-style: italic;
+  display: none; }
+
+/* hide until it can be customized */
+.hide-date span.date {
+  display: none; }
+
+/*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity; }
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1; }
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1; }
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    transform: translate3d(0, 0, 0); }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    transform: translate3d(0, 0, 0); }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
+
+.carousel-caption {
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 8px;
+  padding-top: 400px;
+  width: 100%;
+  background-image: linear-gradient(transparent 67%, transparent 33%, rgba(0, 0, 0, 0.7));
+  text-shadow: 1px 1px 1px #000000; }
+  .carousel-caption a {
+    font-weight: bold; }
+  .carousel-caption .moreLink {
+    margin-left: 0.2em;
+    font-weight: bold; }
+
+.carousel-control {
+  top: 30px;
+  width: 10%;
+  font-size: 28px; }
+
+.carousel-indicators {
+  top: 0;
+  right: 5px;
+  left: auto;
+  bottom: auto;
+  margin: 0;
+  width: auto;
+  text-align: right; }
+
+.smallArrowNav {
+  display: block;
+  vertical-align: middle;
+  line-height: 100%;
+  margin-left: 12px;
+  float: left; }
+  .smallArrowNav a {
+    padding: 0.2em 0.3em;
+    font-size: 12px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-left: 3px;
+    color: #ccc;
+    background: white; }
+    .smallArrowNav a:hover {
+      background: #A1B70D;
+      color: white; }
+
+.vertical-blogs a .blog-content {
+  color: #666;
+  font-size: 13px; }
+
+.vertical-blogs ul li {
+  display: block;
+  min-height: 195px; }
+
+.wide-thumbs ul li {
+  display: block;
+  min-height: 155px; }
+
+.vertical-blogs ul li img {
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover; }
+
+.feature-box-content .vertical-blogs ul li img {
+  max-width: 90%; }
+
+.vertical-blogs p {
+  line-height: 1.2;
+  padding-top: 5px; }
+
+.horizontal-blogs a .blog-content {
+  color: #666;
+  font-size: 13px; }
+
+.horizontal-blogs ul li {
+  min-height: 195px;
+  width: 160px;
+  margin: 0; }
+
+.horizontal-blogs ul li img {
+  max-width: 150px; }
+
+.horizontal-blogs p {
+  line-height: 1.2;
+  padding-top: 5px; }
+
+.wide-horizontal-blogs a .blog-content {
+  color: #666;
+  font-size: 13px; }
+
+.wide-horizontal-blogs ul li {
+  min-height: 195px;
+  width: 160px;
+  margin: 0 15px 0 0;
+  float: left; }
+
+.wide-horizontal-blogs ul li img {
+  max-width: 150px; }
+
+.wide-horizontal-blogs p {
+  line-height: 1.2;
+  padding-top: 5px; }
 
 /*# sourceMappingURL=dulcet.style.css.map */

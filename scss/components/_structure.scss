@@ -1,2 +1,217 @@
 // Styles for Tabs, Messages, ..etc
 // -----------------------------------------------------------------------------
+
+
+// ===========================
+// Lists from Feed Aggregator 
+// ===========================
+
+.item-list ul {
+  margin: 0;
+  & li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
+}
+
+.more-link {
+  text-align: left;
+  font-style: italic;
+  display: none;
+} /* hide until it can be customized */
+
+.hide-date span.date {
+  display: none;
+}
+
+
+// ===================================== 
+// Bootstrap Carousels
+// ===================================== 
+
+
+/*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.carousel-caption {
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 8px;
+  padding-top: 400px;
+  width: 100%;
+  background-image: linear-gradient(transparent 67%,transparent 33%,rgba(0,0,0,0.7));
+  text-shadow: 1px 1px 1px #000000;
+  & a {
+    font-weight: bold;
+  }
+  & .moreLink {
+    margin-left: 0.2em;
+    font-weight: bold;
+  }
+}
+
+.carousel-control {
+  top: 30px;
+  width: 10%;
+  font-size: 28px;
+}
+
+.carousel-indicators {
+  top: 0;
+  right: 5px;
+  left: auto;
+  bottom: auto;
+  margin: 0;
+  width: auto;
+  text-align: right;
+}
+
+
+// ===================================== 
+// CarouFredSel Carousels
+// ===================================== 
+
+
+.smallArrowNav {
+  display: block;
+  vertical-align: middle;
+  line-height: 100%;
+  margin-left: 12px;
+  float: left;
+  & a {
+    padding: 0.2em 0.3em;
+    font-size: 12px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-left: 3px;
+    color: #ccc;
+    background: white;
+    &:hover {
+      background: $brand-success;
+      color: white;
+    }
+  }
+}
+
+.vertical-blogs a .blog-content {
+  color: #666;
+  font-size: 13px;
+}
+
+.vertical-blogs ul li {
+  display: block;
+  min-height: 195px;
+}
+.wide-thumbs ul li { 
+  display: block;
+  min-height: 155px;
+}
+
+.vertical-blogs ul li img { 
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.feature-box-content .vertical-blogs ul li img {
+  max-width: 90%;
+}
+
+.vertical-blogs p {
+  line-height: 1.2;
+  padding-top: 5px;
+}
+
+.horizontal-blogs a .blog-content {
+  color: #666;
+  font-size: 13px;
+}
+
+.horizontal-blogs ul li {
+  min-height: 195px;
+  width: 160px;
+  margin: 0;
+}
+
+.horizontal-blogs ul li img {
+  max-width: 150px;
+}
+
+.horizontal-blogs p {
+  line-height: 1.2;
+  padding-top: 5px;
+}
+
+.wide-horizontal-blogs a .blog-content {
+  color: #666;
+  font-size: 13px;
+}
+
+.wide-horizontal-blogs ul li {
+  min-height: 195px;
+  width: 160px;
+  margin: 0 15px 0 0;
+  float: left;
+}
+
+.wide-horizontal-blogs ul li img {
+  max-width: 150px;
+}
+
+.wide-horizontal-blogs p {
+  line-height: 1.2;
+  padding-top: 5px;
+}
