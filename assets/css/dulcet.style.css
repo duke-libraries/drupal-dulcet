@@ -9073,6 +9073,13 @@ img.rl-logo {
 .view-content .item-list ul li {
   width: 100% !important; }
 
+.easy-breadcrumb {
+  font-size: .95em;
+  letter-spacing: .01em; }
+
+.easy-breadcrumb .easy-breadcrumb_segment-separator {
+  padding: 0 2px 0 2px; }
+
 #footer-dulcet {
   margin-top: 20px;
   background-color: #eee;
