@@ -4090,7 +4090,10 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 0; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -9126,6 +9129,30 @@ a.drupal-shib-login {
   color: #999;
   background: #f3f3f3;
   font-weight: normal; }
+
+.shaded-column-left {
+  border-right: 3px solid #f5f5f5;
+  padding-right: 10px; }
+
+.nav-header-gray {
+  font-weight: bold;
+  border-bottom: 4px solid #a1b70d;
+  margin-bottom: 20px;
+  padding-bottom: 10px; }
+
+.nav-list li a {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #333;
+  padding-left: 0px;
+  padding-bottom: 7px;
+  line-height: 1.3em; }
+
+.nav-list .divider {
+  height: 1px;
+  margin: 16px 0px;
+  overflow: hidden;
+  border-bottom: 1px dotted #ddd; }
 
 #thumbLessWrapper {
   margin-top: 20px;
