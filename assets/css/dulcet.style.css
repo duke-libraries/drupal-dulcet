@@ -4090,10 +4090,7 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -9072,6 +9069,9 @@ img.rl-logo {
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+.view-content .item-list ul li {
+  width: 100% !important; }
 
 #footer-dulcet {
   margin-top: 20px;
