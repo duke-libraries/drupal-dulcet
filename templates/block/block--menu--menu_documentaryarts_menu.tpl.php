@@ -16,15 +16,12 @@
       
       <?php print $content ?>
       
-      <!-- content below menu -->
 
-      <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
-
-      <div style="text-align:center; padding: 10px;">
-      <a href="https://www.gifts.duke.edu/fund?additional_designations=Archive+of+Documentary+Arts+3942953" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
+      <div class="sidebar-extras">
+        <div style="text-align:center;">
+        <a href="https://www.gifts.duke.edu/fund?additional_designations=Archive+of+Documentary+Arts+3942953" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
+        </div>
       </div>
-
-      <!-- / content below menu -->
 
     </div>
   </div>

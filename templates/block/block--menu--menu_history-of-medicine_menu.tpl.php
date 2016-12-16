@@ -15,18 +15,19 @@
       
       
       <?php print $content ?>
-      
-      <!-- content below menu -->
-      <ul class="nav nav-list list-unstyled"><li class="divider"></li><li class="nav-header">Connect With Us</li></ul><div> <a href="http://www.flickr.com/photos/dukeunivlibraries/sets/72157626835680449/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png" alt=""> </a></div>
 
-      <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
-      
-      <div style="text-align:center; padding: 10px;">
-      <a href="https://www.gifts.duke.edu/fund?additional_designations=History+of+Medicine+Collection+3940006" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
+      <div class="sidebar-extras">
+        <strong>Connect With Us</strong>
+        <div>
+          <a href="http://www.flickr.com/photos/dukeunivlibraries/sets/72157626835680449/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png" alt=""> </a>
+        </div>
+
+        <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
+        <div style="text-align:center;">
+          <a href="https://www.gifts.duke.edu/fund?additional_designations=History+of+Medicine+Collection+3940006" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
+        </div>
       </div>
 
-      <!-- / content below menu -->
-    
     </div>
   </div>
 </<?php print $tag; ?>>
