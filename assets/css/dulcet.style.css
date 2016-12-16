@@ -9134,25 +9134,60 @@ a.drupal-shib-login {
   border-right: 3px solid #f5f5f5;
   padding-right: 10px; }
 
-.nav-header-gray {
+li.nav-header-gray {
   font-weight: bold;
   border-bottom: 4px solid #a1b70d;
   margin-bottom: 20px;
   padding-bottom: 10px; }
-
-.nav-list li a {
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #333;
-  padding-left: 0px;
-  padding-bottom: 7px;
-  line-height: 1.3em; }
+  li.nav-header-gray a {
+    padding-left: 0;
+    text-transform: uppercase; }
+    li.nav-header-gray a:hover {
+      background: none; }
 
 .nav-list .divider {
   height: 1px;
   margin: 16px 0px;
   overflow: hidden;
   border-bottom: 1px dotted #ddd; }
+
+.nav-list > li.leaf a, .nav-list > li.expanded a {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #333;
+  padding-left: 0;
+  padding-bottom: 7px;
+  line-height: 1.3em; }
+  .nav-list > li.leaf a:hover, .nav-list > li.leaf a:active, .nav-list > li.expanded a:hover, .nav-list > li.expanded a:active {
+    background: #fafafa;
+    margin-left: -14px;
+    padding-left: 8px;
+    border-left: 6px solid #eee; }
+  .nav-list > li.leaf a.active-trail, .nav-list > li.expanded a.active-trail {
+    background: #f5f5f5;
+    margin-left: -14px;
+    padding-left: 8px;
+    border-left: 6px solid #235f9c;
+    font-weight: bold; }
+
+.nav-list .nav-list > li.leaf a {
+  text-transform: none;
+  font-size: 15px;
+  padding-left: 0;
+  margin-left: 0; }
+  .nav-list .nav-list > li.leaf a:hover, .nav-list .nav-list > li.leaf a:active {
+    background: none;
+    border: none; }
+  .nav-list .nav-list > li.leaf a.active-trail {
+    background: none;
+    border: none;
+    font-weight: bold; }
+
+.sidebar-extras {
+  margin-top: 16px;
+  border-top: 1px dotted #ddd;
+  padding-top: 16px;
+  color: #555555; }
 
 #thumbLessWrapper {
   margin-top: 20px;
