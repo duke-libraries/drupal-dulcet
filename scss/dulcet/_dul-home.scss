@@ -41,7 +41,8 @@ $discovery-tabs-text-off: #555;
   overflow: hidden;
 }
 
-.search-resources-tabs .tab-content .homeSearchBox {
+.search-resources-tabs .tab-content .homeSearchBox,
+.search-resources-tabs .tab-content .searchbox  {
   height: 3em;
   display: block;
   float: left;
