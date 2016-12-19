@@ -115,7 +115,8 @@ $discovery-tabs-text-off: #555;
   padding: 2.25em 0 0 .75em;
 }
 
-.search-resources-tabs .searchbox {
+.search-resources-tabs .searchbox,
+.search-resources-tabs .homeSearchBox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
   width: 100%;
   padding: .6em;
