@@ -158,13 +158,19 @@ $discovery-tabs-text-off: #555;
   max-width: 28.25em;
 }
 
-.page-rubenstein-index .search-resources-tabs .searchbox {
-  max-width: 20.25em;
-}
-
 .search-resources-tabs #booksandmore .homeSearchBox {
   max-width: 20.25em;
 }
+
+.page-rubenstein-index .search-resources-tabs .searchbox {
+  max-width: 28.25em;
+}
+
+.page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
+  max-width: 20.25em;
+}
+
+
 
 
 
