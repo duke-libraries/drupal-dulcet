@@ -115,18 +115,25 @@ $discovery-tabs-text-off: #555;
   padding: 2.25em 0 0 .75em;
 }
 
-.search-resources-tabs .homeSearchBox {
+.search-resources-tabs .searchbox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
   width: 100%;
-  max-width: 28.25em;
   padding: .6em;
+  max-width: 28.25em;
+}
+
+.search-resources-tabs .homeSearchBox {
+  max-width: 28.25em;
 }
 
 .search-resources-tabs #booksandmore .homeSearchBox {
   max-width: 20.25em;
 }
 
-.search-resources-tabs #catalogcodeinput {
+
+
+.search-resources-tabs .homeSelect,
+.search-resources-tabs .selectpicker  {
   width: 8em;
   height: 3em;
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
@@ -140,6 +147,10 @@ $discovery-tabs-text-off: #555;
   padding: .5em;
   padding-right: 1.5em;
   border-radius: 0;
+}
+
+.search-resources-tabs #catalogcodeinput {
+  width: 8em;
 }
 
 
