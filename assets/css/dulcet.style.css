@@ -8692,6 +8692,10 @@ ul.dropdown-menu li {
   float: left;
   margin-right: 1.5em; }
 
+.page-rubenstein-index .search-resources-tabs .tab-content .inline li {
+  margin-top: .25em;
+  margin-top: .5em; }
+
 .search-resources-tabs .tab-content .inline li a {
   color: #fff;
   font-size: 1.1em; }
@@ -8737,9 +8741,13 @@ ul.dropdown-menu li {
   padding-top: 2.25em;
   margin-left: .75em; }
 
-.search-resources-tabs .tab-content #findingaids,
-.search-resources-tabs .tab-content #digitizedcollections {
-  padding-top: 1.25em;
+.page-rubenstein-index .search-resources-tabs .tab-content #booksandmore {
+  padding-top: 1.75em;
+  margin-left: .75em; }
+
+.page-rubenstein-index .search-resources-tabs .tab-content #findingaids,
+.page-rubenstein-index .search-resources-tabs .tab-content #digitizedcollections {
+  padding-top: .75em;
   margin-left: .75em; }
 
 .search-resources-tabs .searchbox,

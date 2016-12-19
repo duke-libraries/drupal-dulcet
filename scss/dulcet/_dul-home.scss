@@ -76,6 +76,11 @@ $discovery-tabs-text-off: #555;
   margin-right: 1.5em;
 }
 
+.page-rubenstein-index .search-resources-tabs .tab-content .inline li {
+  margin-top: .25em;
+  margin-top: .5em;
+}
+
 .search-resources-tabs .tab-content .inline li a {
   color: #fff;
   font-size: 1.1em;
@@ -131,9 +136,13 @@ $discovery-tabs-text-off: #555;
   margin-left: .75em;
 }
 
-.search-resources-tabs .tab-content #findingaids,
-.search-resources-tabs .tab-content #digitizedcollections {
-  padding-top: 1.25em;
+.page-rubenstein-index .search-resources-tabs .tab-content #booksandmore {
+  padding-top: 1.75em;
+  margin-left: .75em;
+}
+.page-rubenstein-index .search-resources-tabs .tab-content #findingaids,
+.page-rubenstein-index .search-resources-tabs .tab-content #digitizedcollections {
+  padding-top: .75em;
   margin-left: .75em;
 }
 
