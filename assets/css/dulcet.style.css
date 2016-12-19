@@ -8688,13 +8688,18 @@ ul.dropdown-menu li {
 
 .search-resources-tabs .tab-content .inline li {
   margin-top: .5em;
+  margin-bottom: .5em;
   float: left;
   margin-right: 1.5em; }
 
-.search-resources-tabs .tab-content .inline li a,
-.search-resources-tabs .tab-content .limitOptions label {
+.search-resources-tabs .tab-content .inline li a {
   color: #fff;
   font-size: 1.1em; }
+
+.search-resources-tabs .tab-content .limitOptions label {
+  color: #fff;
+  font-size: .95em;
+  margin-top: .5em; }
 
 .search-resources-tabs .tab-content label.checkbox {
   font-weight: normal;
