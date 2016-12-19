@@ -31,23 +31,23 @@ $discovery-tabs-text-off: #555;
 
 
 /* Search Tabs */
-.home-discovery .search-resources-tabs {
-  background: $discovery-tabs-bg url(/sites/all/themes/madlib/images/library-background-blue.jpg) no-repeat 170px 0;
+.search-resources-tabs {
+  background: $discovery-tabs-bg url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 170px 0;
   border-top: 3px solid #184d83;
 }
 
 
-.home-discovery .search-resources-tabs .col-md-3 {
+.search-resources-tabs .col-md-3 {
   overflow: hidden;
 }
 
-.home-discovery .search-resources-tabs .tab-content .homeSearchBox {
+.search-resources-tabs .tab-content .homeSearchBox {
   height: 3em;
   display: block;
   float: left;
 }
 
-.home-discovery .search-resources-tabs .tab-content .btn {
+.search-resources-tabs .tab-content .btn {
   padding: .6em 1.2em;
   height: 3em;
   font-weight: 800;
@@ -57,29 +57,29 @@ $discovery-tabs-text-off: #555;
   float: left;
 }
 
-.home-discovery .search-resources-tabs .tab-content .btn:hover {
+.search-resources-tabs .tab-content .btn:hover {
   background: #092846;
   border: 1px solid #092846;
 }
 
-.home-discovery .search-resources-tabs .tab-content .inline {
+.search-resources-tabs .tab-content .inline {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.home-discovery .search-resources-tabs .tab-content .inline li {
+.search-resources-tabs .tab-content .inline li {
   margin-top: .5em;
   float: left;
   margin-right: 1.5em;
 }
 
-.home-discovery .search-resources-tabs .tab-content .inline li a {
+.search-resources-tabs .tab-content .inline li a {
   color: #fff;
   font-size: 1.1em;
 }
 
-.home-discovery .search-resources-tabs .tab-content label.checkbox {
+.search-resources-tabs .tab-content label.checkbox {
   font-weight: normal;
   color: #fff;
   font-size: .95em;
@@ -89,7 +89,7 @@ $discovery-tabs-text-off: #555;
 
 
 
-.home-discovery .search-resources-tabs #myTab {
+.search-resources-tabs #myTab {
   margin-bottom: 0;
   margin-left: 0;
   width: 100%;
@@ -111,22 +111,22 @@ $discovery-tabs-text-off: #555;
   border: 1px solid $discovery-tabs-bg;
 }
 
-.home-discovery .tab-content {
+.search-resources-tabs .tab-content {
   padding: 2.25em 0 0 .75em;
 }
 
-.home-discovery .homeSearchBox {
+.search-resources-tabs .homeSearchBox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
   width: 100%;
   max-width: 28.25em;
   padding: .6em;
 }
 
-.home-discovery #booksandmore .homeSearchBox {
+.search-resources-tabs #booksandmore .homeSearchBox {
   max-width: 20.25em;
 }
 
-.home-discovery #catalogcodeinput {
+.search-resources-tabs #catalogcodeinput {
   width: 8em;
   height: 3em;
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
