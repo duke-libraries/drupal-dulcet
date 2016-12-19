@@ -71,7 +71,7 @@ $discovery-tabs-text-off: #555;
 
 .search-resources-tabs .tab-content .inline li {
   margin-top: .5em;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   float: left;
   margin-right: 1.5em;
 }
@@ -120,7 +120,21 @@ $discovery-tabs-text-off: #555;
 }
 
 .search-resources-tabs .tab-content {
-  padding: 2.25em 0 0 .75em;
+  /*padding: 2.25em 0 0 .75em;*/
+}
+
+/* padding for input blocks */
+.search-resources-tabs .tab-content #all,
+.search-resources-tabs .tab-content #booksandmore,
+.search-resources-tabs .tab-content #articles {
+  padding-top: 2.25em;
+  margin-left: .75em;
+}
+
+.search-resources-tabs .tab-content #findingaids,
+.search-resources-tabs .tab-content #digitizedcollections {
+  padding-top: 1.25em;
+  margin-left: .75em;
 }
 
 .search-resources-tabs .searchbox,
