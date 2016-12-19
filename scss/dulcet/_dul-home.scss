@@ -75,7 +75,8 @@ $discovery-tabs-text-off: #555;
   margin-right: 1.5em;
 }
 
-.search-resources-tabs .tab-content .inline li a {
+.search-resources-tabs .tab-content .inline li a,
+.search-resources-tabs .tab-content .limitOptions label {
   color: #fff;
   font-size: 1.1em;
 }
