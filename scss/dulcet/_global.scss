@@ -2,7 +2,7 @@
 
 $dul-headers:         #001A57;
 $dul-links:           #0062A0;
-
+$dul-masthead:        #053482;
 
 /* TYPOGRAPHY */
 
@@ -16,7 +16,7 @@ $dul-links:           #0062A0;
 
 
 
-.hide-title h1#page-title, .hide-title .page-header  {
+.hide-title #page-header h1#page-title, .hide-title #page-header .page-header  {
   display: none;
 }
 
@@ -27,7 +27,7 @@ $dul-links:           #0062A0;
 
 
 img.rl-logo {
-  background: #333;
+  background: #053482;
 }
 
 

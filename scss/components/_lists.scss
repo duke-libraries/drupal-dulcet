@@ -1,0 +1,23 @@
+// Define our own default bullet style using FontAwesome icons
+// This might get tricky to define the exceptions
+
+ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray {
+  padding-left: 0;
+
+  & li {
+    list-style: none;
+    padding-left: 1.0em;
+  }
+  & > li:before {
+    content: "\f04d";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -2.35em;
+    width: 2.0em;
+    color: #0062A0;
+    font-size: 0.35em;
+    vertical-align: 50%;    
+  }
+}
+
+

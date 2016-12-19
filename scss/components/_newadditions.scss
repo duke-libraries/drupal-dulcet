@@ -14,23 +14,23 @@ ul#thumbLess {
 .view-content .item-list img {
   max-width: 100%;
 }
-.view-content .item-list ul {
+.view-content .item-list ul.new-additions {
   margin: 0;
   padding: 0;
 }
-.view-content .item-list ul li {
+.view-content .item-list ul.new-additions li {
     margin-left: 0;
     margin-bottom: 0.5em;
 }
-.view-content .item-list ul li, ul#thumbLess li {
-  width: 130px;
+.view-content .item-list ul.new-additions li, ul#thumbLess li {
+  width: 130px !important;
   margin-right: 10px;
   display: inline-block;
   vertical-align: top;
 }
 
-div.smallerThumbs .view-content .item-list ul li {
-  width: 105px;
+div.smallerThumbs .view-content .item-list ul.new-additions li {
+  width: 105px !important;
 }
 
 div.smallerThumbs .views-field-title {
