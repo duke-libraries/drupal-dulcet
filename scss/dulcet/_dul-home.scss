@@ -213,6 +213,9 @@ $discovery-tabs-text-off: #555;
 .home-discovery .search-links ul li {
   list-style: none;
   float: left;
+  &:before {
+    content: normal !important;
+  }
 }
 
 .home-discovery .search-links ul li a {
@@ -339,6 +342,9 @@ $discovery-tabs-text-off: #555;
   margin-left: 0;
   font-size: .9em;
   line-height: 1.2;
+  &:before {
+   content: normal !important; 
+  }
 }
 
 .page-home .home-events .date {
