@@ -24,6 +24,26 @@
   display: none;
 }
 
+// ===========================
+// Split to Columns
+// ===========================
+
+// NOTE: Formerly used a JS technique but 
+// this is now sufficiently supported via CSS3.
+// Works with lists, paragraphs, other elements.
+
+.columns-2 {
+  column-count: 2;
+}
+
+.columns-3 {
+  column-count: 3;
+}
+
+.columns-4 {
+  column-count: 4;
+}
+
 
 // ===================================== 
 // Bootstrap Carousels
