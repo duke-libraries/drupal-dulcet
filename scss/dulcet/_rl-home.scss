@@ -1,0 +1,71 @@
+#rubenstein-banner {
+  height: 240px;
+  position: relative;
+  margin-bottom: 10px;
+  & h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 37px;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    max-width: 625px;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    & img {
+      width: 100px;
+      float: left;
+      margin-right: 0.4em;
+    }
+  }
+}
+
+
+.rl-utilities {
+  line-height: 1em;
+  & div {
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+  }
+  & span {
+    float: left;
+    &.small {
+      max-width: calc(100% - 75px);
+    }
+  }
+  & .btn {
+    margin-right: 0.5em;
+  }
+}
+
+ul.rl-mainlinks {
+  margin: 20px 0;
+  padding: 0;
+  column-gap: 5px;
+  & li {
+    list-style: none;
+    & a {
+      display: block;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+ul.rl-collections {
+  & li {
+    font-weight: bold;
+    & span.small {
+      font-weight: normal;
+    }
+  }
+}
+
+.support-rubenstein {
+  background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top;
+  padding: 20px;
+}

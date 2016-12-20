@@ -7,6 +7,7 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
   & li {
     list-style: none;
     padding-left: 1.0em;
+    margin-bottom: 0.4em;
   }
   & > li:before {
     content: "\f04d";
@@ -20,4 +21,25 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
   }
 }
 
+// Custom Spacing Options
 
+ul.spacing-none {
+  & li {
+    margin-bottom: 0;
+  }
+}
+ul.spacing-sm {
+  & li {
+    margin-bottom: 0.4em;
+  }
+}
+ul.spacing-md {
+  & li {
+    margin-bottom: 0.7em;
+  }
+}
+ul.spacing-lg {
+  & li {
+    margin-bottom: 1em;
+  }
+}

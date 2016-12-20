@@ -2806,7 +2806,7 @@ select[multiple].input-lg,
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   .btn:hover, .media-widget > a:hover, .btn:focus, .media-widget > a:focus, .btn.focus, .media-widget > a.focus {
-    color: #fff;
+    color: #222;
     text-decoration: none; }
   .btn:active, .media-widget > a:active, .btn.active, .media-widget > a.active {
     outline: 0;
@@ -2826,29 +2826,29 @@ fieldset[disabled] .media-widget > a {
   pointer-events: none; }
 
 .btn-default {
-  color: #fff;
-  background-color: #222222;
-  border-color: #222222; }
+  color: #222;
+  background-color: #ddd;
+  border-color: #ddd; }
   .btn-default:focus, .btn-default.focus {
-    color: #fff;
-    background-color: #090909;
-    border-color: black; }
+    color: #222;
+    background-color: #c4c4c4;
+    border-color: #9d9d9d; }
   .btn-default:hover {
-    color: #fff;
-    background-color: #090909;
-    border-color: #040404; }
+    color: #222;
+    background-color: #c4c4c4;
+    border-color: #bebebe; }
   .btn-default:active, .btn-default.active,
   .open > .btn-default.dropdown-toggle {
-    color: #fff;
-    background-color: #090909;
-    border-color: #040404; }
+    color: #222;
+    background-color: #c4c4c4;
+    border-color: #bebebe; }
     .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus,
     .open > .btn-default.dropdown-toggle:hover,
     .open > .btn-default.dropdown-toggle:focus,
     .open > .btn-default.dropdown-toggle.focus {
-      color: #fff;
-      background-color: black;
-      border-color: black; }
+      color: #222;
+      background-color: #b2b2b2;
+      border-color: #9d9d9d; }
   .btn-default:active, .btn-default.active,
   .open > .btn-default.dropdown-toggle {
     background-image: none; }
@@ -2856,11 +2856,11 @@ fieldset[disabled] .media-widget > a {
   fieldset[disabled] .btn-default:hover,
   fieldset[disabled] .btn-default:focus,
   fieldset[disabled] .btn-default.focus {
-    background-color: #222222;
-    border-color: #222222; }
+    background-color: #ddd;
+    border-color: #ddd; }
   .btn-default .badge {
-    color: #222222;
-    background-color: #fff; }
+    color: #ddd;
+    background-color: #222; }
 
 .btn-primary, body.maintenance-page .form-actions .btn:first-child, body.maintenance-page .form-actions .media-widget > a:first-child {
   color: #fff;
@@ -4249,9 +4249,9 @@ a.label:hover, a.label:focus {
   cursor: pointer; }
 
 .label-default {
-  background-color: #222222; }
+  background-color: #ddd; }
   .label-default[href]:hover, .label-default[href]:focus {
-    background-color: #090909; }
+    background-color: #c4c4c4; }
 
 .label-primary {
   background-color: #053482; }
@@ -8922,7 +8922,7 @@ ul.dropdown-menu li {
 
 .page-home .radix-layouts-sidebar {
   padding: 15px;
-  background: url(/sites/all/themes/madlib/images/striped-grey.png) repeat left top;
+  background: url("/sites/all/themes/dulcet/assets/images/striped-grey.png") repeat left top;
   overflow: hidden;
   width: calc(25% - 15px); }
 
@@ -9128,6 +9128,62 @@ img.rl-logo {
 .easy-breadcrumb .easy-breadcrumb_segment-separator {
   padding: 0 2px 0 2px; }
 
+#rubenstein-banner {
+  height: 240px;
+  position: relative;
+  margin-bottom: 10px; }
+  #rubenstein-banner h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 37px;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    max-width: 625px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+    text-transform: uppercase; }
+    #rubenstein-banner h1 img {
+      width: 100px;
+      float: left;
+      margin-right: 0.4em; }
+
+.rl-utilities {
+  line-height: 1em; }
+  .rl-utilities div {
+    clear: both;
+    float: left;
+    margin-bottom: 10px; }
+  .rl-utilities span {
+    float: left; }
+    .rl-utilities span.small {
+      max-width: calc(100% - 75px); }
+  .rl-utilities .btn, .rl-utilities .media-widget > a {
+    margin-right: 0.5em; }
+
+ul.rl-mainlinks {
+  margin: 20px 0;
+  padding: 0;
+  -moz-column-gap: 5px;
+       column-gap: 5px; }
+  ul.rl-mainlinks li {
+    list-style: none; }
+    ul.rl-mainlinks li a {
+      display: block;
+      padding: 10px;
+      margin-bottom: 5px; }
+
+ul.rl-collections li {
+  font-weight: bold; }
+  ul.rl-collections li span.small {
+    font-weight: normal; }
+
+.support-rubenstein {
+  background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top;
+  padding: 20px; }
+
 #footer-dulcet {
   margin-top: 20px;
   background-color: #eee;
@@ -9195,7 +9251,8 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
   padding-left: 0; }
   ul:not([class]):not([id]) li, ul.bullet-green li, ul.bullet-gray li, ul.bullet-blue li {
     list-style: none;
-    padding-left: 1.0em; }
+    padding-left: 1.0em;
+    margin-bottom: 0.4em; }
   ul:not([class]):not([id]) > li:before, ul.bullet-green > li:before, ul.bullet-gray > li:before, ul.bullet-blue > li:before {
     content: "\f04d";
     font-family: FontAwesome;
@@ -9205,6 +9262,18 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
     color: #0062A0;
     font-size: 0.35em;
     vertical-align: 50%; }
+
+ul.spacing-none li {
+  margin-bottom: 0; }
+
+ul.spacing-sm li {
+  margin-bottom: 0.4em; }
+
+ul.spacing-md li {
+  margin-bottom: 0.7em; }
+
+ul.spacing-lg li {
+  margin-bottom: 1em; }
 
 .shaded-column-left {
   border-right: 3px solid #f5f5f5;
@@ -9429,9 +9498,13 @@ div.smallerThumbs .views-field-author {
       background: #A1B70D;
       color: white; }
 
-.vertical-blogs a .blog-content {
-  color: #666;
-  font-size: 13px; }
+.vertical-blogs a, .vertical-blogs a .blog-content {
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+  display: block;
+  line-height: 1.1em;
+  font-size: .9em; }
 
 .vertical-blogs ul li {
   display: block;
@@ -9485,5 +9558,19 @@ div.smallerThumbs .views-field-author {
 .wide-horizontal-blogs p {
   line-height: 1.2;
   padding-top: 5px; }
+
+a.callbox {
+  margin-left: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #a1b70d;
+  border: 1px solid #a1b70d;
+  padding: 5px;
+  vertical-align: middle;
+  font-weight: bold; }
+  a.callbox:hover {
+    text-decoration: none !important;
+    color: #fff;
+    background: #a1b70d; }
 
 /*# sourceMappingURL=dulcet.style.css.map */
