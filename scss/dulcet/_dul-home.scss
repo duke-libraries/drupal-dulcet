@@ -30,13 +30,14 @@ $discovery-tabs-text-off: #555;
 /* DISCOVERY UI */
 
 .search-resources-wrapper {
-  min-height: 7.95em;
+
 }
 
 /* Search Tabs */
 .search-resources-tabs {
   background: $discovery-tabs-bg url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 170px 0;
   border-top: 3px solid #184d83;
+  min-height: 7.95em;
 }
 
 
