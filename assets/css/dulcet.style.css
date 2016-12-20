@@ -9191,12 +9191,12 @@ a.drupal-shib-login {
   float: left;
   margin: 0 12px 12px 0; }
 
-ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray {
+ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
   padding-left: 0; }
-  ul:not([class]):not([id]) li, ul.bullet-green li, ul.bullet-gray li {
+  ul:not([class]):not([id]) li, ul.bullet-green li, ul.bullet-gray li, ul.bullet-blue li {
     list-style: none;
     padding-left: 1.0em; }
-  ul:not([class]):not([id]) > li:before, ul.bullet-green > li:before, ul.bullet-gray > li:before {
+  ul:not([class]):not([id]) > li:before, ul.bullet-green > li:before, ul.bullet-gray > li:before, ul.bullet-blue > li:before {
     content: "\f04d";
     font-family: FontAwesome;
     display: inline-block;
@@ -9326,6 +9326,18 @@ div.smallerThumbs .views-field-author {
 /* hide until it can be customized */
 .hide-date span.date {
   display: none; }
+
+.columns-2 {
+  -moz-column-count: 2;
+       column-count: 2; }
+
+.columns-3 {
+  -moz-column-count: 3;
+       column-count: 3; }
+
+.columns-4 {
+  -moz-column-count: 4;
+       column-count: 4; }
 
 /*
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
