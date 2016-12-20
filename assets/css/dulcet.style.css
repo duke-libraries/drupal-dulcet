@@ -4090,10 +4090,7 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -8753,6 +8750,12 @@ ul.dropdown-menu li {
   padding-top: .75em;
   margin-left: .75em; }
 
+.page-lilly-index .search-resources-tabs .tab-content #booksandmore,
+.page-lilly-index .search-resources-tabs .tab-content #articles,
+.page-lilly-index .search-resources-tabs .tab-content #all {
+  padding-top: 1.25em;
+  margin-left: .25em; }
+
 .search-resources-tabs .searchbox,
 .search-resources-tabs .homeSearchBox {
   border: 1px solid #1a4672 !important;
@@ -8771,6 +8774,13 @@ ul.dropdown-menu li {
 
 .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
   max-width: 20.25em; }
+
+.page-lilly-index .search-resources-tabs #booksandmore .searchbox,
+.page-lilly-index .search-resources-tabs #articles .searchbox {
+  max-width: 13em; }
+
+.page-lilly-index .search-resources-tabs #all .searchbox {
+  max-width: 19em; }
 
 .search-resources-tabs .homeSelect,
 .search-resources-tabs .selectpicker {

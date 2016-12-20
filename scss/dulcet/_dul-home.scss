@@ -146,6 +146,15 @@ $discovery-tabs-text-off: #555;
   margin-left: .75em;
 }
 
+.page-lilly-index .search-resources-tabs .tab-content #booksandmore,
+.page-lilly-index .search-resources-tabs .tab-content #articles,
+.page-lilly-index .search-resources-tabs .tab-content #all {
+  padding-top: 1.25em;
+  margin-left: .25em;
+}
+
+
+
 .search-resources-tabs .searchbox,
 .search-resources-tabs .homeSearchBox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
@@ -168,6 +177,16 @@ $discovery-tabs-text-off: #555;
 
 .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
   max-width: 20.25em;
+}
+
+
+.page-lilly-index .search-resources-tabs #booksandmore .searchbox,
+.page-lilly-index .search-resources-tabs #articles .searchbox {
+  max-width: 13em;
+}
+
+.page-lilly-index .search-resources-tabs #all .searchbox {
+  max-width: 19em;
 }
 
 
@@ -343,7 +362,7 @@ $discovery-tabs-text-off: #555;
   font-size: .9em;
   line-height: 1.2;
   &:before {
-   content: normal !important; 
+   content: normal !important;
   }
 }
 
