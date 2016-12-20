@@ -8761,7 +8761,7 @@ ul.dropdown-menu li {
 
 /* Lilly */
 .page-lilly-index .search-resources-tabs .tab-content #booksandmore {
-  padding-top: 1em;
+  padding-top: .75em;
   margin-left: .25em; }
 
 .page-lilly-index .search-resources-tabs .tab-content #articles,
