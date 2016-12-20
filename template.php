@@ -20,28 +20,6 @@ if (!defined('__DIR__')) {
 # require_once __DIR__ . '/includes/theme.inc';
 require_once __DIR__ . '/includes/form.inc';
 
-// Add responsive image maps
-drupal_add_js(drupal_get_path('theme', 'dulcet') . '/js/rwdimagemaps/jquery.rwdImageMaps.min.js',
-	array('group' => JS_THEME, 'type' => 'file'));
-
-
-// bootstrap files will be added in hook_js_alter and hook_css_alter, as 
-// those files don't need to be added for admin pages
-if (!path_is_admin(current_path())) {
-	drupal_add_js(drupal_get_path('theme', 'dulcet') . '/bootstrap/bootstrap.min.js',
-		array('group' => JS_THEME, 'type' => 'file'));
-	drupal_add_css(drupal_get_path('theme', 'dulcet') . '/bootstrap/bootstrap.min.css',
-		array('group' => CSS_THEME, 'type' => 'file'));
-}
-
-drupal_add_js(drupal_get_path('theme', 'dulcet') . '/js/init.js',
-	array('group' => JS_THEME, 'type' => 'file'));
-	
-	
-// respond.js
-drupal_add_js(drupal_get_path('theme', 'dulcet') . '/js/respondjs/respond.min.js',
-	array('group' => JS_THEME, 'type' => 'file'));
-
 // MICHAEL -- I copied this hook function from the theme (dukelib)
 // I created way back when we were exploring Drupal but prior
 // to creating the DATAGIS Pilot
