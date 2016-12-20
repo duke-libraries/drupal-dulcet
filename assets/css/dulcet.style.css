@@ -8697,13 +8697,12 @@ ul.dropdown-menu li {
 
 .search-resources-tabs .tab-content .inline li {
   margin-top: .5em;
-  margin-bottom: 1em;
   float: left;
   margin-right: 1.5em; }
 
+/* rubenstein */
 .page-rubenstein-index .search-resources-tabs .tab-content .inline li {
-  margin-top: .25em;
-  margin-bottom: .5em; }
+  margin-top: .25em; }
 
 .search-resources-tabs .tab-content .inline li a {
   color: #fff;
@@ -8760,7 +8759,7 @@ ul.dropdown-menu li {
   padding-top: .75em;
   margin-left: .75em; }
 
-.page-lilly-index .search-resources-tabs .tab-content #booksandmore,
+/* Lilly */
 .page-lilly-index .search-resources-tabs .tab-content #articles,
 .page-lilly-index .search-resources-tabs .tab-content #all {
   padding-top: 1.25em;
