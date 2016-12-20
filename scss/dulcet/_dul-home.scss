@@ -29,6 +29,9 @@ $discovery-tabs-text-off: #555;
 
 /* DISCOVERY UI */
 
+.search-resources-wrapper {
+  min-height: 7.95em;
+}
 
 /* Search Tabs */
 .search-resources-tabs {
@@ -128,13 +131,15 @@ $discovery-tabs-text-off: #555;
   /*padding: 2.25em 0 0 .75em;*/
 }
 
-/* padding for input blocks */
+/* +++ padding for input blocks +++ */
 .search-resources-tabs .tab-content #all,
 .search-resources-tabs .tab-content #booksandmore,
 .search-resources-tabs .tab-content #articles {
   padding-top: 2.25em;
   margin-left: .75em;
 }
+
+/* Rubenstein */
 
 .page-rubenstein-index .search-resources-tabs .tab-content #booksandmore {
   padding-top: 1.75em;
@@ -155,6 +160,8 @@ $discovery-tabs-text-off: #555;
 
 
 
+/* +++ search box widths +++ */
+
 .search-resources-tabs .searchbox,
 .search-resources-tabs .homeSearchBox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
@@ -171,20 +178,19 @@ $discovery-tabs-text-off: #555;
   max-width: 20.25em;
 }
 
+/* rubenstein */
 .page-rubenstein-index .search-resources-tabs .searchbox {
   max-width: 28.25em;
 }
-
 .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
   max-width: 20.25em;
 }
 
-
+/* lilly */
 .page-lilly-index .search-resources-tabs #booksandmore .searchbox,
 .page-lilly-index .search-resources-tabs #articles .searchbox {
   max-width: 13em;
 }
-
 .page-lilly-index .search-resources-tabs #all .searchbox {
   max-width: 19em;
 }

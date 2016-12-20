@@ -8655,6 +8655,9 @@ ul.dropdown-menu li {
   display: none !important; }
 
 /* DISCOVERY UI */
+.search-resources-wrapper {
+  min-height: 7.95em; }
+
 /* Search Tabs */
 .search-resources-tabs {
   background: #235f9c url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 170px 0;
@@ -8735,13 +8738,14 @@ ul.dropdown-menu li {
 .search-resources-tabs .tab-content {
   /*padding: 2.25em 0 0 .75em;*/ }
 
-/* padding for input blocks */
+/* +++ padding for input blocks +++ */
 .search-resources-tabs .tab-content #all,
 .search-resources-tabs .tab-content #booksandmore,
 .search-resources-tabs .tab-content #articles {
   padding-top: 2.25em;
   margin-left: .75em; }
 
+/* Rubenstein */
 .page-rubenstein-index .search-resources-tabs .tab-content #booksandmore {
   padding-top: 1.75em;
   margin-left: .75em; }
@@ -8757,6 +8761,7 @@ ul.dropdown-menu li {
   padding-top: 1.25em;
   margin-left: .25em; }
 
+/* +++ search box widths +++ */
 .search-resources-tabs .searchbox,
 .search-resources-tabs .homeSearchBox {
   border: 1px solid #1a4672 !important;
@@ -8770,12 +8775,14 @@ ul.dropdown-menu li {
 .search-resources-tabs #booksandmore .homeSearchBox {
   max-width: 20.25em; }
 
+/* rubenstein */
 .page-rubenstein-index .search-resources-tabs .searchbox {
   max-width: 28.25em; }
 
 .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
   max-width: 20.25em; }
 
+/* lilly */
 .page-lilly-index .search-resources-tabs #booksandmore .searchbox,
 .page-lilly-index .search-resources-tabs #articles .searchbox {
   max-width: 13em; }
