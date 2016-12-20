@@ -30,7 +30,7 @@ $discovery-tabs-text-off: #555;
 /* DISCOVERY UI */
 
 .search-resources-wrapper {
-
+  margin-bottom: 1em;
 }
 
 /* Search Tabs */
@@ -178,6 +178,14 @@ $discovery-tabs-text-off: #555;
 
 .search-resources-tabs .homeSearchBox {
   max-width: 28.25em;
+}
+
+.search-resources-tabs .searchbox.wide {
+  max-width: 36.25em
+}
+
+.search-resources-tabs .tab-pane.options .searchbox {
+  max-width: 15em;
 }
 
 .search-resources-tabs #booksandmore .homeSearchBox {
