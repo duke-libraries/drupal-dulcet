@@ -8760,6 +8760,10 @@ ul.dropdown-menu li {
   margin-left: .75em; }
 
 /* Lilly */
+.page-lilly-index .search-resources-tabs .tab-content #booksandmore {
+  padding-top: 1em;
+  margin-left: .25em; }
+
 .page-lilly-index .search-resources-tabs .tab-content #articles,
 .page-lilly-index .search-resources-tabs .tab-content #all {
   padding-top: 1.25em;
