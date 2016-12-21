@@ -168,10 +168,10 @@ $discovery-tabs-text-off: #555;
 
 @include breakpoint(md) {
   .page-rubenstein-index .search-resources-tabs .col-md-3 {
-    width: 33%;
+    width: 30%;
   }
   .page-rubenstein-index .search-resources-tabs .col-md-9 {
-    width: 67%;
+    width: 70%;
   }
 }
 
@@ -228,6 +228,21 @@ $discovery-tabs-text-off: #555;
     padding-top: .75em;
   }
 
+}
+
+@include breakpoint(lg) {
+
+  /* Rubenstein */
+
+  .page-rubenstein-index .search-resources-tabs .tab-content #booksandmore {
+    padding-top: 1.75em;
+    margin-left: 0;
+  }
+  .page-rubenstein-index .search-resources-tabs .tab-content #findingaids,
+  .page-rubenstein-index .search-resources-tabs .tab-content #digitizedcollections {
+    padding-top: .75em;
+    margin-left: 0;
+  }
 }
 
 
