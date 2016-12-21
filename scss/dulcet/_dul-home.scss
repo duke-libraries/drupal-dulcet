@@ -166,6 +166,24 @@ $discovery-tabs-text-off: #555;
 }
 
 
+@include breakpoint(md) {
+  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+    width: 33%;
+  }
+  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+    width: 67%;
+  }
+}
+
+@include breakpoint(lg) {
+  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+    width: 25%;
+  }
+  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+    width: 75%;
+  }
+}
+
 
 /* +++ padding for input blocks +++ */
 

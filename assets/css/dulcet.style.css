@@ -8751,6 +8751,18 @@ ul.dropdown-menu li {
 .search-resources-tabs .tab-content {
   /*padding: 2.25em 0 0 .75em;*/ }
 
+@media (min-width: 992px) {
+  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+    width: 33%; }
+  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+    width: 67%; } }
+
+@media (min-width: 1200px) {
+  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+    width: 25%; }
+  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+    width: 75%; } }
+
 /* +++ padding for input blocks +++ */
 @media (min-width: 992px) {
   .search-resources-tabs .tab-content .tab-pane {
