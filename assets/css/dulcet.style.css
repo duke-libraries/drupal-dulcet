@@ -9010,11 +9010,18 @@ ul.dropdown-menu li {
   width: 30px;
   height: 30px; }
 
-.page-home .home-more .more-item a {
-  padding: 5px 10px 9px 40px;
-  white-space: nowrap;
-  display: block;
-  margin-top: 10px; }
+@media (min-width: 992px) {
+  .page-home .home-more .more-item a {
+    padding: 5px 10px 9px 40px;
+    white-space: nowrap;
+    display: block;
+    margin-top: 10px;
+    font-size: .825em; } }
+
+@media (min-width: 1200px) {
+  .page-home .home-more .more-item a {
+    padding: 5px 10px 9px 35px;
+    font-size: 1em; } }
 
 .page-home .home-more .ask {
   background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat 0 0; }
