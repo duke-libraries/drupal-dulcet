@@ -276,6 +276,11 @@ $discovery-tabs-text-off: #555;
 
 @include breakpoint(lg) {
 
+  .search-resources-tabs .tab-pane.options .searchselect,
+  .search-resources-tabs .tab-pane.options .homeSelect {
+    width: 8.5em;
+  }
+
   .search-resources-tabs .searchbox,
   .search-resources-tabs .homeSearchBox {
     max-width: 23em;

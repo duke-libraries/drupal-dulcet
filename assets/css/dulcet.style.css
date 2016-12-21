@@ -8823,6 +8823,9 @@ ul.dropdown-menu li {
     max-width: 12.75em; } }
 
 @media (min-width: 1200px) {
+  .search-resources-tabs .tab-pane.options .searchselect,
+  .search-resources-tabs .tab-pane.options .homeSelect {
+    width: 8.5em; }
   .search-resources-tabs .searchbox,
   .search-resources-tabs .homeSearchBox {
     max-width: 23em; }
