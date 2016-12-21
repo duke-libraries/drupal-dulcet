@@ -469,11 +469,15 @@ $discovery-tabs-text-off: #555;
   text-align: right;
 }
 
-.page-home .radix-layouts-sidebar {
-  padding: 15px;
-  background: url('/sites/all/themes/dulcet/assets/images/striped-grey.png') repeat left top;
-  overflow: hidden;
-  width: calc(25% - 15px);
+@include breakpoint(md) {
+
+  .page-home .radix-layouts-sidebar {
+    padding: 15px;
+    background: url('/sites/all/themes/dulcet/assets/images/striped-grey.png') repeat left top;
+    overflow: hidden;
+    width: calc(25% - 15px);
+  }
+  
 }
 
 .page-home .radix-layouts-sidebar h2,
