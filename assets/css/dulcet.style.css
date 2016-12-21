@@ -8752,16 +8752,24 @@ ul.dropdown-menu li {
   /*padding: 2.25em 0 0 .75em;*/ }
 
 @media (min-width: 992px) {
-  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+  .page-rubenstein-index .search-resources-tabs .col-md-3,
+  .page-lilly-index .search-resources-tabs .col-md-3,
+  .page-music-index .search-resources-tabs .col-md-3 {
     width: 30%; }
-  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+  .page-rubenstein-index .search-resources-tabs .col-md-9,
+  .page-lilly-index .search-resources-tabs .col-md-9,
+  .page-music-index .search-resources-tabs .col-md-9 {
     width: 70%;
     padding-left: 0; } }
 
 @media (min-width: 1200px) {
-  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+  .page-rubenstein-index .search-resources-tabs .col-md-3,
+  .page-lilly-index .search-resources-tabs .col-md-3,
+  .page-music-index .search-resources-tabs .col-md-3 {
     width: 25%; }
-  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+  .page-rubenstein-index .search-resources-tabs .col-md-9,
+  .page-lilly-index .search-resources-tabs .col-md-9,
+  .page-music-index .search-resources-tabs .col-md-9 {
     width: 75%;
     padding-left: 15px; } }
 

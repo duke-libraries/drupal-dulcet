@@ -44,6 +44,8 @@ $discovery-tabs-text-off: #555;
     min-height: 7.95em;
   }
 
+
+
 }
 
 @include breakpoint(lg) {
@@ -167,20 +169,28 @@ $discovery-tabs-text-off: #555;
 
 
 @include breakpoint(md) {
-  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+  .page-rubenstein-index .search-resources-tabs .col-md-3,
+  .page-lilly-index .search-resources-tabs .col-md-3,
+  .page-music-index .search-resources-tabs .col-md-3 {
     width: 30%;
   }
-  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+  .page-rubenstein-index .search-resources-tabs .col-md-9,
+  .page-lilly-index .search-resources-tabs .col-md-9,
+  .page-music-index .search-resources-tabs .col-md-9 {
     width: 70%;
     padding-left: 0;
   }
 }
 
 @include breakpoint(lg) {
-  .page-rubenstein-index .search-resources-tabs .col-md-3 {
+  .page-rubenstein-index .search-resources-tabs .col-md-3,
+  .page-lilly-index .search-resources-tabs .col-md-3,
+  .page-music-index .search-resources-tabs .col-md-3 {
     width: 25%;
   }
-  .page-rubenstein-index .search-resources-tabs .col-md-9 {
+  .page-rubenstein-index .search-resources-tabs .col-md-9,
+  .page-lilly-index .search-resources-tabs .col-md-9,
+  .page-music-index .search-resources-tabs .col-md-9 {
     width: 75%;
     padding-left: 15px;
   }
