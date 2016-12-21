@@ -43,7 +43,7 @@ $discovery-tabs-text-off: #555;
     border-top: 3px solid #184d83;
     min-height: 7.95em;
   }
-  
+
 }
 
 @include breakpoint(lg) {
@@ -313,7 +313,8 @@ $discovery-tabs-text-off: #555;
 .home-discovery .search-links ul li {
   list-style: none;
   float: left;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
   &:before {
     content: normal !important;
   }
