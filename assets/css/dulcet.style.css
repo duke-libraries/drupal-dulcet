@@ -8802,6 +8802,11 @@ ul.dropdown-menu li {
     padding: .6em;
     max-width: 21.75em; }
   .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
+    max-width: 13.75em; }
+  /* rubenstein */
+  .page-rubenstein-index .search-resources-tabs .searchbox {
+    max-width: 28.25em; }
+  .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
     max-width: 13.75em; } }
 
 @media (min-width: 1200px) {
@@ -8826,7 +8831,7 @@ ul.dropdown-menu li {
   .page-rubenstein-index .search-resources-tabs .searchbox {
     max-width: 28.25em; }
   .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
-    max-width: 20.25em; } }
+    max-width: 21.75em; } }
 
 .search-resources-tabs .homeSelect,
 .search-resources-tabs .selectpicker {
