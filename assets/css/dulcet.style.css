@@ -8811,7 +8811,8 @@ ul.dropdown-menu li {
     width: 100%;
     padding: .6em;
     max-width: 21.75em; }
-  .search-resources-tabs .tab-pane.options .searchselect {
+  .search-resources-tabs .tab-pane.options .searchselect,
+  .search-resources-tabs .tab-pane.options .homeSelect {
     width: 6.5em; }
   .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
     max-width: 13.75em; }
