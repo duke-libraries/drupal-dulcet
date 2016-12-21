@@ -8660,7 +8660,7 @@ ul.dropdown-menu li {
 
 /* Search Tabs */
 .search-resources-tabs {
-  background: #235f9c url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 170px 0;
+  background: #aaa url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 10em 0;
   border-top: 3px solid #184d83;
   min-height: 7.95em; }
 
@@ -8669,7 +8669,7 @@ ul.dropdown-menu li {
   padding-left: 1.5em; }
 
 .search-resources-tabs.wider {
-  background-position: 270px 0; }
+  background-position: 15.5em 0; }
 
 .search-resources-tabs .col-md-3 {
   overflow: hidden; }

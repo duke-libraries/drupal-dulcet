@@ -35,7 +35,7 @@ $discovery-tabs-text-off: #555;
 
 /* Search Tabs */
 .search-resources-tabs {
-  background: $discovery-tabs-bg url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 170px 0;
+  background: #aaa url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 10em 0;
   border-top: 3px solid #184d83;
   min-height: 7.95em;
 }
@@ -46,7 +46,7 @@ $discovery-tabs-text-off: #555;
 }
 
 .search-resources-tabs.wider {
-  background-position: 270px 0;
+  background-position:15.5em 0;
 }
 
 
