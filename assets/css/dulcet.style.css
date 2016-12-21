@@ -9041,6 +9041,9 @@ ul.dropdown-menu li {
 .page-home .radix-layouts-sidebar .home-give .btn, .page-home .radix-layouts-sidebar .home-give .media-widget > a {
   width: 100%; }
 
+.page-home .radix-layouts-sidebar .home-give .btn a, .page-home .radix-layouts-sidebar .home-give .media-widget > a a {
+  padding: 10px; }
+
 /* COLORS */
 /* TYPOGRAPHY */
 .page-header h1 {
