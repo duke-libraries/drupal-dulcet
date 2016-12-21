@@ -8743,9 +8743,7 @@ ul.dropdown-menu li {
   /*padding: 2.25em 0 0 .75em;*/ }
 
 /* +++ padding for input blocks +++ */
-.search-resources-tabs .tab-content #all,
-.search-resources-tabs .tab-content #booksandmore,
-.search-resources-tabs .tab-content #articles {
+.search-resources-tabs .tab-content .tab-pane {
   padding-top: 2.25em;
   margin-left: .75em; }
 

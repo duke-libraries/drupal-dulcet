@@ -138,9 +138,7 @@ $discovery-tabs-text-off: #555;
 
 /* +++ padding for input blocks +++ */
 
-.search-resources-tabs .tab-content #all,
-.search-resources-tabs .tab-content #booksandmore,
-.search-resources-tabs .tab-content #articles {
+.search-resources-tabs .tab-content .tab-pane {
   padding-top: 2.25em;
   margin-left: .75em;
 }
@@ -176,7 +174,6 @@ $discovery-tabs-text-off: #555;
 .page-music-index .search-resources-tabs .tab-content .tab-pane {
   margin-left: .25em;
 }
-
 .page-music-index .search-resources-tabs .tab-content #booksandmore {
   padding-top: .75em;
 }
