@@ -45,6 +45,10 @@ $discovery-tabs-text-off: #555;
   padding-left: 1.5em;
 }
 
+.search-resources-tabs.wider {
+  background-position: 270px 0;
+}
+
 
 .search-resources-tabs .col-md-3 {
   overflow: hidden;
@@ -199,6 +203,10 @@ $discovery-tabs-text-off: #555;
 
 .search-resources-tabs .tab-pane.options .searchbox {
   max-width: 16.5em;
+}
+
+.search-resources-tabs.wider .tab-pane.options .searchbox {
+  max-width: 28.25em;
 }
 
 

@@ -8668,6 +8668,9 @@ ul.dropdown-menu li {
   background-position: 0 0;
   padding-left: 1.5em; }
 
+.search-resources-tabs.wider {
+  background-position: 270px 0; }
+
 .search-resources-tabs .col-md-3 {
   overflow: hidden; }
 
@@ -8794,6 +8797,9 @@ ul.dropdown-menu li {
 
 .search-resources-tabs .tab-pane.options .searchbox {
   max-width: 16.5em; }
+
+.search-resources-tabs.wider .tab-pane.options .searchbox {
+  max-width: 28.25em; }
 
 /* homepage */
 .page-home .search-resources-tabs .homeSearchBox {
