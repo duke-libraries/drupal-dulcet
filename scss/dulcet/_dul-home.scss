@@ -8,7 +8,7 @@ $discovery-tabs-bg-off: #e8e5e2;
 $discovery-tabs-text: #fff;
 $discovery-tabs-text-off: #555;
 
-
+/* foo */
 
 /* Typography */
 
@@ -29,11 +29,32 @@ $discovery-tabs-text-off: #555;
 
 /* DISCOVERY UI */
 
+.search-resources-wrapper {
+  margin-bottom: 1em;
+}
 
 /* Search Tabs */
 .search-resources-tabs {
-  background: $discovery-tabs-bg url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 170px 0;
+  background: #aaa url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 11.15em 0;
   border-top: 3px solid #184d83;
+  min-height: 7.95em;
+}
+
+.search-resources-tabs.single {
+  background-position: 0 0;
+  padding-left: 1.5em;
+}
+.search-resources-tabs.medium {
+  background-position: 9.75em 0;
+}
+.search-resources-tabs.hasnav {
+  background-position: 9em 0;
+}
+.search-resources-tabs.wider {
+  background-position: 15.5em 0;
+}
+.search-resources-tabs.single.wider {
+  background-position: 0 0;
 }
 
 
@@ -71,14 +92,14 @@ $discovery-tabs-text-off: #555;
 
 .search-resources-tabs .tab-content .inline li {
   margin-top: .5em;
-  margin-bottom: 1em;
   float: left;
   margin-right: 1.5em;
+  color: #fff;
 }
 
+/* rubenstein */
 .page-rubenstein-index .search-resources-tabs .tab-content .inline li {
   margin-top: .25em;
-  margin-bottom: .5em;
 }
 
 .search-resources-tabs .tab-content .inline li a {
@@ -128,13 +149,14 @@ $discovery-tabs-text-off: #555;
   /*padding: 2.25em 0 0 .75em;*/
 }
 
-/* padding for input blocks */
-.search-resources-tabs .tab-content #all,
-.search-resources-tabs .tab-content #booksandmore,
-.search-resources-tabs .tab-content #articles {
+/* +++ padding for input blocks +++ */
+
+.search-resources-tabs .tab-content .tab-pane {
   padding-top: 2.25em;
   margin-left: .75em;
 }
+
+/* Rubenstein */
 
 .page-rubenstein-index .search-resources-tabs .tab-content #booksandmore {
   padding-top: 1.75em;
@@ -146,29 +168,76 @@ $discovery-tabs-text-off: #555;
   margin-left: .75em;
 }
 
+/* Lilly */
+.page-lilly-index .search-resources-tabs .tab-content #booksandmore {
+  padding-top: .75em;
+  margin-left: .25em;
+}
+.page-lilly-index .search-resources-tabs .tab-content #articles,
+.page-lilly-index .search-resources-tabs .tab-content #all {
+  padding-top: 1.75em;
+  margin-left: .25em;
+}
+.page-lilly-film-video .search-resources-tabs .tab-content .tab-pane.options {
+    padding-top: 1.75em;
+    margin-left: .25em;
+}
+
+/* Music */
+.page-music-index .search-resources-tabs .tab-content .tab-pane {
+  margin-left: .25em;
+}
+.page-music-index .search-resources-tabs .tab-content #booksandmore {
+  padding-top: .75em;
+}
+
+
+/* +++ search box widths +++ */
+
 .search-resources-tabs .searchbox,
 .search-resources-tabs .homeSearchBox {
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
   width: 100%;
   padding: .6em;
+  max-width: 23em;
+}
+
+.search-resources-tabs .searchbox.wide {
+  max-width: 36.25em
+}
+
+.search-resources-tabs .tab-pane.options .searchselect {
+  width: 6.5em;
+}
+
+.search-resources-tabs .tab-pane.options .searchbox {
+  max-width: 16.5em;
+}
+
+.search-resources-tabs.wider .tab-pane .searchbox,
+.search-resources-tabs.wider .tab-pane.options .searchbox {
   max-width: 28.25em;
 }
 
-.search-resources-tabs .homeSearchBox {
+
+
+/* homepage */
+.page-home .search-resources-tabs .homeSearchBox {
   max-width: 28.25em;
 }
 
-.search-resources-tabs #booksandmore .homeSearchBox {
+.page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
   max-width: 20.25em;
 }
 
+/* rubenstein */
 .page-rubenstein-index .search-resources-tabs .searchbox {
   max-width: 28.25em;
 }
-
 .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
   max-width: 20.25em;
 }
+
 
 
 
@@ -343,7 +412,7 @@ $discovery-tabs-text-off: #555;
   font-size: .9em;
   line-height: 1.2;
   &:before {
-   content: normal !important; 
+   content: normal !important;
   }
 }
 
