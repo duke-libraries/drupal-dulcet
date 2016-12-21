@@ -8887,9 +8887,16 @@ ul.dropdown-menu li {
 
 .page-home .cycle-slideshow {
   float: left;
-  width: 90%;
   margin-left: 10px;
   margin-right: 5px; }
+
+@media (min-width: 992px) {
+  .page-home .cycle-slideshow {
+    width: 88%; } }
+
+@media (min-width: 1200px) {
+  .page-home .cycle-slideshow {
+    width: 90%; } }
 
 .page-home .cycle-slideshow .more-link {
   display: none; }

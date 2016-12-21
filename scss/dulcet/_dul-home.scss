@@ -368,9 +368,20 @@ $discovery-tabs-text-off: #555;
 
 .page-home .cycle-slideshow {
   float: left;
-  width: 90%;
   margin-left: 10px;
   margin-right: 5px;
+}
+
+@include breakpoint(md) {
+  .page-home .cycle-slideshow {
+    width: 88%;
+  }
+}
+
+@include breakpoint(lg) {
+  .page-home .cycle-slideshow {
+    width: 90%;
+  }
 }
 
 .page-home .cycle-slideshow .more-link {
