@@ -8790,7 +8790,7 @@ ul.dropdown-menu li {
     padding: .6em;
     max-width: 21.75em; }
   .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
-    max-width: 13.5em; } }
+    max-width: 13.75em; } }
 
 @media (min-width: 1200px) {
   .search-resources-tabs .searchbox,
@@ -9196,6 +9196,9 @@ img.rl-logo {
 
 .easy-breadcrumb .easy-breadcrumb_segment-separator {
   padding: 0 2px 0 2px; }
+
+#duke-logo img {
+  width: 100%; }
 
 #rubenstein-banner {
   height: 240px;
