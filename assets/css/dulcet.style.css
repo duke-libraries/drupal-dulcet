@@ -8671,6 +8671,9 @@ ul.dropdown-menu li {
 .search-resources-tabs.wider {
   background-position: 15.5em 0; }
 
+.search-resources-tabs.single.wider {
+  background-position: 0 0; }
+
 .search-resources-tabs .col-md-3 {
   overflow: hidden; }
 
