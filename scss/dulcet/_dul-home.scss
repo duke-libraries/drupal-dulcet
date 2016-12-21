@@ -255,6 +255,10 @@ $discovery-tabs-text-off: #555;
     max-width: 21.75em;
   }
 
+  .search-resources-tabs .tab-pane.options .searchselect {
+    width: 6.5em;
+  }
+
   .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
     max-width: 13.75em;
   }
@@ -278,10 +282,6 @@ $discovery-tabs-text-off: #555;
 
   .search-resources-tabs .searchbox.wide {
     max-width: 36.25em
-  }
-
-  .search-resources-tabs .tab-pane.options .searchselect {
-    width: 6.5em;
   }
 
   .search-resources-tabs .tab-pane.options .searchbox {

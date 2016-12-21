@@ -8811,6 +8811,8 @@ ul.dropdown-menu li {
     width: 100%;
     padding: .6em;
     max-width: 21.75em; }
+  .search-resources-tabs .tab-pane.options .searchselect {
+    width: 6.5em; }
   .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
     max-width: 13.75em; }
   /* rubenstein */
@@ -8825,8 +8827,6 @@ ul.dropdown-menu li {
     max-width: 23em; }
   .search-resources-tabs .searchbox.wide {
     max-width: 36.25em; }
-  .search-resources-tabs .tab-pane.options .searchselect {
-    width: 6.5em; }
   .search-resources-tabs .tab-pane.options .searchbox {
     max-width: 16.5em; }
   .search-resources-tabs.wider .tab-pane .searchbox,
