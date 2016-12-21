@@ -8807,9 +8807,9 @@ ul.dropdown-menu li {
     max-width: 13.75em; }
   /* rubenstein */
   .page-rubenstein-index .search-resources-tabs .searchbox {
-    max-width: 18.75em; }
+    max-width: 20.75em; }
   .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
-    max-width: 10.75em; } }
+    max-width: 12.75em; } }
 
 @media (min-width: 1200px) {
   .search-resources-tabs .searchbox,
