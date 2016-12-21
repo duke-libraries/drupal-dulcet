@@ -523,7 +523,7 @@ $discovery-tabs-text-off: #555;
 
 @include breakpoint(md) {
   .page-home .home-more .more-item a {
-    padding: 5px 10px 9px 40px;
+    padding: 5px 10px 9px 35px;
     white-space: nowrap;
     display: block;
     margin-top: 10px;
@@ -533,7 +533,7 @@ $discovery-tabs-text-off: #555;
 
 @include breakpoint(lg) {
   .page-home .home-more .more-item a {
-    padding: 5px 10px 9px 35px;
+    padding: 5px 10px 9px 40px;
     font-size: 1em;
   }
 }
