@@ -8668,6 +8668,9 @@ ul.dropdown-menu li {
   background-position: 0 0;
   padding-left: 1.5em; }
 
+.search-resources-tabs.medium {
+  background-position: 9em 0; }
+
 .search-resources-tabs.wider {
   background-position: 15.5em 0; }
 
