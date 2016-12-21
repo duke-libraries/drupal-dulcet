@@ -318,7 +318,6 @@ $discovery-tabs-text-off: #555;
 
 .search-resources-tabs .homeSelect,
 .search-resources-tabs .selectpicker  {
-  width: 8em;
   height: 3em;
   border: 1px solid darken($discovery-tabs-bg, 10%) !important;
   display: block;
@@ -331,10 +330,6 @@ $discovery-tabs-text-off: #555;
   padding: .5em;
   padding-right: 1.5em;
   border-radius: 0;
-}
-
-.search-resources-tabs #catalogcodeinput {
-  width: 8em;
 }
 
 
