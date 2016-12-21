@@ -9046,9 +9046,7 @@ ul.dropdown-menu li {
   background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -120px 0; }
 
 .page-home .radix-layouts-sidebar .home-give .btn, .page-home .radix-layouts-sidebar .home-give .media-widget > a {
-  width: 100%; }
-
-.page-home .radix-layouts-sidebar .home-give .btn a, .page-home .radix-layouts-sidebar .home-give .media-widget > a a {
+  width: 100%;
   padding: 10px; }
 
 /* COLORS */
