@@ -8671,6 +8671,9 @@ ul.dropdown-menu li {
 .search-resources-tabs.medium {
   background-position: 9.75em 0; }
 
+.search-resources-tabs.hasnav {
+  background-position: 9em 0; }
+
 .search-resources-tabs.wider {
   background-position: 15.5em 0; }
 
