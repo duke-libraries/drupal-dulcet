@@ -225,6 +225,10 @@ $discovery-tabs-text-off: #555;
     max-width: 21.75em;
   }
 
+  .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
+    max-width: 13.5em;
+  }
+
 }
 
 @include breakpoint(lg) {
@@ -477,7 +481,7 @@ $discovery-tabs-text-off: #555;
     overflow: hidden;
     width: calc(25% - 15px);
   }
-  
+
 }
 
 .page-home .radix-layouts-sidebar h2,
@@ -516,11 +520,22 @@ $discovery-tabs-text-off: #555;
   height: 30px;
 }
 
-.page-home .home-more .more-item a {
-  padding: 5px 10px 9px 40px;
-  white-space: nowrap;
-  display: block;
-  margin-top: 10px;
+
+@include breakpoint(md) {
+  .page-home .home-more .more-item a {
+    padding: 5px 10px 9px 40px;
+    white-space: nowrap;
+    display: block;
+    margin-top: 10px;
+    font-size: .825em;
+  }
+}
+
+@include breakpoint(lg) {
+  .page-home .home-more .more-item a {
+    padding: 5px 10px 9px 35px;
+    font-size: font-size: 1em;
+  }
 }
 
 .page-home .home-more .ask {
