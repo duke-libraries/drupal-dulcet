@@ -8861,7 +8861,7 @@ ul.dropdown-menu li {
   letter-spacing: 1px;
   font-weight: 800; }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .home-discovery .search-links ul li a {
     padding: 0 .8em 0 .8em; } }
 
