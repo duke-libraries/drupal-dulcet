@@ -8755,13 +8755,15 @@ ul.dropdown-menu li {
   .page-rubenstein-index .search-resources-tabs .col-md-3 {
     width: 30%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9 {
-    width: 70%; } }
+    width: 70%;
+    padding-left: 0; } }
 
 @media (min-width: 1200px) {
   .page-rubenstein-index .search-resources-tabs .col-md-3 {
     width: 25%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9 {
-    width: 75%; } }
+    width: 75%;
+    padding-left: 15px; } }
 
 /* +++ padding for input blocks +++ */
 @media (min-width: 992px) {
@@ -8792,16 +8794,6 @@ ul.dropdown-menu li {
     margin-left: .25em; }
   .page-music-index .search-resources-tabs .tab-content #booksandmore {
     padding-top: .75em; } }
-
-@media (min-width: 1200px) {
-  /* Rubenstein */
-  .page-rubenstein-index .search-resources-tabs .tab-content #booksandmore {
-    padding-top: 1.75em;
-    margin-left: 0; }
-  .page-rubenstein-index .search-resources-tabs .tab-content #findingaids,
-  .page-rubenstein-index .search-resources-tabs .tab-content #digitizedcollections {
-    padding-top: .75em;
-    margin-left: 0; } }
 
 /* +++ search box widths +++ */
 @media (min-width: 992px) {
