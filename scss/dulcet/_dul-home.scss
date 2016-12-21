@@ -37,11 +37,13 @@ $discovery-tabs-text-off: #555;
 /* Search Tabs */
 
 @include breakpoint(md) {
+
   .search-resources-tabs {
     background: #aaa url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 8.95em 0;
     border-top: 3px solid #184d83;
     min-height: 7.95em;
   }
+  
 }
 
 @include breakpoint(lg) {
