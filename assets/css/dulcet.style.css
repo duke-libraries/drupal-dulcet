@@ -8701,7 +8701,8 @@ ul.dropdown-menu li {
 .search-resources-tabs .tab-content .inline li {
   margin-top: .5em;
   float: left;
-  margin-right: 1.5em; }
+  margin-right: 1.5em;
+  color: #fff; }
 
 /* rubenstein */
 .page-rubenstein-index .search-resources-tabs .tab-content .inline li {
