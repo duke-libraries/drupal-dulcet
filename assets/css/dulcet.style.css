@@ -4090,7 +4090,10 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 0; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -9317,6 +9320,31 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
     font-size: 0.35em;
     vertical-align: 50%; }
 
+#mast ul:not([class]):not([id]) li, .item-list ul:not([class]):not([id]) li, .search-resources-wrapper ul:not([class]):not([id]) li {
+  padding-left: 0;
+  margin-bottom: 0.5em; }
+
+#mast ul:not([class]):not([id]) li:before, .item-list ul:not([class]):not([id]) li:before, .search-resources-wrapper ul:not([class]):not([id]) li:before {
+  content: normal; }
+
+.item-list ul {
+  margin: 0; }
+  .item-list ul li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+    width: 100% !important;
+    list-style: none;
+    padding: 0; }
+
+.more-link {
+  text-align: left;
+  font-style: italic;
+  display: none; }
+
+/* hide until it can be customized */
+.hide-date span.date {
+  display: none; }
+
 ul.spacing-none li {
   margin-bottom: 0; }
 
@@ -9328,6 +9356,109 @@ ul.spacing-md li {
 
 ul.spacing-lg li {
   margin-bottom: 1em; }
+
+/* JS masthead styles lazily copied from MadLib theme */
+/* These exist to prevent a flash of unstyled content */
+/* before the JS injected mast can get its styles */
+/* Likely needs refinement to be more seamless in dulcet */
+.zone-masthead {
+  background: #053482;
+  border-bottom: 1px solid #262626;
+  padding-top: 0;
+  height: 105px;
+  /* SCA added 12/2016 */ }
+
+#region-js-masthead {
+  padding-top: 10px;
+  overflow: hidden; }
+
+.dul-masthead-megamenu-temp {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: -2px;
+  text-align: left; }
+
+#region-js-masthead #region-myaccount {
+  float: right;
+  display: block;
+  max-width: 130px; }
+
+@media screen and (min-width: 480px) {
+  #region-js-masthead #region-myaccount {
+    float: right;
+    display: block;
+    max-width: 240px; } }
+
+#zone-masthead .dul-logo {
+  display: block;
+  position: absolute; }
+
+#zone-masthead .dul-logo img {
+  padding: 5px;
+  width: 130px; }
+
+#region-scoped-search-temp {
+  display: none !important; }
+
+#dul-masthead-region-megamenu-temp {
+  display: none; }
+
+#dul-masthead-region-megamenu-temp-mobile {
+  display: block;
+  position: absolute;
+  top: 65px; }
+
+#dul-masthead-mobile-menu {
+  position: absolute;
+  background: #fff;
+  padding: 20px;
+  z-index: 100;
+  border: 1px solid #003366;
+  margin-left: 0;
+  width: 45%; }
+
+#dul-masthead-mobile-menu li {
+  padding: .5em;
+  list-style: none; }
+
+#dul-masthead-nav-trigger-label {
+  padding: 0 10px 5px 15px;
+  color: #fff;
+  font-size: 1.4em; }
+
+#dul-masthead-mobile-menu,
+#dul-masthead-nav-trigger {
+  display: none; }
+
+#dul-masthead-nav-trigger:checked + #dul-masthead-mobile-menu {
+  display: block; }
+
+/* JS Masthead Overrides */
+#dul-masthead-dul-megamenu .dul-masthead-nav-trigger:checked ~ .dul-masthead-mobile-menu {
+  width: 50% !important; }
+
+#dul-masthead-dul-megamenu #dul-masthead-logo {
+  width: 159px; }
+
+#dul-masthead-dul-megamenu #dul-masthead-region-megamenu {
+  margin: 15px 0 0 0 !important; }
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+  max-width: 910px !important; }
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-col_4 {
+  width: 28% !important;
+  margin-right: 3.333% !important; }
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth .dul-masthead-primaryColumn {
+  border-right: 1px dotted #ccc !important; }
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu div.dul-masthead-col_2 {
+  width: 18.666% !important; }
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
+  max-width: 960px !important; }
 
 .shaded-column-left {
   border-right: 3px solid #f5f5f5;
@@ -9434,21 +9565,6 @@ div.smallerThumbs .views-field-author {
 
 .pager li.pager-current {
   padding: 5px 14px; }
-
-.item-list ul {
-  margin: 0; }
-  .item-list ul li {
-    margin-left: 0;
-    margin-bottom: 0.5em; }
-
-.more-link {
-  text-align: left;
-  font-style: italic;
-  display: none; }
-
-/* hide until it can be customized */
-.hide-date span.date {
-  display: none; }
 
 .columns-2 {
   -moz-column-count: 2;

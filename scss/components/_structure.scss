@@ -1,29 +1,6 @@
 // Styles for Tabs, Messages, ..etc
 // -----------------------------------------------------------------------------
 
-
-// ===========================
-// Lists from Feed Aggregator 
-// ===========================
-
-.item-list ul {
-  margin: 0;
-  & li {
-    margin-left: 0;
-    margin-bottom: 0.5em;
-  }
-}
-
-.more-link {
-  text-align: left;
-  font-style: italic;
-  display: none;
-} /* hide until it can be customized */
-
-.hide-date span.date {
-  display: none;
-}
-
 // ===========================
 // Split to Columns
 // ===========================
