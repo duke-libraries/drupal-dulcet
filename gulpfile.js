@@ -17,7 +17,7 @@ var glob = require('gulp-sass-glob');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
-var sourcemaps = require('gulp-sourcemaps');
+//var sourcemaps = require('gulp-sourcemaps');
 var scssLint = require('gulp-scss-lint');
 var jshint = require('gulp-jshint');
 
@@ -35,14 +35,14 @@ gulp.task('css', function() {
         }) (error);
         this.emit('end');
       }}))
-    .pipe(sourcemaps.init())
+    //.pipe(sourcemaps.init())
     .pipe(sass({
       style: 'compressed',
       errLogToConsole: true,
       includePaths: config.css.includePaths
     }))
     .pipe(autoprefix('last 2 versions', '> 1%', 'ie 9', 'ie 10'))
-    .pipe(sourcemaps.write('./'))
+    //.pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(config.css.dest))
     .pipe(browserSync.reload({ stream: true, match: '**/*.css' }));
 });
