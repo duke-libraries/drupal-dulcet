@@ -4090,10 +4090,7 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -8664,24 +8661,28 @@ ul.dropdown-menu li {
 /* Search Tabs */
 @media (min-width: 992px) {
   .search-resources-tabs {
-    background: #aaa url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 8.95em 0;
+    background: #aaa url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 8.98em 0;
     border-top: 3px solid #184d83;
-    min-height: 7.95em; } }
+    min-height: 7.95em; }
+  .search-resources-tabs.single {
+    background-position: 0 0;
+    padding-left: 1.5em; }
+  .search-resources-tabs.single.wider {
+    background-position: 0 0; }
+  .search-resources-tabs.medium {
+    background-position: 9.65em 0; }
+  .search-resources-tabs.wider {
+    background-position: 12.6em 0; } }
 
 @media (min-width: 1200px) {
   .search-resources-tabs {
     background-position: 11.15em 0; }
-  .search-resources-tabs.single {
-    background-position: 0 0;
-    padding-left: 1.5em; }
   .search-resources-tabs.medium {
     background-position: 9.75em 0; }
   .search-resources-tabs.hasnav {
     background-position: 9em 0; }
   .search-resources-tabs.wider {
-    background-position: 15.5em 0; }
-  .search-resources-tabs.single.wider {
-    background-position: 0 0; } }
+    background-position: 15.5em 0; } }
 
 .search-resources-tabs .col-md-3 {
   overflow: hidden; }
@@ -8754,22 +8755,30 @@ ul.dropdown-menu li {
 @media (min-width: 992px) {
   .page-rubenstein-index .search-resources-tabs .col-md-3,
   .page-lilly-index .search-resources-tabs .col-md-3,
-  .page-music-index .search-resources-tabs .col-md-3 {
+  .page-music-index .search-resources-tabs .col-md-3,
+  .page-lilly-film-video .search-resources-tabs .col-md-3,
+  .search-resources-tabs.medium .col-md-3 {
     width: 30%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9,
   .page-lilly-index .search-resources-tabs .col-md-9,
-  .page-music-index .search-resources-tabs .col-md-9 {
+  .page-music-index .search-resources-tabs .col-md-9,
+  .page-lilly-film-video .search-resources-tabs .col-md-9,
+  .search-resources-tabs.medium .col-md-9 {
     width: 70%;
     padding-left: 0; } }
 
 @media (min-width: 1200px) {
   .page-rubenstein-index .search-resources-tabs .col-md-3,
   .page-lilly-index .search-resources-tabs .col-md-3,
-  .page-music-index .search-resources-tabs .col-md-3 {
+  .page-music-index .search-resources-tabs .col-md-3,
+  .page-lilly-film-video .search-resources-tabs .col-md-3,
+  .search-resources-tabs.medium .col-md-3 {
     width: 25%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9,
   .page-lilly-index .search-resources-tabs .col-md-9,
-  .page-music-index .search-resources-tabs .col-md-9 {
+  .page-music-index .search-resources-tabs .col-md-9,
+  .page-lilly-film-video .search-resources-tabs .col-md-9,
+  .search-resources-tabs.medium .col-md-9 {
     width: 75%;
     padding-left: 15px; } }
 
@@ -8815,12 +8824,22 @@ ul.dropdown-menu li {
   .search-resources-tabs .tab-pane.options .homeSelect {
     width: 6.5em; }
   .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
-    max-width: 13.75em; }
+    max-width: 15.25em; }
+  .search-resources-tabs .tab-pane.options .searchbox {
+    max-width: 15em; }
+  /* find */
+  .search-resources-tabs.medium .tab-pane.options .searchbox {
+    max-width: 10.75em; }
   /* rubenstein */
   .page-rubenstein-index .search-resources-tabs .searchbox {
     max-width: 20.75em; }
   .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
-    max-width: 12.75em; } }
+    max-width: 14.25em; }
+  /* lilly & music */
+  .search-resources-tabs.hasnav .tab-pane .searchbox {
+    max-width: 17.25em; }
+  .search-resources-tabs.hasnav .tab-pane.options .searchbox {
+    max-width: 10.75em; } }
 
 @media (min-width: 1200px) {
   .search-resources-tabs .tab-pane.options .searchselect,
@@ -8832,7 +8851,11 @@ ul.dropdown-menu li {
   .search-resources-tabs .searchbox.wide {
     max-width: 36.25em; }
   .search-resources-tabs .tab-pane.options .searchbox {
-    max-width: 16.5em; }
+    max-width: 14.5em;
+    max-width: 19.5em; }
+  /* find */
+  .search-resources-tabs.medium .tab-pane.options .searchbox {
+    max-width: 15.75em; }
   .search-resources-tabs.wider .tab-pane .searchbox,
   .search-resources-tabs.wider .tab-pane.options .searchbox {
     max-width: 28.25em; }
@@ -8840,7 +8863,7 @@ ul.dropdown-menu li {
   .page-home .search-resources-tabs .homeSearchBox {
     max-width: 28.25em; }
   .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
-    max-width: 20.25em; }
+    max-width: 19.75em; }
   /* rubenstein */
   .page-rubenstein-index .search-resources-tabs .searchbox {
     max-width: 28.25em; }
