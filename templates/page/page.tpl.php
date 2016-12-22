@@ -18,7 +18,7 @@
 <div id="main-wrapper">
   
   <div id="main" class="main">
-    <div class="container">
+    <div id="mast" class="container">
       <?php require "js_masthead.tpl.php" ?>
       <?php drupal_add_js('//library.duke.edu/masthead/load-masthead.js.php?fixed=false&width=1280', 'external'); ?>
 
