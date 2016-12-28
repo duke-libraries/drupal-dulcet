@@ -8719,11 +8719,11 @@ ul.dropdown-menu li {
   margin-top: .5em;
   float: left;
   color: #fff;
-  margin-right: 1em; }
+  margin-right: .5em; }
 
 .search-resources-tabs .tab-content .inline li a {
   color: #fff;
-  font-size: 1.1em; }
+  font-size: .9em; }
 
 .search-resources-tabs .tab-content .limitOptions {
   width: 100%;
@@ -8744,9 +8744,16 @@ ul.dropdown-menu li {
 
 @media (min-width: 768px) {
   .search-resources-tabs .tab-content .limitOptions {
-    padding-left: 0; } }
+    padding-left: 0; }
+  .search-resources-tabs .tab-content .inline li a {
+    font-size: 1.1em; } }
 
 @media (min-width: 992px) {
+  .search-resources-tabs .tab-content .inline li {
+    margin-top: .5em;
+    margin-right: 1em; }
+  .search-resources-tabs .tab-content .inline li a {
+    font-size: 1.1em; }
   .search-resources-tabs .tab-content .homeSearchBox,
   .search-resources-tabs .tab-content .searchbox {
     height: 3em; }
@@ -8923,7 +8930,12 @@ ul.dropdown-menu li {
   .page-rubenstein-index .search-resources-tabs .searchbox {
     max-width: 28.25em; }
   .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
-    max-width: 21.75em; } }
+    max-width: 21.75em; }
+  /* lilly & music */
+  .search-resources-tabs.hasnav .tab-pane .searchbox {
+    max-width: 23em; }
+  .search-resources-tabs.hasnav .tab-pane.options .searchbox {
+    max-width: 14.5em; } }
 
 .search-resources-tabs .homeSelect,
 .search-resources-tabs .selectpicker {
