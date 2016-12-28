@@ -529,9 +529,16 @@ $discovery-tabs-text-off: #555;
 
 .page-home .cycle-slideshow {
   float: left;
-  margin-left: 10px;
-  margin-right: 5px;
-  width: 88%;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+@include breakpoint(md) {
+  .page-home .cycle-slideshow {
+    width: 88%;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
 }
 
 @include breakpoint(lg) {
@@ -578,22 +585,7 @@ $discovery-tabs-text-off: #555;
 }
 
 .page-home .carousel-control {
-  height: 60px;
-  margin-top: 0;
-  font-family: arial;
-  font-weight: lighter;
-  font-size: 35pt;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-  z-index: 10;
-  position: relative !important;
-  margin-left: 0;
-  padding-left: 0;
-  left: 0;
-  color: #999;
-  width: auto !important;
-  display: block !important;
+  display: none;
 }
 
 .page-home #prev {
@@ -606,6 +598,29 @@ $discovery-tabs-text-off: #555;
 }
 
 @include breakpoint(md) {
+
+  .page-home .carousel-control {
+    height: 60px;
+    margin-top: 0;
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 35pt;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+    position: relative !important;
+    margin-left: 0;
+    padding-left: 0;
+    left: 0;
+    color: #999;
+    width: auto !important;
+    display: block !important;
+  }
+
+  .page-home #prev {
+    float: left;
+  }
 
   .page-home .home-events {
     margin-top: 1.5em;
@@ -694,11 +709,57 @@ $discovery-tabs-text-off: #555;
   margin-bottom: .75em;
 }
 
+.page-home .home-more .more-item {
+  margin-left: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
 
 .page-home .home-more .more-item a {
-  font-size: .825em;
-  white-space: nowrap;
+  padding: 5px 10px 9px 35px;
+  margin-top: 10px;
   display: block;
+  white-space: nowrap;
+}
+
+.page-home .home-more .ask {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat 0 0;
+}
+
+.page-home .home-more .research {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -30px 0;
+}
+
+.page-home .home-more .cite {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -60px 0;
+}
+
+.page-home .home-more .delivery {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -90px 0;
+}
+
+.page-home .home-more .reserve {
+  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -120px 0;
+}
+
+
+@include breakpoint(sm) {
+  .page-home .home-more .more-item a {
+    font-size: .825em;
+    white-space: nowrap;
+    display: block;
+    padding: 0;
+  }
+
+  .page-home .home-more .ask ,
+  .page-home .home-more .research,
+  .page-home .home-more .cite,
+  .page-home .home-more .delivery,
+  .page-home .home-more .reserve {
+    background: none;
+  }
+
 }
 
 @include breakpoint(md) {
@@ -751,7 +812,13 @@ $discovery-tabs-text-off: #555;
   width: 100%;
   padding: 10px;
   padding: 10px 5px 10px 5px;
-  font-size: .8em;
+  font-size: 1em;
+}
+
+@include breakpoint(sm) {
+  .page-home .radix-layouts-sidebar .home-give .btn {
+    font-size: .8em;
+  }
 }
 
 @include breakpoint(md) {
