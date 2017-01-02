@@ -9404,8 +9404,6 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 2;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9423,9 +9421,31 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 3;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; } }
+
+/* Subject Specialists */
+@media (min-width: 768px) {
+  .subject-specialists .person .image {
+    margin-right: 4%;
+    width: 12%; }
+  .subject-specialists .info {
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 30px;
+    border-right: 1px dotted #ddd;
+    padding-right: 30px; }
+  .subject-specialists .expertise {
+    margin-top: 2%; }
+  .subject-specialists .expertise {
+    clear: none;
+    width: 43%; }
+  .subject-specialists .expertise p {
+    font-style: normal; } }
+
+@media (min-width: 992px) {
+  .subject-specialists .person .image {
+    margin-right: 3%;
+    width: 12%; } }
 
 #rubenstein-banner {
   height: 240px;

@@ -237,8 +237,6 @@ img.rl-logo {
   	-webkit-column-gap: 10px;
   	-webkit-column-fill: auto;
   	-moz-column-count: 2;
-  	/*-moz-column-gap: 10px;*/
-  	/*-moz-column-fill: auto;*/
   	clear: both;
   }
 
@@ -260,9 +258,47 @@ img.rl-logo {
   	-webkit-column-gap: 10px;
   	-webkit-column-fill: auto;
   	-moz-column-count: 3;
-  	/*-moz-column-gap: 10px;*/
-  	/*-moz-column-fill: auto;*/
   	clear: both;
   }
 
+}
+
+
+/* Subject Specialists */
+
+@include breakpoint(sm) {
+
+  .subject-specialists .person .image {
+  margin-right:4%;
+  width: 12%;
+  }
+
+  .subject-specialists .info {
+  width: 30%;
+  margin-top: 2%;
+  margin-right: 30px;
+  border-right: 1px dotted #ddd;
+  padding-right: 30px;
+  }
+
+  .subject-specialists .expertise {
+  margin-top: 2%;
+  }
+
+  .subject-specialists .expertise {
+  clear: none;
+  width: 43%;
+  }
+
+  .subject-specialists .expertise p {
+  font-style: normal;
+  }
+
+}
+
+@include breakpoint(md) {
+  .subject-specialists .person .image {
+  margin-right:3%;
+  width: 12%;
+  }
 }
