@@ -4090,10 +4090,7 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
