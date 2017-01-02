@@ -208,3 +208,51 @@ img.rl-logo {
 #duke-logo img {
   width: 100%;
 }
+
+
+/* Places to Study */
+
+.studyrooms {
+	column-count: 1;
+	column-gap: 15px;
+	column-fill: auto;
+	-webkit-column-count: 1;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 1;
+	clear: both;
+}
+
+@include breakpoint(sm) {
+
+  .studyrooms {
+  	column-count: 2;
+  	column-gap: 15px;
+  	column-fill: auto;
+  	-webkit-column-count: 2;
+  	-webkit-column-gap: 10px;
+  	-webkit-column-fill: auto;
+  	-moz-column-count: 2;
+  	/*-moz-column-gap: 10px;*/
+  	/*-moz-column-fill: auto;*/
+  	clear: both;
+  }
+
+}
+
+@include breakpoint(md) {
+
+  .studyrooms {
+  	column-count: 3;
+  	column-gap: 15px;
+  	column-fill: auto;
+  	-webkit-column-count: 3;
+  	-webkit-column-gap: 10px;
+  	-webkit-column-fill: auto;
+  	-moz-column-count: 3;
+  	/*-moz-column-gap: 10px;*/
+  	/*-moz-column-fill: auto;*/
+  	clear: both;
+  }
+  
+}
