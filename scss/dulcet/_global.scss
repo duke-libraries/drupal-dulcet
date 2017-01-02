@@ -223,6 +223,10 @@ img.rl-logo {
 	clear: both;
 }
 
+.studyrooms .exhibit-bookmarkWidget-popup {
+  display: none !important;
+}
+
 @include breakpoint(sm) {
 
   .studyrooms {
@@ -236,6 +240,12 @@ img.rl-logo {
   	/*-moz-column-gap: 10px;*/
   	/*-moz-column-fill: auto;*/
   	clear: both;
+  }
+
+  .page-node-436 .exhibit-facet {
+    width: 30%;
+    float: left;
+    margin: 10px;
   }
 
 }
@@ -254,5 +264,5 @@ img.rl-logo {
   	/*-moz-column-fill: auto;*/
   	clear: both;
   }
-  
+
 }

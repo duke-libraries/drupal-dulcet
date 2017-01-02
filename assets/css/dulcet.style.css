@@ -9390,6 +9390,9 @@ img.rl-logo {
   -moz-column-count: 1;
   clear: both; }
 
+.studyrooms .exhibit-bookmarkWidget-popup {
+  display: none !important; }
+
 @media (min-width: 768px) {
   .studyrooms {
     column-count: 2;
@@ -9403,7 +9406,11 @@ img.rl-logo {
     -moz-column-count: 2;
     /*-moz-column-gap: 10px;*/
     /*-moz-column-fill: auto;*/
-    clear: both; } }
+    clear: both; }
+  .page-node-436 .exhibit-facet {
+    width: 30%;
+    float: left;
+    margin: 10px; } }
 
 @media (min-width: 992px) {
   .studyrooms {
