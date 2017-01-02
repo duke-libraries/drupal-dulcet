@@ -1,0 +1,31 @@
+// Feature Box (Aside Box)
+// =======================
+
+.feature-box {
+  padding: 15px;
+  background: url('/sites/all/themes/dulcet/assets/images/striped-grey.png') repeat left top;
+  /*border-top: 8px solid #a1b70d;*/
+  margin-left: 20px;
+  margin-bottom: 20px;
+  
+  & .feature-box-title {
+    text-transform: uppercase;
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #666;
+  }
+  & .feature-box-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px dotted #ccc;
+    border-top: 8px solid #a1b70d;
+    border-bottom: 8px solid #a1b70d;
+  }
+  
+  & ul.menu.nav-list {
+    /* Menus in asideboxes */
+    margin: -10px -20px -10px -12px;
+  }
+}
+    
