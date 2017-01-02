@@ -9404,8 +9404,6 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 2;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9423,9 +9421,52 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 3;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; } }
+
+/* Subject Specialists */
+.subject-specialists .person .image {
+  float: left;
+  margin-right: 20px;
+  max-width: 150px; }
+
+.subject-specialists .info {
+  float: left;
+  width: 75%;
+  margin-right: 0;
+  border-right: none;
+  padding-right: 0; }
+
+.subject-specialists .expertise {
+  clear: left;
+  float: left;
+  margin-top: 10px;
+  width: 100%; }
+
+.subject-specialists .expertise p {
+  color: #666;
+  font-style: italic; }
+
+@media (min-width: 768px) {
+  .subject-specialists .person .image {
+    margin-right: 4%;
+    width: 12%; }
+  .subject-specialists .info {
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 30px;
+    border-right: 1px dotted #ddd;
+    padding-right: 30px; }
+  .subject-specialists .expertise {
+    margin-top: 2%;
+    clear: none;
+    width: 43%; }
+  .subject-specialists .expertise p {
+    font-style: normal; } }
+
+@media (min-width: 992px) {
+  .subject-specialists .person .image {
+    margin-right: 3%;
+    width: 12%; } }
 
 #rubenstein-banner {
   height: 240px;
