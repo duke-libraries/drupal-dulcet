@@ -264,6 +264,7 @@ img.rl-logo {
 }
 
 
+<<<<<<< 3c0dacfef33c5511dd8bafada434bc62ae967bcd
 /* Subject Specialists */
 
 .subject-specialists .person .image {
@@ -324,4 +325,17 @@ img.rl-logo {
     margin-right:3%;
     width: 12%;
   }
+=======
+/* Jobs Page */
+
+.view-jobs-librarian .views-field-title,
+.view-jobs-exempt .views-field-title,
+.view-jobs-non-exempt .views-field-title,
+.view-jobs-intern .views-field-title {
+  display: inline;
+}
+
+.page-about-jobs .sidebar-box-content li {
+  line-height: inherit;
+>>>>>>> fixed issues with bullets
 }
