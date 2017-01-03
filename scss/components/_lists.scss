@@ -1,5 +1,5 @@
 // ==============================
-// Default Lists in Content Area 
+// Default Lists in Content Area
 // ==============================
 
 // Define our own default bullet style using FontAwesome icons
@@ -22,7 +22,7 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
     width: 2.0em;
     color: #0062A0;
     font-size: 0.35em;
-    vertical-align: 50%;    
+    vertical-align: 50%;
   }
 }
 
@@ -37,12 +37,12 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
     & li:before {
       content: normal;
     }
-  } 
+  }
 }
 
 
 // ===========================
-// Lists from Feed Aggregator 
+// Lists from Feed Aggregator
 // ===========================
 
 .item-list ul {
@@ -105,3 +105,4 @@ ul.spacing-lg {
 ul.outdent li, ol.outdent.li {
   text-indent: -1.3em;
   padding-left: 1.3em;
+}
