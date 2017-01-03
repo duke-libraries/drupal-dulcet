@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
 
       <!-- content above menu -->
-      <p class="sidebar-logo"><a href="/edge"> <img class="rl-logo img-thumbnail" src="<?php print base_path(); ?>sites/default/files/dul/the_edge_icon.png" class="rl-logo img-thumbnail menu-thumb" title="The Edge" width="155" style="border:5px solid #ccc;"> </a></p>
+      <p class="sidebar-logo"><a href="/edge"> <img class="img-thumbnail menu-thumb" src="<?php print base_path(); ?>sites/default/files/dul/the_edge_icon.png" title="The Edge" width="155" style="border:5px solid #ccc;"> </a></p>
       <!-- / content above menu -->
 
 
