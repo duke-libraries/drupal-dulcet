@@ -4090,10 +4090,7 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -8984,6 +8981,18 @@ ul.dropdown-menu li {
   font-weight: 800;
   padding: 0 .25em 0 .25em; }
 
+.popover-title {
+  font-weight: 500; }
+
+.home-discovery div.popover-content ul.popoverList li {
+  width: 100%; }
+
+.home-discovery div.popover-content ul.popoverList li a {
+  border-right: none;
+  font-size: 1em;
+  padding: 0;
+  color: #0062A0; }
+
 @media (min-width: 992px) {
   .home-discovery .search-links ul li a {
     font-size: .8em;
@@ -9407,8 +9416,6 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 2;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9426,9 +9433,52 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 3;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; } }
+
+/* Subject Specialists */
+.subject-specialists .person .image {
+  float: left;
+  margin-right: 20px;
+  max-width: 150px; }
+
+.subject-specialists .info {
+  float: left;
+  width: 75%;
+  margin-right: 0;
+  border-right: none;
+  padding-right: 0; }
+
+.subject-specialists .expertise {
+  clear: left;
+  float: left;
+  margin-top: 10px;
+  width: 100%; }
+
+.subject-specialists .expertise p {
+  color: #666;
+  font-style: italic; }
+
+@media (min-width: 768px) {
+  .subject-specialists .person .image {
+    margin-right: 4%;
+    width: 12%; }
+  .subject-specialists .info {
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 30px;
+    border-right: 1px dotted #ddd;
+    padding-right: 30px; }
+  .subject-specialists .expertise {
+    margin-top: 2%;
+    clear: none;
+    width: 43%; }
+  .subject-specialists .expertise p {
+    font-style: normal; } }
+
+@media (min-width: 992px) {
+  .subject-specialists .person .image {
+    margin-right: 3%;
+    width: 12%; } }
 
 /* Jobs Page */
 .view-jobs-librarian .views-field-title,
@@ -9644,6 +9694,10 @@ ul.spacing-md li {
 
 ul.spacing-lg li {
   margin-bottom: 1em; }
+
+ul.outdent li, ol.outdent.li {
+  text-indent: -1.3em;
+  padding-left: 1.3em; }
 
 /* JS masthead styles lazily copied from MadLib theme */
 /* These exist to prevent a flash of unstyled content */
