@@ -515,6 +515,13 @@ $discovery-tabs-text-off: #555;
   padding: 0 .25em 0 .25em;
 }
 
+.home-discovery div.popover-content ul.popoverList li a {
+  border-right: none;
+  font-size: .8em;
+  padding: 0;
+  color: #0062A0;
+}
+
 @include breakpoint(md) {
   .home-discovery .search-links ul li a {
     font-size: .8em;
