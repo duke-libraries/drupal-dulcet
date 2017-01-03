@@ -68,6 +68,16 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
 
 
 // ===========================
+// List Group
+// ===========================
+
+ul.list-group {
+  & li {
+    list-style: none;
+  }
+}
+
+// ===========================
 // Custom Spacing
 // ===========================
 
@@ -91,3 +101,7 @@ ul.spacing-lg {
     margin-bottom: 1em;
   }
 }
+
+ul.outdent li, ol.outdent.li {
+  text-indent: -1.3em;
+  padding-left: 1.3em;

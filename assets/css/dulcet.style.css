@@ -4090,7 +4090,10 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 0; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -9578,6 +9581,14 @@ a.drupal-shib-login {
   float: left;
   margin: 0 12px 12px 0; }
 
+.caption-left {
+  float: left;
+  margin: 0 20px 20px 0; }
+
+.caption-right {
+  float: right;
+  margin: 0 0 20px 20px; }
+
 ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
   padding-left: 0; }
   ul:not([class]):not([id]) li, ul.bullet-green li, ul.bullet-gray li, ul.bullet-blue li {
@@ -9618,6 +9629,9 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
 /* hide until it can be customized */
 .hide-date span.date {
   display: none; }
+
+ul.list-group li {
+  list-style: none; }
 
 ul.spacing-none li {
   margin-bottom: 0; }
