@@ -9543,7 +9543,8 @@ img.rl-logo {
       max-width: calc(100% - 75px); }
   .rl-utilities .btn, .rl-utilities .media-widget > a {
     margin-right: 0.5em;
-    float: left; }
+    float: left;
+    display: block; }
 
 .rl-utilities .button-wrapper:nth-child(2) .small {
   margin-top: .5em; }
