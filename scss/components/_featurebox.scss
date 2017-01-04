@@ -27,5 +27,10 @@
     /* Menus in asideboxes */
     margin: -10px -20px -10px -12px;
   }
+  
+  & .shaded-column-left {
+    border-right: none;
+    padding-right: 0;
+  }
 }
     

@@ -9574,6 +9574,9 @@ ul.rl-collections li {
   .feature-box ul.menu.nav-list {
     /* Menus in asideboxes */
     margin: -10px -20px -10px -12px; }
+  .feature-box .shaded-column-left {
+    border-right: none;
+    padding-right: 0; }
 
 #footer-dulcet {
   margin-top: 20px;
