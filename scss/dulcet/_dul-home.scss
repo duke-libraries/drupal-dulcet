@@ -232,6 +232,12 @@ $discovery-tabs-text-off: #555;
 }
 
 
+/* IE Hack */
+.search-resources-tabs .tab-pane.options select::-ms-expand {
+  display: none;
+}
+
+
 
 @include breakpoint(md) {
 
@@ -446,7 +452,7 @@ $discovery-tabs-text-off: #555;
     max-width: 28.25em;
   }
   .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
-    max-width: 21.75em;
+    max-width: 19.75em;
   }
 
   /* lilly & music */

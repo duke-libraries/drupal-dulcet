@@ -8794,6 +8794,10 @@ ul.dropdown-menu li {
   color: #fff;
   border: 1px solid #235f9c; }
 
+/* IE Hack */
+.search-resources-tabs .tab-pane.options select::-ms-expand {
+  display: none; }
+
 @media (min-width: 992px) {
   .search-resources-tabs .nav-tabs {
     background: none; }
@@ -8930,7 +8934,7 @@ ul.dropdown-menu li {
   .page-rubenstein-index .search-resources-tabs .searchbox {
     max-width: 28.25em; }
   .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
-    max-width: 21.75em; }
+    max-width: 19.75em; }
   /* lilly & music */
   .search-resources-tabs.hasnav .tab-pane .searchbox {
     max-width: 23em; }
@@ -9529,16 +9533,23 @@ img.rl-logo {
 
 .rl-utilities {
   line-height: 1em; }
-  .rl-utilities div {
+  .rl-utilities div.button-wrapper {
     clear: both;
     float: left;
     margin-bottom: 10px; }
   .rl-utilities span {
     float: left; }
     .rl-utilities span.small {
-      max-width: calc(100% - 75px); }
+      max-width: calc(100% - 75px);
+      display: inline; }
   .rl-utilities .btn, .rl-utilities .media-widget > a {
-    margin-right: 0.5em; }
+    margin-right: 0.5em;
+    float: left;
+    display: inline; }
+
+.rl-utilities .button-wrapper:nth-child(2) .small {
+  margin-top: .5em;
+  max-width: 150px; }
 
 ul.rl-mainlinks {
   margin: 20px 0;
