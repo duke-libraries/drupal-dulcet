@@ -130,8 +130,6 @@
 }
 
 
-/* Masthead Overrides */
-
 @include breakpoint(xs) {
   #dul-masthead-dul-megamenu #dul-masthead-logo {
     width: 130px;
@@ -188,4 +186,32 @@
     margin-left: 22% !important;
   }
 
+}
+
+/* Overrides */
+
+@media (min-width: 980px) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul li {
+    display: inline-block !important;
+    margin: 3px 0 0 0 !important;
+    padding: 3px 9px 4px 9px !important;
+    font-size: 12px !important;
+  }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul {
+    padding: 0 15px 0 0 !important;
+    text-align: left;
+    display: inline;
+  }
+}
+
+@include breakpoint(md) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul li {
+    display: inline-block !important;
+    padding: 4px 12px 4px 12px !important;
+    margin: 0 !important;
+    font-size: 14.7px !important;
+  }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul {
+    padding: 0 20px 0 0 !important;
+  }
 }
