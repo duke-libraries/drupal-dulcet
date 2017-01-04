@@ -101,7 +101,7 @@
 }
 
 #dul-masthead-dul-megamenu #dul-masthead-logo {
-  width: 159px;
+  width: 130px;
 }
 
 #dul-masthead-dul-megamenu #dul-masthead-region-megamenu {
@@ -127,4 +127,91 @@
 
 #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
   max-width: 1140px !important;
+}
+
+
+@include breakpoint(xs) {
+  #dul-masthead-dul-megamenu #dul-masthead-logo {
+    width: 130px;
+  }
+}
+
+@include breakpoint(sm) {
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+  }
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    border: 1px solid black;
+    color: #000;
+    padding: 15px 15px 15px 15px;
+    background-color: #fff;
+
+    max-width: 720px !important;
+    display: block;
+    overflow: hidden;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    float: none !important;
+  }
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth ul li {
+    display: block !important;
+    font-size: 13px;
+    padding-top: 10px;
+    padding: 10px 12px 4px 12px;
+  }
+
+}
+
+@include breakpoint(md) {
+
+  #dul-masthead-dul-megamenu #dul-masthead-logo {
+    width: 159px;
+  }
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    max-width: 940px !important;
+  }
+
+}
+
+@include breakpoint(lg) {
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    margin-right: 0 !important;
+    margin-left: 22% !important;
+  }
+
+}
+
+/* Overrides */
+
+@media (min-width: 980px) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul li {
+    display: inline-block !important;
+    margin: 3px 0 0 0 !important;
+    padding: 3px 9px 4px 9px !important;
+    font-size: 12px !important;
+  }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul {
+    padding: 0 15px 0 0 !important;
+    text-align: left;
+    display: inline;
+  }
+}
+
+@include breakpoint(md) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul li {
+    display: inline-block !important;
+    padding: 4px 12px 4px 12px !important;
+    margin: 0 !important;
+    font-size: 14.7px !important;
+  }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul {
+    padding: 0 20px 0 0 !important;
+  }
 }
