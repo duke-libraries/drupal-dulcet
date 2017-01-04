@@ -8805,12 +8805,14 @@ ul.dropdown-menu li {
   .page-lilly-index .search-resources-tabs .col-md-3,
   .page-music-index .search-resources-tabs .col-md-3,
   .page-lilly-film-video .search-resources-tabs .col-md-3,
+  .page-marine .search-resources-tabs .col-md-3,
   .search-resources-tabs.medium .col-md-3 {
     width: 30%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9,
   .page-lilly-index .search-resources-tabs .col-md-9,
   .page-music-index .search-resources-tabs .col-md-9,
   .page-lilly-film-video .search-resources-tabs .col-md-9,
+  .page-marine .search-resources-tabs .col-md-9,
   .search-resources-tabs.medium .col-md-9 {
     width: 70%;
     padding-left: 0; } }
@@ -8820,12 +8822,14 @@ ul.dropdown-menu li {
   .page-lilly-index .search-resources-tabs .col-md-3,
   .page-music-index .search-resources-tabs .col-md-3,
   .page-lilly-film-video .search-resources-tabs .col-md-3,
+  .page-marine .search-resources-tabs .col-md-3,
   .search-resources-tabs.medium .col-md-3 {
     width: 25%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9,
   .page-lilly-index .search-resources-tabs .col-md-9,
   .page-music-index .search-resources-tabs .col-md-9,
   .page-lilly-film-video .search-resources-tabs .col-md-9,
+  .page-marine .search-resources-tabs .col-md-9,
   .search-resources-tabs.medium .col-md-9 {
     width: 75%;
     padding-left: 15px; } }
@@ -8858,6 +8862,11 @@ ul.dropdown-menu li {
   .page-music-index .search-resources-tabs .tab-content .tab-pane {
     margin-left: .25em; }
   .page-music-index .search-resources-tabs .tab-content #booksandmore {
+    padding-top: .75em; }
+  /* Marine */
+  .page-marine .search-resources-tabs .tab-content .tab-pane {
+    margin-left: .25em; }
+  .page-marine .search-resources-tabs .tab-content #booksandmore {
     padding-top: .75em; } }
 
 /* +++ search box widths +++ */
