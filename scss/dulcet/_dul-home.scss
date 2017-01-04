@@ -882,3 +882,21 @@ $discovery-tabs-text-off: #555;
       font-size: 1em;
   }
 }
+
+
+/* caroufredsel -- Music, Lilly */
+@media (max-width: $screen-md) {
+  .page-music-index .caroufredsel_wrapper,
+  .page-lilly-index .caroufredsel_wrapper {
+    width: 100% !important;
+  }
+}
+
+.page-lilly-index .radix-layouts-secondcolumn2 .caroufredsel_wrapper {
+  width: 100% !important;
+}
+
+.page-lilly-index .horizontal-blogs-alternate ul li {
+  width: auto !important;
+  margin-right: 2em;
+}
