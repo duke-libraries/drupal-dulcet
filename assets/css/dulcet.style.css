@@ -8805,12 +8805,14 @@ ul.dropdown-menu li {
   .page-lilly-index .search-resources-tabs .col-md-3,
   .page-music-index .search-resources-tabs .col-md-3,
   .page-lilly-film-video .search-resources-tabs .col-md-3,
+  .page-marine .search-resources-tabs .col-md-3,
   .search-resources-tabs.medium .col-md-3 {
     width: 30%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9,
   .page-lilly-index .search-resources-tabs .col-md-9,
   .page-music-index .search-resources-tabs .col-md-9,
   .page-lilly-film-video .search-resources-tabs .col-md-9,
+  .page-marine .search-resources-tabs .col-md-9,
   .search-resources-tabs.medium .col-md-9 {
     width: 70%;
     padding-left: 0; } }
@@ -8820,12 +8822,14 @@ ul.dropdown-menu li {
   .page-lilly-index .search-resources-tabs .col-md-3,
   .page-music-index .search-resources-tabs .col-md-3,
   .page-lilly-film-video .search-resources-tabs .col-md-3,
+  .page-marine .search-resources-tabs .col-md-3,
   .search-resources-tabs.medium .col-md-3 {
     width: 25%; }
   .page-rubenstein-index .search-resources-tabs .col-md-9,
   .page-lilly-index .search-resources-tabs .col-md-9,
   .page-music-index .search-resources-tabs .col-md-9,
   .page-lilly-film-video .search-resources-tabs .col-md-9,
+  .page-marine .search-resources-tabs .col-md-9,
   .search-resources-tabs.medium .col-md-9 {
     width: 75%;
     padding-left: 15px; } }
@@ -8858,6 +8862,11 @@ ul.dropdown-menu li {
   .page-music-index .search-resources-tabs .tab-content .tab-pane {
     margin-left: .25em; }
   .page-music-index .search-resources-tabs .tab-content #booksandmore {
+    padding-top: .75em; }
+  /* Marine */
+  .page-marine .search-resources-tabs .tab-content .tab-pane {
+    margin-left: .25em; }
+  .page-marine .search-resources-tabs .tab-content #booksandmore {
     padding-top: .75em; } }
 
 /* +++ search box widths +++ */
@@ -9241,6 +9250,19 @@ ul.dropdown-menu li {
   .page-home .radix-layouts-sidebar .home-give .btn, .page-home .radix-layouts-sidebar .home-give .media-widget > a {
     padding: 10px;
     font-size: 1em; } }
+
+/* caroufredsel -- Music, Lilly */
+@media (max-width: 992px) {
+  .page-music-index .caroufredsel_wrapper,
+  .page-lilly-index .caroufredsel_wrapper {
+    width: 100% !important; } }
+
+.page-lilly-index .radix-layouts-secondcolumn2 .caroufredsel_wrapper {
+  width: 100% !important; }
+
+.page-lilly-index .horizontal-blogs-alternate ul li {
+  width: auto !important;
+  margin-right: 2em; }
 
 /* COLORS */
 /* TYPOGRAPHY */
