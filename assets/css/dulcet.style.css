@@ -9578,6 +9578,10 @@ ul.rl-collections li {
     border-right: none;
     padding-right: 0; }
 
+/* No margin if used in a Panel Pane */
+.pane-content .feature-box {
+  margin: 0; }
+
 #footer-dulcet {
   margin-top: 20px;
   background-color: #eee;
