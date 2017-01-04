@@ -9533,7 +9533,7 @@ img.rl-logo {
 
 .rl-utilities {
   line-height: 1em; }
-  .rl-utilities div {
+  .rl-utilities div.button-wrapper {
     clear: both;
     float: left;
     margin-bottom: 10px; }

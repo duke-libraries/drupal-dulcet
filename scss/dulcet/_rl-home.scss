@@ -26,20 +26,24 @@
 
 .rl-utilities {
   line-height: 1em;
-  & div {
+
+  & div.button-wrapper {
     clear: both;
     float: left;
     margin-bottom: 10px;
   }
+
   & span {
     float: left;
     &.small {
       max-width: calc(100% - 75px);
     }
   }
+
   & .btn {
     margin-right: 0.5em;
   }
+
 }
 
 ul.rl-mainlinks {
