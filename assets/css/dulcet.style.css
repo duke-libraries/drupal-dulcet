@@ -9372,24 +9372,6 @@ img.rl-logo {
 #footer-dulcet .col-md-1 img {
   padding-left: 5px; }
 
-/* Masthead Overrides */
-@media (min-width: 768px) {
-  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
-    border: none !important;
-    background: none !important;
-    padding: 0 !important; }
-  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
-    border: 1px solid black;
-    color: #000;
-    padding: 15px 15px 15px 15px;
-    background-color: #fff;
-    max-width: 670px !important;
-    display: block;
-    overflow: hidden;
-    margin-right: auto !important;
-    margin-left: auto !important;
-    float: none !important; } }
-
 /* MISC STYLES */
 .img-polaroid {
   padding: 4px;
@@ -9838,7 +9820,7 @@ ul.outdent li, ol.outdent.li {
   width: 50% !important; }
 
 #dul-masthead-dul-megamenu #dul-masthead-logo {
-  width: 159px; }
+  width: 130px; }
 
 #dul-masthead-dul-megamenu #dul-masthead-region-megamenu {
   margin: 15px 0 0 0 !important; }
@@ -9858,6 +9840,44 @@ ul.outdent li, ol.outdent.li {
 
 #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
   max-width: 1140px !important; }
+
+/* Masthead Overrides */
+@media (max-width: 767px) {
+  #dul-masthead-dul-megamenu #dul-masthead-logo {
+    width: 130px; } }
+
+@media (min-width: 768px) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important; }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    border: 1px solid black;
+    color: #000;
+    padding: 15px 15px 15px 15px;
+    background-color: #fff;
+    max-width: 720px !important;
+    display: block;
+    overflow: hidden;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    float: none !important; }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth ul li {
+    display: block !important;
+    font-size: 13px;
+    padding-top: 10px;
+    padding: 10px 12px 4px 12px; } }
+
+@media (min-width: 992px) {
+  #dul-masthead-dul-megamenu #dul-masthead-logo {
+    width: 159px; }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    max-width: 940px !important; } }
+
+@media (min-width: 1200px) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    margin-right: 0 !important;
+    margin-left: 22% !important; } }
 
 .shaded-column-left {
   border-right: 3px solid #f5f5f5;
