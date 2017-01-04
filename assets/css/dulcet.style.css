@@ -8794,6 +8794,11 @@ ul.dropdown-menu li {
   color: #fff;
   border: 1px solid #235f9c; }
 
+/* IE Hack */
+.search-resources-tabs .tab-pane.options select.searchselect::-ms-expand,
+.search-resources-tabs .tab-pane.options select.homeSelect::-ms-expand {
+  display: none; }
+
 @media (min-width: 992px) {
   .search-resources-tabs .nav-tabs {
     background: none; }
