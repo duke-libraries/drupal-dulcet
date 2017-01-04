@@ -9540,11 +9540,12 @@ img.rl-logo {
   .rl-utilities span {
     float: left; }
     .rl-utilities span.small {
-      max-width: calc(100% - 75px); }
+      max-width: calc(100% - 75px);
+      display: inline; }
   .rl-utilities .btn, .rl-utilities .media-widget > a {
     margin-right: 0.5em;
     float: left;
-    display: block; }
+    display: inline; }
 
 .rl-utilities .button-wrapper:nth-child(2) .small {
   margin-top: .5em; }

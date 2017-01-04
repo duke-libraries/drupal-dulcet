@@ -37,13 +37,14 @@
     float: left;
     &.small {
       max-width: calc(100% - 75px);
+      display: inline;
     }
   }
 
   & .btn {
     margin-right: 0.5em;
     float: left;
-    display: block;
+    display: inline;
   }
 
 }
