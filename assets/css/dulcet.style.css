@@ -4090,10 +4090,7 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -9395,6 +9392,11 @@ img.rl-logo {
 .striped-back {
   padding: 15px;
   background: url("/sites/all/themes/dulcet/assets/images/striped-grey.png") repeat left top; }
+
+.page-about-directory-staff .staff-profile .btn, .page-about-directory-staff .staff-profile .media-widget > a {
+  color: #fff !important;
+  background-color: #053482 !important;
+  border-color: #053482 !important; }
 
 /* Places to Study */
 .studyrooms {
