@@ -211,7 +211,7 @@ img.rl-logo {
 
 .striped-back {
   padding: 15px;
-  background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top;
+  background: url('/sites/all/themes/dulcet/assets/images/striped-grey.png') repeat left top;
 }
 
 /* Places to Study */
@@ -267,8 +267,6 @@ img.rl-logo {
 
 }
 
-
-<<<<<<< 3c0dacfef33c5511dd8bafada434bc62ae967bcd
 /* Subject Specialists */
 
 .subject-specialists .person .image {
@@ -329,7 +327,8 @@ img.rl-logo {
     margin-right:3%;
     width: 12%;
   }
-=======
+}
+
 /* Jobs Page */
 
 .view-jobs-librarian .views-field-title,
@@ -341,5 +340,4 @@ img.rl-logo {
 
 .page-about-jobs .sidebar-box-content li {
   line-height: inherit;
->>>>>>> fixed issues with bullets
 }

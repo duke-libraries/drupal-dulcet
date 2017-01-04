@@ -9380,6 +9380,10 @@ img.rl-logo {
 #duke-logo img {
   width: 100%; }
 
+.striped-back {
+  padding: 15px;
+  background: url("/sites/all/themes/dulcet/assets/images/striped-grey.png") repeat left top; }
+
 /* Places to Study */
 .studyrooms {
   column-count: 1;
@@ -9407,8 +9411,6 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 2;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9426,9 +9428,52 @@ img.rl-logo {
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
     -moz-column-count: 3;
-    /*-moz-column-gap: 10px;*/
-    /*-moz-column-fill: auto;*/
     clear: both; } }
+
+/* Subject Specialists */
+.subject-specialists .person .image {
+  float: left;
+  margin-right: 20px;
+  max-width: 150px; }
+
+.subject-specialists .info {
+  float: left;
+  width: 75%;
+  margin-right: 0;
+  border-right: none;
+  padding-right: 0; }
+
+.subject-specialists .expertise {
+  clear: left;
+  float: left;
+  margin-top: 10px;
+  width: 100%; }
+
+.subject-specialists .expertise p {
+  color: #666;
+  font-style: italic; }
+
+@media (min-width: 768px) {
+  .subject-specialists .person .image {
+    margin-right: 4%;
+    width: 12%; }
+  .subject-specialists .info {
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 30px;
+    border-right: 1px dotted #ddd;
+    padding-right: 30px; }
+  .subject-specialists .expertise {
+    margin-top: 2%;
+    clear: none;
+    width: 43%; }
+  .subject-specialists .expertise p {
+    font-style: normal; } }
+
+@media (min-width: 992px) {
+  .subject-specialists .person .image {
+    margin-right: 3%;
+    width: 12%; } }
 
 /* Jobs Page */
 .view-jobs-librarian .views-field-title,
@@ -9589,13 +9634,13 @@ a.drupal-shib-login {
   float: right;
   margin: 0 0 20px 20px; }
 
-ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
+ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.list-styled {
   padding-left: 0; }
-  ul:not([class]):not([id]) li, ul.bullet-green li, ul.bullet-gray li, ul.bullet-blue li {
+  ul:not([class]):not([id]) li, ul.bullet-green li, ul.bullet-gray li, ul.bullet-blue li, ul.list-styled li {
     list-style: none;
     padding-left: 1.0em;
     margin-bottom: 0.4em; }
-  ul:not([class]):not([id]) > li:before, ul.bullet-green > li:before, ul.bullet-gray > li:before, ul.bullet-blue > li:before {
+  ul:not([class]):not([id]) > li:before, ul.bullet-green > li:before, ul.bullet-gray > li:before, ul.bullet-blue > li:before, ul.list-styled > li:before {
     content: "\f04d";
     font-family: FontAwesome;
     display: inline-block;
@@ -9644,6 +9689,10 @@ ul.spacing-md li {
 
 ul.spacing-lg li {
   margin-bottom: 1em; }
+
+ul.outdent li, ol.outdent.li {
+  text-indent: -1.3em;
+  padding-left: 1.3em; }
 
 /* JS masthead styles lazily copied from MadLib theme */
 /* These exist to prevent a flash of unstyled content */
