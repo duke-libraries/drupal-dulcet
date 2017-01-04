@@ -233,8 +233,7 @@ $discovery-tabs-text-off: #555;
 
 
 /* IE Hack */
-.search-resources-tabs .tab-pane.options select.searchselect::-ms-expand,
-.search-resources-tabs .tab-pane.options select.homeSelect::-ms-expand {
+.search-resources-tabs .tab-pane.options select::-ms-expand {
   display: none;
 }
 

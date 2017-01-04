@@ -8795,8 +8795,7 @@ ul.dropdown-menu li {
   border: 1px solid #235f9c; }
 
 /* IE Hack */
-.search-resources-tabs .tab-pane.options select.searchselect::-ms-expand,
-.search-resources-tabs .tab-pane.options select.homeSelect::-ms-expand {
+.search-resources-tabs .tab-pane.options select::-ms-expand {
   display: none; }
 
 @media (min-width: 992px) {
