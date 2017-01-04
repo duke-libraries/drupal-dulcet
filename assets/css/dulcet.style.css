@@ -4090,7 +4090,10 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 0; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -9759,6 +9762,19 @@ ul.spacing-lg li {
 ul.outdent li, ol.outdent.li {
   text-indent: -1.3em;
   padding-left: 1.3em; }
+
+ul.pdflinks a {
+  font-weight: bold; }
+  ul.pdflinks a:before {
+    content: "\f1c1";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-weight: normal;
+    color: #cc3300;
+    margin-right: 0.3em;
+    text-decoration: none; }
+    ul.pdflinks a:before:hover {
+      text-decoration: none; }
 
 /* JS masthead styles lazily copied from MadLib theme */
 /* These exist to prevent a flash of unstyled content */
