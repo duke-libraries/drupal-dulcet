@@ -9546,7 +9546,7 @@ img.rl-logo {
     float: left; }
 
 .rl-utilities .button-wrapper:nth-child(2) .small {
-  line-spacing: 2.3em; }
+  margin-top: .5em; }
 
 ul.rl-mainlinks {
   margin: 20px 0;
