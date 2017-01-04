@@ -9372,6 +9372,24 @@ img.rl-logo {
 #footer-dulcet .col-md-1 img {
   padding-left: 5px; }
 
+/* Masthead Overrides */
+@media (min-width: 768px) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important; }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    border: 1px solid black;
+    color: #000;
+    padding: 15px 15px 15px 15px;
+    background-color: #fff;
+    max-width: 670px !important;
+    display: block;
+    overflow: hidden;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    float: none !important; } }
+
 /* MISC STYLES */
 .img-polaroid {
   padding: 4px;
