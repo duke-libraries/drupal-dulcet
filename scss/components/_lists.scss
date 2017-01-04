@@ -6,7 +6,7 @@
 // This might get tricky to define the exceptions
 
 
-ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue {
+ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.list-styled {
   padding-left: 0;
 
   & li {
