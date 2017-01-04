@@ -42,8 +42,13 @@
 
   & .btn {
     margin-right: 0.5em;
+    float: left;
   }
 
+}
+
+.rl-utilities .small:nth-child(2) {
+  line-spacing: 2.3em;
 }
 
 ul.rl-mainlinks {
