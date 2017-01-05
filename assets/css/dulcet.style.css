@@ -4090,7 +4090,10 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 0; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -9710,7 +9713,7 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
     content: "\f111";
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: -1.8em;
+    margin-left: -2.3em;
     width: 2.3em;
     color: #888;
     font-size: 0.42em;
@@ -9723,7 +9726,7 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
 #mast ul:not([class]):not([id]) li:before, .item-list ul:not([class]):not([id]) li:before, .search-resources-wrapper ul:not([class]):not([id]) li:before {
   content: normal; }
 
-li p {
+li > p {
   margin: 0;
   padding: 0;
   display: inline; }
