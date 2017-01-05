@@ -27,6 +27,10 @@
         <?php print render($page['breadcrumb']); ?>
       <?php endif; ?>
 
+      <?php if ($page['alerts']): ?>
+        <?php print render($page['alerts']); ?>
+      <?php endif; ?>
+
       <?php if ($messages): ?>
         <div id="messages">
           <?php print $messages; ?>
