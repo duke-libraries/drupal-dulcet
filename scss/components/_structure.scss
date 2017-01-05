@@ -46,6 +46,17 @@
   column-count: 4;
 }
 
+// ===========================
+// Table Revisions
+// ===========================
+
+// NOTE: Some authors have used <table>s for layout
+
+table[border="0"], table.table-unstyled {
+  & thead,tbody,tr,td {
+    border: none;
+  }
+}
 
 // ===================================== 
 // Bootstrap Carousels

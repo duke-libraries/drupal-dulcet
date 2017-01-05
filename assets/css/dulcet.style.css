@@ -9713,7 +9713,7 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
     content: "\f111";
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: -2.3em;
+    margin-left: -1.8em;
     width: 2.3em;
     color: #888;
     font-size: 0.42em;
@@ -10080,6 +10080,9 @@ div.smallerThumbs .views-field-author {
 .columns-4 {
   -moz-column-count: 4;
        column-count: 4; }
+
+table[border="0"] thead, table[border="0"] tbody, table[border="0"] tr, table[border="0"] td, table.table-unstyled thead, table.table-unstyled tbody, table.table-unstyled tr, table.table-unstyled td {
+  border: none; }
 
 /*
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
