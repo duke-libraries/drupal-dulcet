@@ -15,14 +15,14 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
     margin-bottom: 0.4em;
   }
   & > li:before {
-    content: "\f04d";
+    content: "\f111";
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: -2.35em;
-    width: 2.0em;
-    color: #0062A0;
-    font-size: 0.35em;
-    vertical-align: 50%;
+    margin-left: -2.3em;
+    width: 2.3em;
+    color: #888;
+    font-size: 0.42em;
+    vertical-align: middle;
   }
 }
 
@@ -40,6 +40,13 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
   }
 }
 
+// Don't pad paragraphs in lists
+
+li p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
 
 // ===========================
 // Lists from Feed Aggregator

@@ -9710,14 +9710,14 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
     padding-left: 1.0em;
     margin-bottom: 0.4em; }
   ul:not([class]):not([id]) > li:before, ul.bullet-green > li:before, ul.bullet-gray > li:before, ul.bullet-blue > li:before, ul.list-styled > li:before {
-    content: "\f04d";
+    content: "\f111";
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: -2.35em;
-    width: 2.0em;
-    color: #0062A0;
-    font-size: 0.35em;
-    vertical-align: 50%; }
+    margin-left: -2.3em;
+    width: 2.3em;
+    color: #888;
+    font-size: 0.42em;
+    vertical-align: middle; }
 
 #mast ul:not([class]):not([id]) li, .item-list ul:not([class]):not([id]) li, .search-resources-wrapper ul:not([class]):not([id]) li {
   padding-left: 0;
@@ -9725,6 +9725,11 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
 
 #mast ul:not([class]):not([id]) li:before, .item-list ul:not([class]):not([id]) li:before, .search-resources-wrapper ul:not([class]):not([id]) li:before {
   content: normal; }
+
+li p {
+  margin: 0;
+  padding: 0;
+  display: inline; }
 
 .item-list ul {
   margin: 0; }
