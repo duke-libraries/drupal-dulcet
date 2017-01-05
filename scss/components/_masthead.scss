@@ -5,7 +5,7 @@
 
 .zone-masthead {
   background: #053482;
-  border-bottom: 1px solid #262626;
+  /*border-bottom: 1px solid #262626;*/
   padding-top: 0;
   height: 105px; /* SCA added 12/2016 */
 }
@@ -214,4 +214,235 @@
   #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul {
     padding: 0 20px 0 0 !important;
   }
+}
+
+
+
+
+/* ============================== */
+/*        JS masthead Temp        */
+/* ============================== */
+
+#zone-masthead .dul-logo img {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 140px;
+}
+
+#dul-masthead-region-megamenu-temp-mobile label {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 2px;
+  padding-left: 20px;
+}
+
+#dul-masthead-filler div:first-child {
+
+}
+
+#dul-masthead-filler #region-myaccount {
+	float: right;
+	display: block;
+	max-width: 240px;
+  float: right;
+  width: 150px;
+  margin-right: 35px;
+  margin-top: 15px;
+}
+
+.dul-masthead-mega_toplevel-temp a {
+	color: #fff;
+}
+
+.dul-masthead-mega_toplevel-temp a:hover {
+	text-decoration: none;
+}
+
+.dul-masthead-mega_toplevel-temp:hover {
+	background: #a1b70d;
+}
+
+#dul-masthead-region-megamenu-temp {
+	float: right;
+    padding: 0;
+    clear: right;
+}
+
+.ul-masthead-mega_toplevel-temp {
+    display: inline-block !important;
+    margin: 3px 0 0 0;
+    padding: 3px 9px 4px 9px;
+    font-size: 12px;
+}
+
+#dul-masthead-filler #region-myaccount a {
+  color: #94afed;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-size: 13px;
+  margin-left: 12px;
+  display: block;
+}
+
+#dul-masthead-filler #myAccounts {
+  background-image: url(//library.duke.edu/masthead/img/user-94AFED-17x16.png);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+
+#dul-masthead-filler  #ask-librarian-link {
+  background-image: url(//library.duke.edu/masthead/img/comment-94AFED-18x15.png);
+  background-repeat: no-repeat;
+  padding-left: 25px
+}
+
+#dul-masthead-filler  #account-hours {
+  background-image: url(//library.duke.edu/masthead/img/clock-94AFED-16x16.png);
+  background-repeat: no-repeat;
+  padding-left: 25px
+}
+
+#dul-masthead-filler  #website-search-link {
+  background-image: url(//library.duke.edu/masthead/img/search-94AFED-16x16.png);;
+  background-repeat: no-repeat;
+  padding-left: 25px
+}
+
+@include breakpoint(sm) {
+
+  #dul-masthead-filler #region-myaccount {
+    width: 260px;
+    max-width: 260px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding-right: 0 !important;
+  }
+
+  #dul-masthead-filler #region-myaccount a {
+    display: inline;
+  }
+
+  #dul-masthead-region-megamenu-temp-mobile {
+  	display: none;
+  }
+
+  #dul-masthead-filler  #account-hours,
+  #dul-masthead-filler  #account-hours a,
+  #dul-masthead-filler  #website-search-link,
+  #dul-masthead-filler  #website-search-link a {
+    display: none !important;
+  }
+
+  #dul-masthead-region-megamenu-temp {
+  	display: block !important;
+  	float: right;
+      margin: 20px 0 4px 0;
+      padding: 0;
+      clear: right;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-megamenu-temp {
+  	margin: -5px 18px 5px 0;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-mega_toplevel-temp {
+  	display: inline-block !important;
+  	margin: 3px 0 0 0;
+  	padding: 3px 6.5px 4px 6.5px;
+  	font-size: 12px;
+  }
+
+
+  #region-scoped-search-temp {
+      float: right;
+      display: block !important;
+      padding: 15px 15px 0 15px;
+  }
+
+  #region-scoped-search-temp form {
+  	margin-bottom: 0;
+  }
+
+  #region-scoped-search-temp .dul-masthead-mastSearchBox {
+    width: 136px;
+    height: 32px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-top: 4px;
+    vertical-align: bottom;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  #region-scoped-search-temp .dul-masthead-btn-group {
+      display: inline;
+  }
+
+  #region-scoped-search-temp button.dul-masthead-btn {
+      width: 45px;
+      height: 32px;
+      border: 0;
+      cursor: pointer;
+      background: #a1b70d url("//library.duke.edu/masthead/img/search.png") center no-repeat;
+      background-size: 45%;
+      position: relative;
+      right: 5px;
+      bottom: 0;
+      vertical-align: bottom;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+  }
+
+  #dul-masthead-filler #region-myaccount {
+    float: right;
+    display: block;
+    padding-top: 11px;
+    padding-right: 30px;
+  }
+
+
+}
+
+@include breakpoint(md) {
+
+  #zone-masthead .dul-logo {
+    width: auto;
+  }
+
+  #zone-masthead .dul-logo img {
+    margin-left: 15px;
+    margin-top: 15px;
+  	width: auto;
+  }
+
+  #dul-masthead-region-megamenu-temp {
+  	float: right;
+      margin: 16px 0 0 0;
+      padding: 0;
+      clear: right;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-megamenu-temp {
+  	margin: -1px 22px 15px 0;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-mega_toplevel-temp {
+  	display: inline-block !important;
+      padding: 4px 10px 4px 10px;
+      margin: 0;
+      font-size: 14.6px;
+  }
+
 }
