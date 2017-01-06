@@ -70,7 +70,7 @@
       	# and use it as the href to the "Drupal Sign In" button (using the HTTPS protocol)
       	$signin = 'https://' . $_SERVER['SERVER_NAME'];
 
-				$redirect = '';
+				$redirect = $signin;
       	if (preg_match('/^\/east/', base_path()) == 1) {
       		# determine 'lilly' or 'music'
       		$uri_match = array();
@@ -81,7 +81,7 @@
       	} else {
       		$redirect .= preg_replace('/(\/)$/', '', base_path());
       	}
-      	$signin .= '/Shibboleth.sso/Login?target=' . htmlentities( $redirect );
+      	$signin .= '/Shibboleth.sso/Login?target=' . htmlspecialchars( $redirect );
       ?>
       <div>
         <small><a class="drupal-shib-login" href="<?php print $signin; ?>">Drupal Sign In</a></small>
