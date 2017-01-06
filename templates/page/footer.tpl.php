@@ -69,17 +69,19 @@
       	# retrieve the server (host) name from the environment
       	# and use it as the href to the "Drupal Sign In" button (using the HTTPS protocol)
       	$signin = 'https://' . $_SERVER['SERVER_NAME'];
+
+				$redirect = base_path();
       	if (preg_match('/^\/east/', base_path()) == 1) {
       		# determine 'lilly' or 'music'
       		$uri_match = array();
 
       		if (preg_match('/^\/(lilly|music)(\/.*)?$/', $_SERVER['REQUEST_URI'], $uri_match) == 1) {
-      			$signin .= '/' . $uri_match[1];
+      			$redirect .= '/' . $uri_match[1];
       		}
       	} else {
-      		$signin .= preg_replace('/(\/)$/', '', base_path());
+      		$redirect .= preg_replace('/(\/)$/', '', base_path());
       	}
-      	$signin .= '/Shibboleth.sso/Login';
+      	$signin .= '/Shibboleth.sso/Login?target=' . htmlentities( $redirect );
       ?>
       <div>
         <small><a class="drupal-shib-login" href="<?php print $signin; ?>">Drupal Sign In</a></small>
