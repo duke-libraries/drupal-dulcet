@@ -9264,6 +9264,42 @@ ul.dropdown-menu li {
   width: auto !important;
   margin-right: 2em; }
 
+/* Hours box */
+.hours-row .hours,
+.hours-today .hours {
+  float: right; }
+
+.hours-today .day {
+  font-weight: 600; }
+
+.hours-today .hours {
+  font-weight: 600; }
+
+.hours-today .genpublic {
+  font-size: .9em;
+  float: right;
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 1em;
+  margin-top: .25em; }
+
+.hours-today .other {
+  display: block;
+  clear: both;
+  text-align: center;
+  padding-top: .5em;
+  border-top: 1px dotted #e3e3e3;
+  border-bottom: 1px dotted #e3e3e3;
+  padding-bottom: .5em;
+  font-size: .85em;
+  margin-bottom: .25em;
+  line-height: 1.1; }
+
+@media (min-width: 992px) {
+  .hours-today .other {
+    font-size: .9em; } }
+
 /* COLORS */
 /* TYPOGRAPHY */
 .page-header h1 {
