@@ -9907,11 +9907,7 @@ html {
   height: 1440px;
   background: #fff; }
 
-.page-kiosks-edge .container,
-.page-kiosks-edge .container .col-md-12,
-.page-kiosks-edge .container .calendar-calendar,
-.page-kiosks-edge .container .view .row > .list-group, .view
-.page-kiosks-edge .container .row > .list-group {
+.page-kiosks-edge .container {
   width: 100%;
   margin: 0;
   padding: 0; }
@@ -10687,8 +10683,7 @@ html {
   background: #fff;
   overflow: hidden; }
 
-.page-kiosks-gallery .container-12,
-.page-kiosks-gallery .container-12 .grid-12 {
+.page-kiosks-gallery .container {
   width: 100%;
   margin: 0;
   padding: 0; }
@@ -10718,8 +10713,7 @@ html {
   height: 1080px;
   overflow: hidden; }
 
-.page-kiosks-lobby .container-12,
-.page-kiosks-lobby .container-12 .grid-12 {
+.page-kiosks-lobby .container {
   width: 100%;
   margin: 0;
   padding: 0; }
