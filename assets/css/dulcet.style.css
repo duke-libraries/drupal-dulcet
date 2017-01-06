@@ -9907,8 +9907,11 @@ html {
   height: 1440px;
   background: #fff; }
 
-.page-kiosks-edge .container-12,
-.page-kiosks-edge .container-12 .grid-12 {
+.page-kiosks-edge .container,
+.page-kiosks-edge .container .col-md-12,
+.page-kiosks-edge .container .calendar-calendar,
+.page-kiosks-edge .container .view .row > .list-group, .view
+.page-kiosks-edge .container .row > .list-group {
   width: 100%;
   margin: 0;
   padding: 0; }
