@@ -79,6 +79,7 @@
       	} else {
       		$signin .= preg_replace('/(\/)$/', '', base_path());
       	}
+      	$signin .= '/Shibboleth.sso/Login';
       ?>
       <div>
         <small><a class="drupal-shib-login" href="<?php print $signin; ?>">Drupal Sign In</a></small>
