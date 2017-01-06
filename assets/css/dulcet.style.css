@@ -9886,7 +9886,10 @@ html {
   -ms-touch-action: pan-x pan-y; }
 
 .page-kiosks #section-header,
-.page-kiosks #section-footer {
+.page-kiosks #section-footer,
+.page-kiosks #zone-masthead,
+.page-kiosks .region-breadcrumb,
+.page-kiosks #footer-dulcet {
   display: none; }
 
 .context-kiosks #skip_link,
