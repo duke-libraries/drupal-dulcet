@@ -11380,6 +11380,57 @@ ul.pdflinks a {
     ul.pdflinks a:before:hover {
       text-decoration: none; }
 
+/* Views with Blog Images */
+.item-list-blog-images ul {
+  margin: 0 0 0 0;
+  list-style: none; }
+
+.item-list-blog-images .views-field-description p {
+  display: none; }
+
+.item-list-blog-images .views-field-description img {
+  width: 22%;
+  max-width: 75px;
+  height: 22%;
+  max-height: 75px;
+  float: left;
+  clear: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; }
+
+.item-list-blog-images .views-field-title {
+  line-height: 1.1; }
+
+.item-list-blog-images .views-row {
+  overflow: hidden;
+  border-top: 1px dotted #ddd;
+  padding-top: 10px !important;
+  margin-top: 10px !important; }
+
+.item-list-blog-images .views-row .date {
+  color: #999;
+  font-style: italic; }
+
+/* Views event display */
+.views-field-description .displaydate,
+.views-field-description .displaytime,
+.views-field-description .event-location {
+  font-style: italic; }
+
+.views-field-description .event-description {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #eee; }
+
+.page-edge-events .views-field-description .event-description {
+  padding-top: 0;
+  border-top: none; }
+
+.page-edge-events .view-event {
+  display: block;
+  margin-top: 1em; }
+
 /* JS masthead styles lazily copied from MadLib theme */
 /* These exist to prevent a flash of unstyled content */
 /* before the JS injected mast can get its styles */
