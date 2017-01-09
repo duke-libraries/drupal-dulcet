@@ -75,6 +75,14 @@ li > p {
 }
 
 
+/* Override item list pager from Radix */
+.item-list {
+  & ul.pagination > li {
+    display: inline;
+  }
+}
+
+
 // ===========================
 // List Group
 // ===========================

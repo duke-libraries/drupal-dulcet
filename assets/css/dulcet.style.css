@@ -4090,7 +4090,10 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 0; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -11337,6 +11340,10 @@ li > p {
 .hide-date span.date {
   display: none; }
 
+/* Override item list pager from Radix */
+.item-list ul.pagination > li {
+  display: inline; }
+
 ul.list-group li {
   list-style: none; }
 
@@ -11795,16 +11802,6 @@ div.smallerThumbs .views-field-author {
   font-size: 13px;
   line-height: 1.2em;
   margin-top: 0.5em; }
-
-.pager li > a, .pager li > span {
-  display: inline-block;
-  padding: 5px 14px;
-  background-color: #fff;
-  border: 0px;
-  border-radius: 0; }
-
-.pager li.pager-current {
-  padding: 5px 14px; }
 
 .columns-2 {
   -moz-column-count: 2;

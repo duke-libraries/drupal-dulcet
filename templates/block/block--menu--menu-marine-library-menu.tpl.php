@@ -13,7 +13,7 @@
 
       <p class="sidebar-logo"><img src="<?php print base_path(); ?>sites/default/files/dul/marine/fish.jpg" width="155" alt="Pearse Memorial Library" class="img-thumbnail menu-thumb"></p>
 
-      <ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/marine">Pearse Memorial Library, Duke University Marine Laboratory</a></li></ul>
+      <ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/marine" class="small">Pearse Memorial Library, Duke University Marine Laboratory</a></li></ul>
 
       <!-- / content above menu -->
 
