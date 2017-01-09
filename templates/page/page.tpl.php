@@ -18,13 +18,17 @@
 <div id="main-wrapper">
   
   <div id="main" class="main">
-    <div class="container">
-      <?php require "js_masthead.tpl.php" ?> <!-- SCA: Added -->
+    <div id="mast" class="container">
+      <?php require "js_masthead.tpl.php" ?>
       <?php drupal_add_js('//library.duke.edu/masthead/load-masthead.js.php?fixed=false&width=1280', 'external'); ?>
 
 
-      <?php if ($page['breadcrumb']): ?> <!-- SCA: ADDED this to render breadcrumb if present -->
+      <?php if ($page['breadcrumb']): ?>
         <?php print render($page['breadcrumb']); ?>
+      <?php endif; ?>
+
+      <?php if ($page['alerts']): ?>
+        <?php print render($page['alerts']); ?>
       <?php endif; ?>
 
       <?php if ($messages): ?>
@@ -32,29 +36,30 @@
           <?php print $messages; ?>
         </div>
       <?php endif; ?>
-      <div id="page-header">
-        <?php if ($title): ?>
-          <div class="page-header">
-            <h1 class="title" id="page-title"><?php print $title; ?></h1>
-          </div>
-        <?php endif; ?>
-        <?php if ($tabs): ?>
-          <div class="tabs">
-            <?php print render($tabs); ?>
-          </div>
-        <?php endif; ?>
-        <?php if ($action_links): ?>
-          <ul class="action-links">
-            <?php print render($action_links); ?>
-          </ul>
-        <?php endif; ?>
-      </div>
+
 
     </div>
     <div id="content" class="container"> 
-      <?php if ($page['sidebar_first']): ?> <!-- SCA: ADDED this to render sidebar template if present -->
+      <?php if ($page['sidebar_first']): ?> <!-- Render sidebar template if present -->
         <div class="row">
           <div class="col-md-10 pull-right"> <!-- Put main content first for mobile & screen readers -->
+            <div id="page-header">
+              <?php if ($title): ?>
+                <div class="page-header">
+                  <h1 class="title" id="page-title"><?php print $title; ?></h1>
+                </div>
+              <?php endif; ?>
+              <?php if ($tabs): ?>
+                <div class="tabs">
+                  <?php print render($tabs); ?>
+                </div>
+              <?php endif; ?>
+              <?php if ($action_links): ?>
+                <ul class="action-links">
+                  <?php print render($action_links); ?>
+                </ul>
+              <?php endif; ?>
+            </div>
             <?php print render($page['content']); ?>
           </div>
           <div id="sidebar-first" class="column sidebar col-md-2 pull-left">
@@ -64,6 +69,23 @@
           </div>
         </div>
       <?php else: ?>
+        <div id="page-header">
+          <?php if ($title): ?>
+            <div class="page-header">
+              <h1 class="title" id="page-title"><?php print $title; ?></h1>
+            </div>
+          <?php endif; ?>
+          <?php if ($tabs): ?>
+            <div class="tabs">
+              <?php print render($tabs); ?>
+            </div>
+          <?php endif; ?>
+          <?php if ($action_links): ?>
+            <ul class="action-links">
+              <?php print render($action_links); ?>
+            </ul>
+          <?php endif; ?>
+        </div>
           <?php print render($page['content']); ?>
       <?php endif; ?>
     </div>

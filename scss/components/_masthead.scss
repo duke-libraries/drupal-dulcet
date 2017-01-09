@@ -1,0 +1,448 @@
+/* JS masthead styles lazily copied from MadLib theme */
+/* These exist to prevent a flash of unstyled content */
+/* before the JS injected mast can get its styles */
+/* Likely needs refinement to be more seamless in dulcet */
+
+.zone-masthead {
+  background: #053482;
+  /*border-bottom: 1px solid #262626;*/
+  padding-top: 0;
+  height: 105px; /* SCA added 12/2016 */
+}
+
+#region-js-masthead {
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.dul-masthead-megamenu-temp {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: -2px;
+    text-align: left;
+}
+
+#region-js-masthead #region-myaccount {
+  float: right;
+  display: block;
+  max-width: 130px;
+}
+
+@media screen and (min-width:480px) {
+
+  #region-js-masthead #region-myaccount {
+    float: right;
+    display: block;
+    max-width: 240px;
+  }
+
+}
+
+#zone-masthead .dul-logo {
+  display: block;
+  position: absolute;
+}
+
+#zone-masthead .dul-logo img {
+    padding: 5px;
+    width: 130px;
+}
+
+#region-scoped-search-temp {
+    display: none !important;
+}
+
+#dul-masthead-region-megamenu-temp {
+  display: none;
+}
+
+#dul-masthead-region-megamenu-temp-mobile {
+  display: block;
+  position: absolute;
+  top: 65px;
+}
+
+
+
+#dul-masthead-mobile-menu {
+  position: absolute;
+    background: #fff;
+    padding: 20px;
+    z-index: 100;
+    border: 1px solid #003366;
+    margin-left: 0;
+    width: 45%;
+}
+
+#dul-masthead-mobile-menu li {
+  padding: .5em;
+  list-style: none;
+}
+
+#dul-masthead-nav-trigger-label {
+    padding: 0 10px 5px 15px;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+#dul-masthead-mobile-menu,
+#dul-masthead-nav-trigger {
+  display: none;
+}
+
+#dul-masthead-nav-trigger:checked + #dul-masthead-mobile-menu {
+  display: block;
+}
+
+/* JS Masthead Overrides */
+#dul-masthead-dul-megamenu .dul-masthead-nav-trigger:checked ~ .dul-masthead-mobile-menu {
+  width: 50% !important
+}
+
+#dul-masthead-dul-megamenu #dul-masthead-logo {
+  width: 130px;
+}
+
+#dul-masthead-dul-megamenu #dul-masthead-region-megamenu {
+    margin: 15px 0 0 0 !important;
+}
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+  max-width: 910px !important;
+}
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-col_4 {
+  width: 28% !important;
+  margin-right: 3.333% !important;
+}
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth .dul-masthead-primaryColumn {
+  border-right: 1px dotted #ccc !important;
+}
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu div.dul-masthead-col_2  {
+  width: 18.666% !important
+}
+
+#dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
+  max-width: 1140px !important;
+}
+
+
+@include breakpoint(xs) {
+  #dul-masthead-dul-megamenu #dul-masthead-logo {
+    width: 130px;
+  }
+}
+
+@include breakpoint(sm) {
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+  }
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    border: 1px solid black;
+    color: #000;
+    padding: 15px 15px 15px 15px;
+    background-color: #fff;
+
+    max-width: 720px !important;
+    display: block;
+    overflow: hidden;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    float: none !important;
+  }
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container div.dul-masthead-dropdown_fullwidth ul li {
+    display: block !important;
+    font-size: 13px;
+    padding-top: 10px;
+    padding: 10px 12px 4px 12px;
+  }
+
+}
+
+@include breakpoint(md) {
+
+  #dul-masthead-dul-megamenu #dul-masthead-logo {
+    width: 159px;
+  }
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    max-width: 940px !important;
+  }
+
+}
+
+@include breakpoint(lg) {
+
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu .dul-masthead-menu-items {
+    margin-right: 0 !important;
+    margin-left: 22% !important;
+  }
+
+}
+
+/* Overrides */
+
+@media (min-width: 980px) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul li {
+    display: inline-block !important;
+    margin: 3px 0 0 0 !important;
+    padding: 3px 9px 4px 9px !important;
+    font-size: 12px !important;
+  }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul {
+    padding: 0 15px 0 0 !important;
+    text-align: left;
+    display: inline;
+  }
+}
+
+@include breakpoint(md) {
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul li {
+    display: inline-block !important;
+    padding: 4px 12px 4px 12px !important;
+    margin: 0 !important;
+    font-size: 14.7px !important;
+  }
+  #dul-masthead-dul-megamenu .dul-masthead-megamenu_container ul {
+    padding: 0 20px 0 0 !important;
+  }
+}
+
+
+
+
+/* ============================== */
+/*        JS masthead Temp        */
+/* ============================== */
+
+#zone-masthead .dul-logo img {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 140px;
+}
+
+#dul-masthead-region-megamenu-temp-mobile label {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 2px;
+  padding-left: 20px;
+}
+
+#dul-masthead-filler div:first-child {
+
+}
+
+#dul-masthead-filler #region-myaccount {
+	float: right;
+	display: block;
+	max-width: 240px;
+  float: right;
+  width: 150px;
+  margin-right: 35px;
+  margin-top: 15px;
+}
+
+.dul-masthead-mega_toplevel-temp a {
+	color: #fff;
+}
+
+.dul-masthead-mega_toplevel-temp a:hover {
+	text-decoration: none;
+}
+
+.dul-masthead-mega_toplevel-temp:hover {
+	background: #a1b70d;
+}
+
+#dul-masthead-region-megamenu-temp {
+	float: right;
+    padding: 0;
+    clear: right;
+}
+
+.ul-masthead-mega_toplevel-temp {
+    display: inline-block !important;
+    margin: 3px 0 0 0;
+    padding: 3px 9px 4px 9px;
+    font-size: 12px;
+}
+
+#dul-masthead-filler #region-myaccount a {
+  color: #94afed;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-size: 13px;
+  margin-left: 12px;
+  display: block;
+}
+
+#dul-masthead-filler #myAccounts {
+  background-image: url(//library.duke.edu/masthead/img/user-94AFED-17x16.png);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+
+#dul-masthead-filler  #ask-librarian-link {
+  background-image: url(//library.duke.edu/masthead/img/comment-94AFED-18x15.png);
+  background-repeat: no-repeat;
+  padding-left: 25px
+}
+
+#dul-masthead-filler  #account-hours {
+  background-image: url(//library.duke.edu/masthead/img/clock-94AFED-16x16.png);
+  background-repeat: no-repeat;
+  padding-left: 25px
+}
+
+#dul-masthead-filler  #website-search-link {
+  background-image: url(//library.duke.edu/masthead/img/search-94AFED-16x16.png);;
+  background-repeat: no-repeat;
+  padding-left: 25px
+}
+
+@include breakpoint(sm) {
+
+  #dul-masthead-filler #region-myaccount {
+    width: 260px;
+    max-width: 260px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding-right: 0 !important;
+  }
+
+  #dul-masthead-filler #region-myaccount a {
+    display: inline;
+  }
+
+  #dul-masthead-region-megamenu-temp-mobile {
+  	display: none;
+  }
+
+  #dul-masthead-filler  #account-hours,
+  #dul-masthead-filler  #account-hours a,
+  #dul-masthead-filler  #website-search-link,
+  #dul-masthead-filler  #website-search-link a {
+    display: none !important;
+  }
+
+  #dul-masthead-region-megamenu-temp {
+  	display: block !important;
+  	float: right;
+      margin: 20px 0 4px 0;
+      padding: 0;
+      clear: right;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-megamenu-temp {
+  	margin: -5px 18px 5px 0;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-mega_toplevel-temp {
+  	display: inline-block !important;
+  	margin: 3px 0 0 0;
+  	padding: 3px 6.5px 4px 6.5px;
+  	font-size: 12px;
+  }
+
+
+  #region-scoped-search-temp {
+      float: right;
+      display: block !important;
+      padding: 15px 15px 0 15px;
+  }
+
+  #region-scoped-search-temp form {
+  	margin-bottom: 0;
+  }
+
+  #region-scoped-search-temp .dul-masthead-mastSearchBox {
+    width: 136px;
+    height: 32px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-top: 4px;
+    vertical-align: bottom;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  #region-scoped-search-temp .dul-masthead-btn-group {
+      display: inline;
+  }
+
+  #region-scoped-search-temp button.dul-masthead-btn {
+      width: 45px;
+      height: 32px;
+      border: 0;
+      cursor: pointer;
+      background: #a1b70d url("//library.duke.edu/masthead/img/search.png") center no-repeat;
+      background-size: 45%;
+      position: relative;
+      right: 5px;
+      bottom: 0;
+      vertical-align: bottom;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+  }
+
+  #dul-masthead-filler #region-myaccount {
+    float: right;
+    display: block;
+    padding-top: 11px;
+    padding-right: 30px;
+  }
+
+
+}
+
+@include breakpoint(md) {
+
+  #zone-masthead .dul-logo {
+    width: auto;
+  }
+
+  #zone-masthead .dul-logo img {
+    margin-left: 15px;
+    margin-top: 15px;
+  	width: auto;
+  }
+
+  #dul-masthead-region-megamenu-temp {
+  	float: right;
+      margin: 16px 0 0 0;
+      padding: 0;
+      clear: right;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-megamenu-temp {
+  	margin: -1px 22px 15px 0;
+  }
+
+  #dul-masthead-region-megamenu-temp .dul-masthead-mega_toplevel-temp {
+  	display: inline-block !important;
+      padding: 4px 10px 4px 10px;
+      margin: 0;
+      font-size: 14.6px;
+  }
+
+}

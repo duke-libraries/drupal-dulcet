@@ -10,21 +10,18 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
       
       <!-- content above menu -->
-      <p class="sidebar-logo"><a href="/rubenstein/"> <img class="rl-logo img-thumbnail" src="<?php print base_path(); ?>/sites/default/files/rubenstein/rl-logo-white-border-normal-padded-transp.png" class="rl-logo img-thumbnail menu-thumb" title="David M. Rubenstein Rare Book &amp; Manuscript Library"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/rubenstein/documentaryarts">Archive of Documentary Arts</a></li></ul>
+      <p class="sidebar-logo"><a href="/rubenstein/"> <img class="rl-logo img-thumbnail" src="<?php print base_path(); ?>sites/default/files/rubenstein/rl-logo-white-border-normal-padded-transp.png" class="rl-logo img-thumbnail menu-thumb" title="David M. Rubenstein Rare Book &amp; Manuscript Library"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/rubenstein/documentaryarts">Archive of Documentary Arts</a></li></ul>
       <!-- / content above menu -->
       
       
       <?php print $content ?>
       
-      <!-- content below menu -->
 
-      <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
-
-      <div style="text-align:center; padding: 10px;">
-      <a href="https://www.gifts.duke.edu/fund?additional_designations=Archive+of+Documentary+Arts+3942953" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
+      <div class="sidebar-extras">
+        <div style="text-align:center;">
+        <a href="https://www.gifts.duke.edu/fund?additional_designations=Archive+of+Documentary+Arts+3942953" target="_blank"><button style="width:100%;" class="btn btn-lg btn-primary">Give Now</button></a>
+        </div>
       </div>
-
-      <!-- / content below menu -->
 
     </div>
   </div>

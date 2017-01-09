@@ -1,0 +1,136 @@
+// ==============================
+// Default Lists in Content Area
+// ==============================
+
+// Define our own default bullet style using FontAwesome icons
+// This might get tricky to define the exceptions
+
+
+ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.list-styled {
+  padding-left: 0;
+
+  & li {
+    list-style: none;
+    padding-left: 1.0em;
+    margin-bottom: 0.4em;
+  }
+  & > li:before {
+    content: "\f111";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -2.3em;
+    width: 2.3em;
+    color: #888;
+    font-size: 0.42em;
+    vertical-align: middle;
+  }
+}
+
+// Exceptions to default list
+
+#mast, .item-list, .search-resources-wrapper {
+  & ul:not([class]):not([id]) {
+    & li {
+      padding-left: 0;
+      margin-bottom: 0.5em;
+    }
+    & li:before {
+      content: normal;
+    }
+  }
+}
+
+// Don't pad paragraphs in lists
+// Authors sometimes do <li><p/></li>
+
+li > p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+// ===========================
+// Lists from Feed Aggregator
+// ===========================
+
+.item-list ul {
+  margin: 0;
+  & li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+    width: 100% !important;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.more-link {
+  text-align: left;
+  font-style: italic;
+  display: none;
+} /* hide until it can be customized */
+
+.hide-date span.date {
+  display: none;
+}
+
+
+// ===========================
+// List Group
+// ===========================
+
+ul.list-group {
+  & li {
+    list-style: none;
+  }
+}
+
+// ===========================
+// Custom Spacing
+// ===========================
+
+ul.spacing-none {
+  & li {
+    margin-bottom: 0;
+  }
+}
+ul.spacing-sm {
+  & li {
+    margin-bottom: 0.4em;
+  }
+}
+ul.spacing-md {
+  & li {
+    margin-bottom: 0.7em;
+  }
+}
+ul.spacing-lg {
+  & li {
+    margin-bottom: 1em;
+  }
+}
+
+ul.outdent li, ol.outdent.li {
+  text-indent: -1.3em;
+  padding-left: 1.3em;
+}
+
+// ===========================
+// Custom Styled List Links
+// ===========================
+ul.pdflinks a {
+  font-weight: bold;
+  &:before {
+      content: "\f1c1";
+      display: inline-block;
+      font-family: FontAwesome;
+      font-weight: normal;
+      color: #cc3300;
+      margin-right: 0.3em;
+      text-decoration: none;
+      &:hover {
+       text-decoration: none; 
+      }
+  }  
+}
+

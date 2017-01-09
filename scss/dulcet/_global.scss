@@ -2,7 +2,7 @@
 
 $dul-headers:         #001A57;
 $dul-links:           #0062A0;
-
+$dul-masthead:        #053482;
 
 /* TYPOGRAPHY */
 
@@ -16,7 +16,7 @@ $dul-links:           #0062A0;
 
 
 
-.hide-title h1#page-title {
+.hide-title #page-header h1#page-title, .hide-title #page-header .page-header  {
   display: none;
 }
 
@@ -27,7 +27,7 @@ $dul-links:           #0062A0;
 
 
 img.rl-logo {
-  background: #333;
+  background: #053482;
 }
 
 
@@ -142,11 +142,48 @@ img.rl-logo {
 }
 
 
+
+/* FOOTER STYLES */
+
+#footer-dulcet div,
+#footer-dulcet .list-unstyled li {
+  line-height: 1.2;
+  font-size: 99%;
+}
+
+#footer-dulcet div a,
+#footer-dulcet .list-unstyled li a {
+  line-height: 1.4;
+  padding-bottom: .25em;
+  display: inline-block;
+  font-size: 99%;
+}
+
+#footer-dulcet h4 {
+  border-bottom: 1px dotted #aaa;
+  padding-bottom: 0;
+  margin-bottom: .25em;
+  font-weight: 400;
+}
+
+#footer-dulcet .newsletter-signup {
+  margin-bottom: 1.5em;
+}
+
+#footer-dulcet .social-media-icons {
+  margin-top: 1em !important;
+  margin-bottom: .35em !important;
+}
+
+#footer-dulcet .col-md-1 img {
+  padding-left: 5px;
+}
+
+
 /* MISC STYLES */
 
-.carousel-control.right,
-.carousel-control.left {
-  background-image: none;
+iframe {
+  border: none;
 }
 
 .img-polaroid {
@@ -157,162 +194,166 @@ img.rl-logo {
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-
-/* DISCOVERY UI */
-
-$discovery-tabs-bg: #235f9c !default;
-$discovery-tabs-bg-off: #e8e5e2 !default;
-$discovery-tabs-text: #fff !default;
-$discovery-tabs-text-off: #555 !default;
-
-/* Search Tabs */
-.home-discovery .search-resources-tabs {
-  background: $discovery-tabs-bg url(/sites/all/themes/madlib/images/library-background-blue.jpg) no-repeat 170px 0;
-  border-top: 3px solid #184d83;
+.view-content .item-list ul li {
+ width: 100% !important;
 }
 
-
-.home-discovery .search-resources-tabs .col-md-3 {
-  overflow: hidden;
-}
-
-.home-discovery .search-resources-tabs .tab-content .homeSearchBox {
-  height: 3em;
-  display: block;
-  float: left;
-}
-
-.home-discovery .search-resources-tabs .tab-content .btn {
-  padding: .6em 1.2em;
-  height: 3em;
-  font-weight: 800;
-  background: $brand-success;
-  border: 1px solid darken($brand-success, 5%);
-  /*border: 1px solid #1a4672;*/
-  display: block;
-  float: left;
-}
-
-.home-discovery .search-resources-tabs .tab-content .btn:hover {
-  background: darken($brand-success, 5%);
-  border: 1px solid darken($brand-success, 10%);
-  /*border: 1px solid #1a4672;*/
-}
-
-.home-discovery .search-resources-tabs .tab-content .inline {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.home-discovery .search-resources-tabs .tab-content .inline li {
-  margin-top: .5em;
-  float: left;
-  margin-right: 1.5em;
-}
-
-.home-discovery .search-resources-tabs .tab-content .inline li a {
-  color: #fff;
-  font-size: 1.1em;
-}
-
-.home-discovery .search-resources-tabs .tab-content label.checkbox {
-  font-weight: normal;
-  color: #fff;
+.easy-breadcrumb {
   font-size: .95em;
-  margin-right: 1em;
-  margin-top: .5em;
+  letter-spacing: .01em;
 }
 
+.easy-breadcrumb .easy-breadcrumb_segment-separator {
+  padding: 0 2px 0 2px;
+}
 
-
-.home-discovery .search-resources-tabs #myTab {
-  margin-bottom: 0;
-  margin-left: 0;
+#duke-logo img {
   width: 100%;
 }
 
-.nav-tabs > li > a,
-.nav-tabs > li > a:hover,
-.nav-tabs > li > a:focus {
-  background: $discovery-tabs-bg-off;
-  color: $discovery-tabs-text-off;
-  border: 1px solid lighten($discovery-tabs-text-off, 50%);
+.striped-back {
+  padding: 15px;
+  background: url('/sites/all/themes/dulcet/assets/images/striped-grey.png') repeat left top;
 }
 
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  background: $discovery-tabs-bg;
-  color: $discovery-tabs-text;
-  border: 1px solid $discovery-tabs-bg;
+.page-about-directory-staff .staff-profile .btn {
+  color: #fff !important;
+  background-color: #053482 !important;
+  border-color: #053482 !important;
+  padding: 10px 18px !important;
 }
 
-.home-discovery .tab-content {
-  padding: 2.25em 0 0 .75em;
+.page-about-directory-staff .staff-profile .btn:hover {
+  color: #fff !important;
+  background-color: #032051 !important;
+  border-color: #031c47 !important;
 }
 
-.home-discovery .homeSearchBox {
-  border: 1px solid darken($discovery-tabs-bg, 10%) !important;
-  width: 100%;
-  max-width: 30em;
-  padding: .6em;
+
+/* Places to Study */
+
+.studyrooms {
+	column-count: 1;
+	column-gap: 15px;
+	column-fill: auto;
+	-webkit-column-count: 1;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 1;
+	clear: both;
 }
 
-.home-discovery #booksandmore .homeSearchBox {
-  max-width: 22em;
+.studyrooms .exhibit-bookmarkWidget-popup {
+  display: none !important;
 }
 
-.home-discovery #catalogcodeinput {
-  width: 8em;
-  height: 3em;
-  border: 1px solid darken($discovery-tabs-bg, 10%) !important;
-  display: block;
+@include breakpoint(sm) {
+
+  .studyrooms {
+  	column-count: 2;
+  	column-gap: 15px;
+  	column-fill: auto;
+  	-webkit-column-count: 2;
+  	-webkit-column-gap: 10px;
+  	-webkit-column-fill: auto;
+  	-moz-column-count: 2;
+  	clear: both;
+  }
+
+  .page-node-436 .exhibit-facet {
+    width: 47%;
+    float: left;
+    margin: 1.5%;
+  }
+
+}
+
+@include breakpoint(md) {
+
+  .studyrooms {
+  	column-count: 3;
+  	column-gap: 15px;
+  	column-fill: auto;
+  	-webkit-column-count: 3;
+  	-webkit-column-gap: 10px;
+  	-webkit-column-fill: auto;
+  	-moz-column-count: 3;
+  	clear: both;
+  }
+
+}
+
+/* Subject Specialists */
+
+.subject-specialists .person .image {
   float: left;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-position: right 50%;
-  background-repeat: no-repeat;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
-  padding: .5em;
-  padding-right: 1.5em;
-  border-radius: 0;
+  margin-right: 20px;
+  max-width: 150px;
 }
 
-
-/* Search Links */
-.home-discovery .search-links {
-  display: block;
-  background: #444;
-  overflow: hidden;
-  padding: .5em;
-  border-top: .25em solid #fff;
-}
-
-.home-discovery .search-links ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.home-discovery .search-links ul li {
-  list-style: none;
+.subject-specialists .info {
   float: left;
-}
-
-.home-discovery .search-links ul li a {
-  color: #ccc;
-  border-right: 1px solid #666;
-  display: block;
-  font-size: .8em;
-  padding: 0 16px 0 16px;
-  letter-spacing: 1px;
-  font-weight: 500;
-}
-
-.home-discovery .search-links ul li.last a {
+  width: 75%;
+  margin-right: 0;
   border-right: none;
+  padding-right: 0;
 }
 
-.home-discovery .search-links .fa-cog {
-  font-size: 1.5em;
+.subject-specialists .expertise {
+  clear: left;
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.subject-specialists .expertise p {
+  color: #666;
+  font-style: italic;
+}
+
+@include breakpoint(sm) {
+
+  .subject-specialists .person .image {
+    margin-right:4%;
+    width: 12%;
+  }
+
+  .subject-specialists .info {
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 30px;
+    border-right: 1px dotted #ddd;
+    padding-right: 30px;
+  }
+
+  .subject-specialists .expertise {
+    margin-top: 2%;
+    clear: none;
+    width: 43%;
+  }
+
+  .subject-specialists .expertise p {
+    font-style: normal;
+  }
+
+}
+
+@include breakpoint(md) {
+  .subject-specialists .person .image {
+    margin-right:3%;
+    width: 12%;
+  }
+}
+
+/* Jobs Page */
+
+.view-jobs-librarian .views-field-title,
+.view-jobs-exempt .views-field-title,
+.view-jobs-non-exempt .views-field-title,
+.view-jobs-intern .views-field-title {
+  display: inline;
+}
+
+.page-about-jobs .sidebar-box-content li {
+  line-height: inherit;
 }

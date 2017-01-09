@@ -16,19 +16,6 @@
 
       <?php print $content ?>
 
-      <!-- content below menu -->
-            <!--
-            <div class="sideContact" style="margin-bottom:0 !important;">
-            	<ul class="nav nav-list list-unstyled">
-            		<li class="divider"></li>
-            		<li class="nav-header nav-header-gray"><a href="#"> Contact Us </a></li>
-            		<li style="font-size: 9pt; font-weight: normal; padding: 6px 0 6px 0;"><a href="mailto:askhumanities@duke.edu">askhumanities@duke.edu</a></li>
-
-            	</ul>
-            </div>
-          -->
-        <!-- / content below menu -->
-
     </div>
   </div>
 </<?php print $tag; ?>>

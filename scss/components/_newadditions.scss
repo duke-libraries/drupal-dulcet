@@ -1,0 +1,56 @@
+// Styles for New Additions from Catalog Feeds
+// ---------------------------------------------------------------------
+
+#thumbLessWrapper {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background: #eee;
+  padding: 15px 6px 15px 15px; 
+}
+ul#thumbLess {
+  margin-left: 0;
+}
+
+.view-content .item-list img {
+  max-width: 100%;
+}
+.view-content .item-list ul.new-additions {
+  margin: 0;
+  padding: 0;
+}
+.view-content .item-list ul.new-additions li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+}
+.view-content .item-list ul.new-additions li, ul#thumbLess li {
+  width: 130px !important;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.smallerThumbs .view-content .item-list ul.new-additions li {
+  width: 105px !important;
+}
+
+div.smallerThumbs .views-field-title {
+  font-size: 14px;
+}
+
+div.smallerThumbs .views-field-author {
+  font-size: 13px;
+  line-height: 1.2em;
+  margin-top: 0.5em;
+}
+
+.pager li>a, .pager li>span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 0;
+}
+
+.pager li.pager-current {
+  padding: 5px 14px;
+}

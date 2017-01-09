@@ -10,6 +10,7 @@ base theme  = radix
 ; Regions
 regions[js_masthead] = 'JS Masthead'
 regions[breadcrumb] = 'Breadcrumb'
+regions[alerts] = 'Alerts'
 regions[content] = Content
 regions[sidebar_first] = Sidebar
 
