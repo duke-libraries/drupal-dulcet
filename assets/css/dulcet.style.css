@@ -11315,11 +11315,11 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
   content: normal; }
 
 ul li.views-row {
-  padding-left: 0;
-  margin-bottom: 0.5em; }
+  padding-left: 0 !important;
+  margin-bottom: 0.5em !important; }
 
 ul li.views-row:before {
-  content: none; }
+  content: none !important; }
 
 li > p {
   margin: 0;
