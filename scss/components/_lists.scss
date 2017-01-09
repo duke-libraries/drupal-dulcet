@@ -40,6 +40,18 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
   }
 }
 
+// Views rows
+
+ul li.views-row {
+  padding-left: 0;
+  margin-bottom: 0.5em;
+
+  & :before {
+    content: normal;
+  }
+  
+}
+
 // Don't pad paragraphs in lists
 // Authors sometimes do <li><p/></li>
 
@@ -137,8 +149,7 @@ ul.pdflinks a {
       margin-right: 0.3em;
       text-decoration: none;
       &:hover {
-       text-decoration: none; 
+       text-decoration: none;
       }
-  }  
+  }
 }
-

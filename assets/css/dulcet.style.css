@@ -4090,10 +4090,7 @@ tbody.collapse.in {
   margin-bottom: 24px;
   list-style: none;
   background-color: #f5f5f5;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
@@ -11316,6 +11313,12 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
 
 #mast ul:not([class]):not([id]) li:before, .item-list ul:not([class]):not([id]) li:before, .search-resources-wrapper ul:not([class]):not([id]) li:before {
   content: normal; }
+
+ul li.views-row {
+  padding-left: 0;
+  margin-bottom: 0.5em; }
+  ul li.views-row :before {
+    content: normal; }
 
 li > p {
   margin: 0;
