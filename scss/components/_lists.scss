@@ -42,15 +42,16 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
 
 // Views rows
 
-ul li.views-row {
+li.views-row {
   padding-left: 0;
   margin-bottom: 0.5em;
-
-  & :before {
-    content: normal;
-  }
-  
 }
+
+li.views-row:before {
+  content: normal;
+}
+
+
 
 // Don't pad paragraphs in lists
 // Authors sometimes do <li><p/></li>
