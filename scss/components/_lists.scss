@@ -42,13 +42,13 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
 
 // Views rows
 
-li.views-row {
+ul li.views-row {
   padding-left: 0;
   margin-bottom: 0.5em;
 }
 
-li.views-row:before {
-  content: normal;
+ul li.views-row:before {
+  content: none;
 }
 
 

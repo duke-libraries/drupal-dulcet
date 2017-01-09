@@ -11314,12 +11314,12 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
 #mast ul:not([class]):not([id]) li:before, .item-list ul:not([class]):not([id]) li:before, .search-resources-wrapper ul:not([class]):not([id]) li:before {
   content: normal; }
 
-li.views-row {
+ul li.views-row {
   padding-left: 0;
   margin-bottom: 0.5em; }
 
-li.views-row:before {
-  content: normal; }
+ul li.views-row:before {
+  content: none; }
 
 li > p {
   margin: 0;
