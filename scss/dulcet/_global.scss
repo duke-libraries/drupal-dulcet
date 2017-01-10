@@ -252,9 +252,7 @@ iframe {
 }
 
 @include breakpoint (sm) {
-  .page-about-directory .dul-staff-search-box,
-  .page-about-directory .dul-staff-search-box .form-item,
-  .page-about-directory .dul-staff-search-box .input-group {
+  .page-about-directory .input-group .form-control {
     width: 100%;
   }
 }
@@ -269,7 +267,8 @@ iframe {
     max-width: 35%;
   }
 
-  .dul-staff-search-box .form-item {
+  .dul-staff-search-box .form-item,
+  .page-about-directory .input-group .form-control {
     width: auto !important;
   }
 }

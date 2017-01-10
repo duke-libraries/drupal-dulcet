@@ -9490,9 +9490,7 @@ iframe {
   background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top; }
 
 @media (min-width: 768px) {
-  .page-about-directory .dul-staff-search-box,
-  .page-about-directory .dul-staff-search-box .form-item,
-  .page-about-directory .dul-staff-search-box .input-group {
+  .page-about-directory .input-group .form-control {
     width: 100%; } }
 
 @media (min-width: 992px) {
@@ -9500,7 +9498,8 @@ iframe {
     padding: 10px; }
   .page-about-directory .dul-staff-search-box {
     max-width: 35%; }
-  .dul-staff-search-box .form-item {
+  .dul-staff-search-box .form-item,
+  .page-about-directory .input-group .form-control {
     width: auto !important; } }
 
 /* Places to Study */
