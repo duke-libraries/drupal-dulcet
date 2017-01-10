@@ -251,7 +251,20 @@ iframe {
   background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top;
 }
 
+@include breakpoint (sm) {
+  .page-about-directory .dul-staff-search-box,
+  .page-about-directory .dul-staff-search-box .form-item,
+  .page-about-directory .dul-staff-search-box .input-group {
+    width: 100%;
+  }
+}
+
 @include breakpoint(md) {
+
+  .page-about-directory #search-block-form div:first-child {
+    padding: 10px;
+  }
+
   .page-about-directory .dul-staff-search-box {
     max-width: 35%;
   }

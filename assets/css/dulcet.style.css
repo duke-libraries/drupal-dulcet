@@ -9489,7 +9489,15 @@ iframe {
   padding: 15px;
   background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top; }
 
+@media (min-width: 768px) {
+  .page-about-directory .dul-staff-search-box,
+  .page-about-directory .dul-staff-search-box .form-item,
+  .page-about-directory .dul-staff-search-box .input-group {
+    width: 100%; } }
+
 @media (min-width: 992px) {
+  .page-about-directory #search-block-form div:first-child {
+    padding: 10px; }
   .page-about-directory .dul-staff-search-box {
     max-width: 35%; }
   .dul-staff-search-box .form-item {
