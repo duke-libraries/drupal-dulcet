@@ -9480,6 +9480,15 @@ iframe {
 .page-about-directory .table-responsive tr.even td:nth-of-type(2) {
   white-space: nowrap; }
 
+.page-about-directory .dul-staff-search-box,
+.page-about-directory .dul-staff-search-box .form-item,
+.page-about-directory .dul-staff-search-box .input-group {
+  width: 100%; }
+
+@media (min-width: 992px) {
+  .dul-staff-search-box .form-item {
+    width: auto; } }
+
 /* Places to Study */
 .studyrooms {
   column-count: 1;

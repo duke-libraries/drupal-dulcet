@@ -240,6 +240,17 @@ iframe {
   white-space: nowrap;
 }
 
+.page-about-directory .dul-staff-search-box,
+.page-about-directory .dul-staff-search-box .form-item,
+.page-about-directory .dul-staff-search-box .input-group {
+  width: 100%;
+}
+
+@include breakpoint(md) {
+  .dul-staff-search-box .form-item {
+    width: auto;
+  }
+}
 
 /* Places to Study */
 
