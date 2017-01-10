@@ -9490,8 +9490,10 @@ iframe {
   background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top; }
 
 @media (min-width: 768px) {
+  .page-about-directory .dul-staff-search-box .form-item {
+    width: 83%; }
   .page-about-directory .input-group .form-control {
-    width: 100%; } }
+    /*width: 100%;*/ } }
 
 @media (min-width: 992px) {
   .page-about-directory #search-block-form div:first-child {

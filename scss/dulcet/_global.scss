@@ -252,8 +252,13 @@ iframe {
 }
 
 @include breakpoint (sm) {
+
+  .page-about-directory .dul-staff-search-box .form-item {
+    width: 83%;
+  }
+
   .page-about-directory .input-group .form-control {
-    width: 100%;
+    /*width: 100%;*/
   }
 }
 
