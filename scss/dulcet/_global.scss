@@ -233,10 +233,11 @@ iframe {
 
 .page-about-directory .table-responsive {
   clear: both;
+  margin-top: 1em;
 }
 
 .page-about-directory .table-responsive tr.even td:nth-of-type(2) {
-  white-space: no-wrap;
+  white-space: nowrap;
 }
 
 
