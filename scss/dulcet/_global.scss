@@ -229,6 +229,16 @@ iframe {
   border-color: #031c47 !important;
 }
 
+/* directory pages */
+
+.page-about-directory .table-responsive {
+  clear: both;
+}
+
+.page-about-directory .table-responsive tr.even td:nth-of-type(2) {
+  white-space: no-wrap;
+}
+
 
 /* Places to Study */
 
