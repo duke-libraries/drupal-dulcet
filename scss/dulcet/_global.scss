@@ -272,10 +272,18 @@ iframe {
     max-width: 35%;
   }
 
-  .dul-staff-search-box .form-item,
-  .page-about-directory .input-group .form-control {
-    /*width: auto !important;*/
+  .page-about-directory .dul-staff-search-box .form-item {
+    width: 63%;
   }
+
+}
+
+@include breakpoint(lg) {
+
+  .page-about-directory .dul-staff-search-box .form-item {
+    width: 70%;
+  }
+
 }
 
 /* Places to Study */
