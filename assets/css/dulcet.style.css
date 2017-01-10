@@ -9485,9 +9485,15 @@ iframe {
 .page-about-directory .dul-staff-search-box .input-group {
   width: 100%; }
 
+.page-about-directory .dul-staff-search-box div:nth-of-type(1) {
+  padding: 15px;
+  background: url(/sites/all/themes/dulcet/assets/images/striped-grey.png) repeat left top; }
+
 @media (min-width: 992px) {
+  .page-about-directory .dul-staff-search-box {
+    max-width: 35%; }
   .dul-staff-search-box .form-item {
-    width: auto; } }
+    width: auto !important; } }
 
 /* Places to Study */
 .studyrooms {
