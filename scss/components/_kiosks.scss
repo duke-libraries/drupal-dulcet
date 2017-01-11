@@ -239,7 +239,8 @@ html {
 .page-kiosks-edge-staff .nav,
 .page-kiosks-edge-help .nav {
 	bottom: 0;
-	top: -225px;
+	/*top: -225px;*/
+	top: -20em;
 	height: 420px !important;
 }
 
@@ -250,7 +251,7 @@ html {
 .page-kiosks-edge-help .nav li .nav-text {
 	/*font-size: 44pt;*/
 	font-size: 38pt;
-	padding-top: 3.5em;
+	padding-top: 4.5em;
 }
 
 .page-kiosks-edge-events .nav .reserve .nav-text,
