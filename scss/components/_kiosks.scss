@@ -341,12 +341,20 @@ html {
   font-weight: 400;
 }
 
+.edge-content-area .pagination {
+	margin-bottom: 7em;
+}
+
+.edge-content-area .pagination .pager-previous a {
+	margin-right: 1em;
+}
+
 .edge-content-area .view-content .item-list .views-field-timestamp .field-content,
 .edge-content-area .view-content .item-list .event-location {
 	font-size: 2.5em;
 }
 
-.edge-content-area .view-content .item-list .event-location .event-campus {
+.edge-content-area .view-content .item-list .event-campus {
 	display: none;
 }
 
