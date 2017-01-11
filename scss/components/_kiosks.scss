@@ -240,7 +240,7 @@ html {
 .page-kiosks-edge-help .nav {
 	bottom: 0;
 	/*top: -225px;*/
-	top: -20em;
+	top: -15em;
 	height: 420px !important;
 }
 
@@ -250,8 +250,8 @@ html {
 .page-kiosks-edge-staff .nav li .nav-text,
 .page-kiosks-edge-help .nav li .nav-text {
 	/*font-size: 44pt;*/
-	font-size: 40pt;
-	padding-top: 5em;
+	font-size: 40pt !important;
+	padding-top: 5em !important;
 }
 
 .page-kiosks-edge-events .nav .reserve .nav-text,
@@ -259,7 +259,8 @@ html {
 .page-kiosks-edge-map .nav .reserve .nav-text,
 .page-kiosks-edge-staff .nav .reserve .nav-text,
 .page-kiosks-edge-help .nav .reserve .nav-text {
-	padding-top: 4.75em;
+	padding-top: 4.75em !important;
+  line-height: .9 !important;
 }
 
 
