@@ -131,16 +131,20 @@ html {
 	float: left;
 	text-align: center;
 	border-radius: 50%;
-	width: 30em;
-	height: 30em;
+	/*width: 30em;
+	height: 30em;*/
+	width: 24em;
+	height: 24em;
 	background: #333;
 	box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
 }
 
 .page-kiosks-edge .nav li a {
 	border-radius: 50%;
-	width: 30em;
-	height: 30em;
+	/*width: 30em;
+	height: 30em;*/
+	width: 24em;
+	height: 24em;
 	box-shadow: inset 0 -.75em .75em rgba(0,0,0,0.3),inset 0 .75em .75em rgba(255,255,255,0.2);
 	background: #ccc;
 }
@@ -155,7 +159,8 @@ html {
 	color: #fff;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 	font-size: 50pt; /* Change back to 50pt when viewing 100% */
-	font-size: 60pt;
+	/*font-size: 60pt;*/
+	font-size: 55pt;
 	line-height: 1.1;
 	padding-top:2.1em;
 	text-shadow: 0px 0px 3px rgba(0,0,0,0.7);
@@ -234,7 +239,8 @@ html {
 .page-kiosks-edge-staff .nav,
 .page-kiosks-edge-help .nav {
 	bottom: 0;
-	top: -225px;
+	/*top: -225px;*/
+	top: -15em;
 	height: 420px !important;
 }
 
@@ -243,8 +249,9 @@ html {
 .page-kiosks-edge-map .nav li .nav-text,
 .page-kiosks-edge-staff .nav li .nav-text,
 .page-kiosks-edge-help .nav li .nav-text {
-	font-size: 44pt;
-	padding-top: 4.5em;
+	/*font-size: 44pt;*/
+	font-size: 40pt !important;
+	padding-top: 5em !important;
 }
 
 .page-kiosks-edge-events .nav .reserve .nav-text,
@@ -252,7 +259,8 @@ html {
 .page-kiosks-edge-map .nav .reserve .nav-text,
 .page-kiosks-edge-staff .nav .reserve .nav-text,
 .page-kiosks-edge-help .nav .reserve .nav-text {
-	padding-top:4.1em;
+	padding-top: 4.75em !important;
+  line-height: .9 !important;
 }
 
 
@@ -263,7 +271,8 @@ html {
 
 	width: 100%;
 	height: 200px;
-	position: absolute;
+	/*position: absolute;*/
+	position: fixed;
 	bottom: 0px;
 }
 
@@ -327,27 +336,50 @@ html {
 .edge-content-area .view-content .item-list ul li h3 {
 	line-height: 1.1 !important;
 	color: #444 !important;
-	font-size: 50pt !important;
+	/*font-size: 50pt !important;*/
+	font-size: 44pt !important;
+  font-weight: 400;
+}
+
+.edge-content-area .pagination {
+	margin-bottom: 7em !important;
+}
+
+.edge-content-area .pagination .pager-previous a {
+	margin-right: 1em;
+}
+
+.edge-content-area .view-content .item-list .views-field-timestamp .field-content,
+.edge-content-area .view-content .item-list .event-location {
+	font-size: 2.5em;
+}
+
+.edge-content-area .view-content .item-list .event-campus {
+	display: none;
 }
 
 .view-kiosk-edge-events .views-field-description .field-content,
-.view-id-kiosk_edge_events_libcal_ .view-empty p {
+.view-id-kiosk_edge_events_libcal- .view-empty p {
 	font-size: 40pt;
 	color: #666;
 	line-height: 1.1;
 }
 
-.view-id-kiosk_edge_events_libcal_ .view-empty p {
+.view-id-kiosk_edge_events_libcal- .view-empty p {
 	font-style: italic;
 	margin-top: 2em;
 }
 
 .view-kiosk-edge-events .views-field .field-content p,
-.view-kiosk-edge-events .views-field .field-content ul {
+.view-kiosk-edge-events .views-field .field-content ul,
+.view-kiosk-edge-events-libcal- .views-field .field-content p,
+.view-kiosk-edge-events-libcal- .views-field .field-content ul {
 	display: none;
 }
 
-.view-kiosk-edge-events .views-field-description {
+
+.view-kiosk-edge-events .views-field-description,
+.view-kiosk-edge-events-libcal-  .views-field-description  {
  height: 9em;
  overflow: hidden;
  margin-bottom: 2em;
@@ -569,7 +601,9 @@ html {
 	padding: 15px;
 	margin: 0 0 30px 0;
 
-	width: 515px;
+	/*width: 515px;*/
+	width: 550px;
+	height: 300px;
 }
 
 .page-kiosks-edge .exhibit-tileView-body li .person h2 {
@@ -598,8 +632,8 @@ html {
 
 .page-kiosks-edge .exhibit-tileView-body li .person .image {
 	float: left;
-	width: 150px;
-	height: 175px;
+	width: 175px;
+	/*height: 175px;*/
 	text-align: center;
 	overflow: hidden;
 	border: 10px solid #fff;
@@ -608,6 +642,10 @@ html {
 
 .page-kiosks-edge .exhibit-tileView-body li .person .image img {
 	width: 100%;
+}
+
+.page-kiosks-edge .exhibit-tileView-body li .person .expertise {
+	display: none;
 }
 
 
