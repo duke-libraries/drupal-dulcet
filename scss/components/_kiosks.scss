@@ -340,23 +340,27 @@ html {
 }
 
 .view-kiosk-edge-events .views-field-description .field-content,
-.view-id-kiosk_edge_events_libcal_ .view-empty p {
+.view-id-kiosk_edge_events_libcal- .view-empty p {
 	font-size: 40pt;
 	color: #666;
 	line-height: 1.1;
 }
 
-.view-id-kiosk_edge_events_libcal_ .view-empty p {
+.view-id-kiosk_edge_events_libcal- .view-empty p {
 	font-style: italic;
 	margin-top: 2em;
 }
 
 .view-kiosk-edge-events .views-field .field-content p,
-.view-kiosk-edge-events .views-field .field-content ul {
+.view-kiosk-edge-events .views-field .field-content ul,
+.view-kiosk-edge-events-libcal- .views-field .field-content p,
+.view-kiosk-edge-events-libcal- .views-field .field-content ul {
 	display: none;
 }
 
-.view-kiosk-edge-events .views-field-description {
+
+.view-kiosk-edge-events .views-field-description,
+.view-kiosk-edge-events-libcal-  .views-field-description  {
  height: 9em;
  overflow: hidden;
  margin-bottom: 2em;
