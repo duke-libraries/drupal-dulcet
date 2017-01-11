@@ -336,7 +336,18 @@ html {
 .edge-content-area .view-content .item-list ul li h3 {
 	line-height: 1.1 !important;
 	color: #444 !important;
-	font-size: 50pt !important;
+	/*font-size: 50pt !important;*/
+	font-size: 44pt !important;
+  font-weight: 400;
+}
+
+.edge-content-area .view-content .item-list .views-field-timestamp .field-content,
+.edge-content-area .view-content .item-list .event-location {
+	font-size: 2.5em;
+}
+
+.edge-content-area .view-content .item-list .event-location .event-campus {
+	display: none;
 }
 
 .view-kiosk-edge-events .views-field-description .field-content,
