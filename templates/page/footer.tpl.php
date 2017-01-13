@@ -81,6 +81,12 @@
       	} else {
       		$redirect .= preg_replace('/(\/)$/', '', base_path());
       	}
+
+				# force the user to his/her profile page
+				$redirect .= '/user';
+
+				# ensure that Shibboleth is negotiated by specifying the 
+				# SSO URL.
       	$signin .= '/Shibboleth.sso/Login?target=' . htmlspecialchars( $redirect );
       ?>
       <div>
