@@ -47,9 +47,6 @@
     	<!-- / content above block -->
 
         <div class="cycle-slideshow"
-        data-cycle-swipe="true"
-        data-cycle-swipe-fx="scrollHorz"
-        data-cycle-pause-on-hover="true"
         data-cycle-fx="carousel"
         data-cycle-carousel-visible="2"
         data-cycle-carousel-fluid="true"
@@ -57,8 +54,9 @@
         data-cycle-speed="1000"
         data-cycle-prev="#prev"
         data-cycle-next="#next"
-        data-cycle-carousel-glide="true"
-        data-cycle-slides="> div > ul > li">
+        data-cycle-slides="> div > ul > li"
+        data-cycle-swipe="true"
+        data-cycle-swipe-fx="carousel">
 
           <?php print render($content); ?>
 
