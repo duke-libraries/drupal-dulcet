@@ -48,6 +48,7 @@
 
         <div class="cycle-slideshow"
         data-cycle-swipe="true"
+        data-cycle-swipe-fx="scrollHorz"
         data-cycle-pause-on-hover="true"
         data-cycle-fx="carousel"
         data-cycle-carousel-visible="2"
