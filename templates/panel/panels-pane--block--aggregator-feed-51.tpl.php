@@ -50,13 +50,14 @@
         data-cycle-fx="carousel"
         data-cycle-carousel-visible="2"
         data-cycle-carousel-fluid="true"
+        data-cycle-allow-wrap="true"
+        data-cycle-manual-trump="false"
         data-cycle-timeout="0"
         data-cycle-speed="1000"
         data-cycle-prev="#prev"
         data-cycle-next="#next"
         data-cycle-slides="> div > ul > li"
-        data-cycle-swipe="true"
-        data-cycle-swipe-fx="carousel">
+        data-cycle-carousel-glide="true">
 
           <?php print render($content); ?>
 
