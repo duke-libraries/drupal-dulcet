@@ -49,6 +49,7 @@
         <div class="cycle-slideshow"
         data-cycle-fx="carousel"
         data-cycle-carousel-visible="2"
+        data-cycle-carousel-fluid="true"
         data-cycle-timeout="0"
         data-cycle-speed="1000"
         data-cycle-prev="#prev"
