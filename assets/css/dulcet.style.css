@@ -10636,7 +10636,8 @@ html {
   padding: 0;
   width: 1920px;
   height: 1080px;
-  background: #fff; }
+  background: #fff;
+  overflow: hidden; }
 
 .page-kiosks-lobby .wrapper {
   width: 1920px; }
@@ -10654,7 +10655,8 @@ html {
   padding: 0; }
 
 .page-kiosks-lobby .background-wrapper {
-  width: 100%;
+  width: 1920px;
+  height: 1080px;
   position: absolute;
   top: 0;
   z-index: -500; }
@@ -10809,12 +10811,12 @@ html {
   background: rgba(255, 255, 255, 0.6); }
 
 .page-kiosks-lobby .footer {
-  width: 100%;
   height: 50px;
   background: rgba(0, 51, 102, 0.5);
   position: absolute;
-  bottom: 0;
-  overflow: visible; }
+  top: 1030px;
+  overflow: visible;
+  width: 1920px; }
 
 .page-kiosks-lobby .footer .time {
   float: right;
@@ -10848,28 +10850,22 @@ html {
 
 /* background images */
 .page-kiosks-lobby-about .background-wrapper {
-  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background1.jpg") no-repeat;
-  height: 100%; }
+  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background1.jpg") no-repeat; }
 
 .page-kiosks-lobby-floorplans .background-wrapper {
-  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background2.jpg") no-repeat;
-  height: 100%; }
+  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background2.jpg") no-repeat; }
 
 .page-kiosks-lobby-hours .background-wrapper {
-  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background3.jpg") no-repeat;
-  height: 100%; }
+  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background3.jpg") no-repeat; }
 
 .page-kiosks-lobby-directory .background-wrapper {
-  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background4.jpg") no-repeat;
-  height: 100%; }
+  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background4.jpg") no-repeat; }
 
 .page-kiosks-lobby-exhibits .background-wrapper {
-  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background5.jpg") no-repeat;
-  height: 100%; }
+  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background5.jpg") no-repeat; }
 
 .page-kiosks-lobby-events .background-wrapper {
-  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background6.jpg") no-repeat;
-  height: 100%; }
+  background: url("/sites/default/files/dul/kiosks/lobby/backgrounds/background6.jpg") no-repeat; }
 
 /* Floorplans */
 /* reset bullets */
