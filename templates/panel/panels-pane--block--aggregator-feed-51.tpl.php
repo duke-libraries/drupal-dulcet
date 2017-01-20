@@ -43,27 +43,17 @@
 
     	<h3><a href="http://blogs.library.duke.edu/">News, Events &amp; Exhibits</a></h3>
 
-    	<a class="left carousel-control" href="#" id="prev">&lsaquo;</a>
+    	<!--<a class="left carousel-control" href="#" id="prev">&lsaquo;</a>-->
     	<!-- / content above block -->
 
-        <div class="cycle-slideshow"
-        data-cycle-pause-on-hover="true"
-        data-cycle-fx="carousel"
-        data-cycle-carousel-visible="2"
-        data-cycle-carousel-fluid="true"
-        data-cycle-timeout="0"
-        data-cycle-speed="1000"
-        data-cycle-prev="#prev"
-        data-cycle-next="#next"
-        data-cycle-carousel-glide="true"
-        data-cycle-slides="> div > ul > li">
+        <div class="slick-carousel">
 
           <?php print render($content); ?>
 
         </div>
 
         <!-- content below block -->
-        <a class="right carousel-control" href="#" id="next">&rsaquo;</a>
+        <!--<a class="right carousel-control" href="#" id="next">&rsaquo;</a>-->
         <!-- / content below block -->
 
   </div>
