@@ -180,6 +180,54 @@ img.rl-logo {
 }
 
 
+/* Reponsive Tables */
+
+.table-responsive {
+  width: 290px !important;
+}
+
+@media only screen and (min-width : 360px) {
+
+  .table-responsive {
+    width: 330px !important;
+  }
+
+}
+
+@media only screen and (min-width : 400px) {
+
+  .table-responsive {
+    width: 380px !important;
+  }
+
+}
+
+@media only screen and (min-width : 480px) {
+
+  .table-responsive {
+    width: 430px !important;
+  }
+
+}
+
+@media only screen and (min-width : 640px) {
+
+  .table-responsive {
+    width: 590px !important;
+  }
+
+}
+
+@include breakpoint(sm) {
+
+  .table-responsive {
+    width: 100% !important;
+  }
+
+}
+
+
+
 /* MISC STYLES */
 
 iframe {
