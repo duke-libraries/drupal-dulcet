@@ -8651,6 +8651,13 @@ ul.dropdown-menu li {
 .radix-dul {
   margin-top: 1em; }
 
+.page-home .radix-layouts-contentcolumn2 {
+  clear: both; }
+
+@media (min-width: 992px) {
+  .page-home .radix-layouts-contentcolumn2 {
+    clear: none; } }
+
 .page-home .region-breadcrumb {
   display: none !important; }
 
@@ -9101,9 +9108,13 @@ ul.dropdown-menu li {
     left: 0;
     color: #999;
     width: auto !important;
-    display: block !important; }
+    display: block !important;
+    max-width: 15px !important;
+    padding-bottom: 90px; }
   .page-home #prev {
     float: left; }
+  .page-home #next {
+    float: right; }
   .page-home .home-events {
     margin-top: 1.5em;
     border: 0; } }
@@ -9143,7 +9154,8 @@ ul.dropdown-menu li {
 
 @media (min-width: 1200px) {
   .page-home .carousel-control {
-    padding-top: 35px; } }
+    padding-top: 35px;
+    padding-bottom: 120px; } }
 
 .page-home .radix-layouts-sidebar h2,
 .page-home .radix-layouts-sidebar h3 {

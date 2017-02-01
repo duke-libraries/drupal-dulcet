@@ -22,6 +22,16 @@ $discovery-tabs-text-off: #555;
   margin-top: 1em;
 }
 
+.page-home .radix-layouts-contentcolumn2 {
+  clear: both;
+}
+
+@include breakpoint(md) {
+  .page-home .radix-layouts-contentcolumn2 {
+    clear: none;
+  }
+}
+
 .page-home .region-breadcrumb {
   display: none !important;
 }
@@ -671,10 +681,16 @@ $discovery-tabs-text-off: #555;
     color: #999;
     width: auto !important;
     display: block !important;
+    max-width: 15px !important;
+    padding-bottom: 90px;
   }
 
   .page-home #prev {
     float: left;
+  }
+
+  .page-home #next {
+    float: right;
   }
 
   .page-home .home-events {
@@ -731,6 +747,7 @@ $discovery-tabs-text-off: #555;
 
   .page-home .carousel-control {
     padding-top: 35px;
+    padding-bottom: 120px;
   }
 
 }
