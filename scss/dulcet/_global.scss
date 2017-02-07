@@ -391,6 +391,53 @@ iframe {
 
 }
 
+
+/* Residence Hall Librarians */
+
+.residence-hall-images {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.residence-hall-thumb {
+    float: left;
+    padding: 5px;
+}
+
+.residence-hall-thumb img {
+    width: 105px;
+    height: 137px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    background: #fff;
+}
+
+
+.residence-hall-nav {
+    padding: 3px;
+    background: #eee;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.residence-hall-nav .dorm {
+    border-top: 1px dotted #ccc;
+    margin: 3px 0 0 0;
+    padding: 6px 3px 3px 3px;
+}
+
+.residence-hall-nav .dorm ul {
+    list-style: none;
+    margin: 0;
+    padding: 3px 0 0 0;
+}
+
+.residence-hall-nav .dorm ul li {
+    list-style: none;
+    padding: 0 0 0 10px;
+}
+
 /* Subject Specialists */
 
 .subject-specialists .person .image {
