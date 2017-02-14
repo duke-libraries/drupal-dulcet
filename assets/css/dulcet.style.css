@@ -9548,15 +9548,13 @@ iframe {
 
 /* Places to Study */
 .studyrooms {
+  -moz-column-count: 1;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 1;
+  -webkit-column-gap: 10px;
   column-count: 1;
   -moz-column-gap: 15px;
        column-gap: 15px;
-  -moz-column-fill: auto;
-       column-fill: auto;
-  -webkit-column-count: 1;
-  -webkit-column-gap: 10px;
-  -webkit-column-fill: auto;
-  -moz-column-count: 1;
   clear: both; }
 
 .studyrooms .exhibit-bookmarkWidget-popup {
@@ -9564,15 +9562,13 @@ iframe {
 
 @media (min-width: 768px) {
   .studyrooms {
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
     column-count: 2;
     -moz-column-gap: 15px;
          column-gap: 15px;
-    -moz-column-fill: auto;
-         column-fill: auto;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 10px;
-    -webkit-column-fill: auto;
-    -moz-column-count: 2;
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9581,15 +9577,13 @@ iframe {
 
 @media (min-width: 992px) {
   .studyrooms {
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
     column-count: 3;
     -moz-column-gap: 15px;
          column-gap: 15px;
-    -moz-column-fill: auto;
-         column-fill: auto;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 10px;
-    -webkit-column-fill: auto;
-    -moz-column-count: 3;
     clear: both; } }
 
 /* Residence Hall Librarians */
