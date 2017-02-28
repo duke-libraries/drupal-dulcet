@@ -9970,7 +9970,9 @@ html > .duke-alert {
   width: 24px;
   height: 24px;
   float: left;
-  margin-right: 6px; }
+  margin-right: 6px;
+  line-height: 0 !important;
+  font-size: 0 !important; }
   .social-media-icons div.twitter {
     background: url("../images/footer_icon_sprite_2015.png") no-repeat 0 0; }
   .social-media-icons div.facebook {
