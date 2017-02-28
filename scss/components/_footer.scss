@@ -25,6 +25,9 @@
 	height: 24px;
 	float: left;
 	margin-right: 6px;
+  line-height: 0 !important;
+  font-size: 0 !important;
+
 	&.twitter {
 	  background: url("../images/footer_icon_sprite_2015.png") no-repeat 0 0;
   }

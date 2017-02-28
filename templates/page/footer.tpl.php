@@ -36,17 +36,17 @@
     <div class="col-md-3">
       <div class="social-media-icons">
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Twitter'});" href="https://twitter.com/DukeLibraries" title="Twitter"><div class="twitter"></div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Twitter'});" href="https://twitter.com/DukeLibraries" title="Twitter"><div class="twitter">Twitter</div></a>
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Facebook'});" href="https://www.facebook.com/dukelibraries" title="Facebook"><div class="facebook"></div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Facebook'});" href="https://www.facebook.com/dukelibraries" title="Facebook"><div class="facebook">Facebook</div></a>
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Youtube'});" href="http://www.youtube.com/user/DukeUnivLibraries" title="Youtube"><div class="youtube"></div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Youtube'});" href="http://www.youtube.com/user/DukeUnivLibraries" title="Youtube"><div class="youtube">Youtube</div></a>
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Flickr'});" href="http://www.flickr.com/photos/dukeunivlibraries/" title="Flickr"><div class="flickr"></div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Flickr'});" href="http://www.flickr.com/photos/dukeunivlibraries/" title="Flickr"><div class="flickr">Flickr</div></a>
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Instagram'});" href="https://instagram.com/dukelibraries" title="Instagram"><div class="instagram"></div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Instagram'});" href="https://instagram.com/dukelibraries" title="Instagram"><div class="instagram">Instagram</div></a>
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'RSS'});" href="http://blogs.library.duke.edu/" title="RSS"><div class="rss"></div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'RSS'});" href="https://blogs.library.duke.edu/" title="RSS"><div class="rss">RSS</div></a>
 
       </div>
 
@@ -62,7 +62,7 @@
     </div>
     <div class="col-md-2">
       <div id="duke-logo">
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Branding', eventLabel: 'Duke Logo'});" href="http://www.duke.edu"><img src="<?php echo base_path() . drupal_get_path('theme','dulcet') . '/assets/images/dukelogo_vert_60pct_140.png'; ?>" /></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Branding', eventLabel: 'Duke Logo'});" href="http://www.duke.edu"><img src="<?php echo base_path() . drupal_get_path('theme','dulcet') . '/assets/images/dukelogo_vert_60pct_140.png'; ?>" alt="Duke University" /></a>
       </div>
 
       <?php
@@ -85,12 +85,12 @@
 				# force the user to his/her profile page
 				$redirect .= '/user';
 
-				# ensure that Shibboleth is negotiated by specifying the 
+				# ensure that Shibboleth is negotiated by specifying the
 				# SSO URL.
       	$signin .= '/Shibboleth.sso/Login?target=' . htmlspecialchars( $redirect );
       ?>
       <div>
-        <small><a class="drupal-shib-login" href="<?php print $signin; ?>">Drupal Sign In</a></small>
+        <small><a aria-hidden="true" class="drupal-shib-login" href="<?php print $signin; ?>">Drupal Sign In</a></small>
       </div>
     </div>
   </div>
