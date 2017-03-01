@@ -7,7 +7,7 @@
   /*border-top: 8px solid #a1b70d;*/
   margin-left: 20px;
   margin-bottom: 20px;
-  
+
   & .feature-box-title {
     text-transform: uppercase;
     font-size: 110%;
@@ -22,12 +22,12 @@
     border-top: 8px solid #a1b70d;
     border-bottom: 8px solid #a1b70d;
   }
-  
+
   & ul.menu.nav-list {
     /* Menus in asideboxes */
     margin: -10px -20px -10px -12px;
   }
-  
+
   & .shaded-column-left {
     border-right: none;
     padding-right: 0;
@@ -37,4 +37,25 @@
 /* No margin if used in a Panel Pane */
 .pane-content .feature-box {
   margin: 0;
+}
+
+/* Set responsive widths */
+
+.block__content .feature-box,
+.content .feature-box {
+  width: 100%;
+}
+
+@media (min-width: 481px) {
+  .block__content .feature-box,
+  .content .feature-box {
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .block__content .feature-box,
+  .content .feature-box {
+    max-width: 285px;
+  }
 }

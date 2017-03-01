@@ -8675,7 +8675,7 @@ ul.dropdown-menu li {
 /* Search Tabs */
 @media (min-width: 992px) {
   .search-resources-tabs {
-    background: #aaa url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 8.98em 0;
+    background: #235f9c url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 8.98em 0;
     border-top: 3px solid #184d83;
     min-height: 7.95em; }
   .search-resources-tabs.single {
@@ -9381,6 +9381,20 @@ img.rl-logo {
   -ms-flex: 2;
       flex: 2; }
 
+/* Pull Left / Right >> only apply floats above md break (except for featurebox) */
+.pull-left,
+.pull-right {
+  float: none !important; }
+
+.feature-box.pull-right {
+  float: right !important; }
+
+@media (min-width: 992px) {
+  .pull-left {
+    float: left !important; }
+  .pull-right {
+    float: right !important; } }
+
 /* Vertical Tabs */
 @media (min-width: 992px) {
   /* bootstrap vertical tabs // http://dbtek.github.io/bootstrap-vertical-tabs/ */
@@ -9949,6 +9963,21 @@ html > .duke-alert {
 .pane-content .feature-box {
   margin: 0; }
 
+/* Set responsive widths */
+.block__content .feature-box,
+.content .feature-box {
+  width: 100%; }
+
+@media (min-width: 481px) {
+  .block__content .feature-box,
+  .content .feature-box {
+    max-width: 250px; } }
+
+@media (min-width: 768px) {
+  .block__content .feature-box,
+  .content .feature-box {
+    max-width: 285px; } }
+
 #footer-dulcet {
   margin-top: 20px;
   background-color: #eee;
@@ -9998,21 +10027,21 @@ a.drupal-shib-login {
   background: #f3f3f3;
   font-weight: normal; }
 
-.image-right {
-  float: right;
-  margin: 0 0 20px 20px; }
-
 .image-left {
   float: left;
   margin: 0 20px 20px 0; }
 
-.image-right-tight {
+.image-right {
   float: right;
-  margin: 0 0 12px 12px; }
+  margin: 0 0 20px 20px; }
 
 .image-left-tight {
   float: left;
   margin: 0 12px 12px 0; }
+
+.image-right-tight {
+  float: right;
+  margin: 0 0 12px 12px; }
 
 .caption-left {
   float: left;
@@ -10021,6 +10050,17 @@ a.drupal-shib-login {
 .caption-right {
   float: right;
   margin: 0 0 20px 20px; }
+
+/* responsive captioned images */
+@media (max-width: 768px) {
+  .caption-left,
+  .caption-right {
+    width: 100% !important;
+    text-align: center; }
+  .caption-right img,
+  .caption-left img {
+    max-width: 100%;
+    height: auto; } }
 
 .media-left, .media > .pull-left {
   padding-right: 20px; }
