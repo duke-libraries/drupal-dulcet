@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
 
       <!-- content above menu -->
-            <p class="sidebar-logo"><a href="/research/humanities"><img src="<?php print base_path(); ?>sites/default/files/dul/humanities/humanities_logo.jpg" class="img-thumbnail" alt="image" width="155"></a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/research/humanities">Humanities Research</a></li></ul>
+            <p class="sidebar-logo"><a href="/research/humanities"><img src="<?php print base_path(); ?>sites/default/files/dul/humanities/humanities_logo.jpg" class="img-thumbnail" alt="image" width="155" alt="logo"></a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/research/humanities">Humanities Research</a></li></ul>
         <!-- / content above menu -->
 
 
