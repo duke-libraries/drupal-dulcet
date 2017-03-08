@@ -15,6 +15,39 @@ $dul-masthead:        #053482;
 }
 
 
+/* Increase contrast */
+
+.text-muted {
+  color: #767676;
+}
+
+::-webkit-input-placeholder {
+	color: #767676;
+	opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: #767676;
+	opacity: 1;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #767676;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #767676;
+	opacity: 1;
+}
+
+.hide-link-text {
+  line-height: 0 !important;
+  font-size: 0 !important;
+}
+
+
+
 
 .hide-title #page-header h1#page-title, .hide-title #page-header .page-header  {
   display: none;
