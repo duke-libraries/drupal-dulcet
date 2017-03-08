@@ -9106,7 +9106,7 @@ ul.dropdown-menu li {
     margin-left: 0;
     padding-left: 0;
     left: 0;
-    color: #999;
+    color: #767676;
     width: auto !important;
     display: block !important;
     max-width: 15px !important;
@@ -9322,6 +9322,32 @@ ul.dropdown-menu li {
 
 .x-large {
   font-size: 130%; }
+
+/* Increase contrast */
+.text-muted, body.maintenance-page .tasks-list > div {
+  color: #767676; }
+
+::-webkit-input-placeholder {
+  color: #767676;
+  opacity: 1; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #767676;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #767676;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: #767676;
+  opacity: 1; }
+
+.hide-link-text {
+  line-height: 0 !important;
+  font-size: 0 !important; }
 
 .hide-title #page-header h1#page-title, .hide-title #page-header .page-header {
   display: none; }
