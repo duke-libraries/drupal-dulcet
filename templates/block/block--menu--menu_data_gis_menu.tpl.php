@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
 
       <!-- content above menu -->
-            <p class="sidebar-logo"><a href="/data"><img src="<?php print base_path(); ?>sites/default/files/datagis/images/data_gis_logo.png" class="img-thumbnail" alt="image" width="155"></a></p><ul class="nav nav-list"><!--<li class="nav-header nav-header-gray"><a href="/data">Data and GIS Services</a></li>--></ul>
+            <p class="sidebar-logo"><a href="/data"><img src="<?php print base_path(); ?>sites/default/files/datagis/images/data_gis_logo.png" class="img-thumbnail" alt="image" width="155" alt="logo"></a></p><ul class="nav nav-list"><!--<li class="nav-header nav-header-gray"><a href="/data">Data and GIS Services</a></li>--></ul>
         <!-- / content above menu -->
 
 
@@ -21,7 +21,7 @@
         <p class="small">
           <a href="mailto:askdata@duke.edu">askdata@duke.edu</a><br/>
           <a href="/data/about/lab">Data and Visualization Lab</a> (in the Edge)<br/>
-          <a href="https://twitter.com/duke_data"><img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt=""> @duke_data</a>
+          <a href="https://twitter.com/duke_data"><img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> @duke_data</a>
         </p>
       </div>
 

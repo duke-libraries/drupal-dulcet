@@ -61,12 +61,12 @@
 	<div class="staff-info">
 	<?php if(!empty($person->photo_url)): ?>
 	<div style="float: left; margin-right: 1em;">
-		<img src="<?php print $person->photo_url; ?>" />
+		<img src="<?php print $person->photo_url; ?>" alt="" />
 	</div> <!-- row -->
 	<?php endif; ?>
 
 	<div>
-		<?php 
+		<?php
 			// In most cases, the dul_staff module is able to parse the "campus box" and "physical location"
 			// data from the database.
 			// When that is TRUE, $person->postal_address will be set
@@ -81,7 +81,7 @@
 			<?php if (isset($person->postal_address['box'])): ?>
 				<div property="schema:postOfficeBoxNumber"><?php print $person->postal_address['box']; ?></div>
 			<?php endif; ?>
-			<span property="schema:addressLocality"><?php print $person->postal_address['city']; ?></span>, 
+			<span property="schema:addressLocality"><?php print $person->postal_address['city']; ?></span>,
 			<span property="schema:addressRegion"><?php print $person->postal_address['state']; ?></span>&nbsp;
 			<span property="schema:postalCode">
 			<?php if(isset($person->postal_address['zip_plus_4'])): ?><?php print $person->postal_address['zip_plus_4']; ?>
@@ -89,7 +89,7 @@
 			<?php endif; ?></span>
 		</div>
 		<?php endif; // POSTAL ADDRESS ?>
-	
+
 		<?php
 			// Tech Note: The personInfo, personPhone, personFax, etc classes are holdovers from the Cascade templates.
 			// remove if desired
@@ -104,7 +104,7 @@
 		<?php endif; ?>
 	</div>
 	</div> <!-- /staff-info -->
-	
+
 	<div class="clearfix"></div>
 
 	<?php
