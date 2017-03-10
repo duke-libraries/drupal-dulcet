@@ -12140,7 +12140,7 @@ table[border="0"] thead, table[border="0"] tbody, table[border="0"] tr, table[bo
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
   CSS from:       http://codepen.io/transportedman/pen/NPWRGq
   and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
-  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb
 */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -12291,12 +12291,15 @@ a.callbox {
   margin-left: 10px;
   font-size: 13px;
   text-transform: uppercase;
-  color: #a1b70d;
-  border: 1px solid #a1b70d;
+  /*color: #a1b70d;*/
+  color: #6b7a09;
+  /*border: 1px solid #a1b70d;*/
+  border: 1px solid #6b7a09;
   padding: 5px;
   vertical-align: middle;
   font-weight: bold; }
   a.callbox:hover {
     text-decoration: none !important;
     color: #fff;
-    background: #a1b70d; }
+    /*background: #a1b70d;*/
+    background: #6b7a09; }

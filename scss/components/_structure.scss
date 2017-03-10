@@ -5,7 +5,7 @@
 // Split to Columns
 // ===========================
 
-// NOTE: Formerly used a JS technique but 
+// NOTE: Formerly used a JS technique but
 // this is now sufficiently supported via CSS3.
 // Works with lists, paragraphs, other elements.
 
@@ -33,16 +33,16 @@ table[border="0"], table.table-unstyled {
   }
 }
 
-// ===================================== 
+// =====================================
 // Bootstrap Carousels
-// ===================================== 
+// =====================================
 
 
 /*
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
   CSS from:       http://codepen.io/transportedman/pen/NPWRGq
   and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
-  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb
 */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -128,9 +128,9 @@ table[border="0"], table.table-unstyled {
 }
 
 
-// ===================================== 
+// =====================================
 // CarouFredSel Carousels
-// ===================================== 
+// =====================================
 
 
 .smallArrowNav {
@@ -168,12 +168,12 @@ table[border="0"], table.table-unstyled {
   display: block;
   min-height: 195px;
 }
-.wide-thumbs ul li { 
+.wide-thumbs ul li {
   display: block;
   min-height: 155px;
 }
 
-.vertical-blogs ul li img { 
+.vertical-blogs ul li img {
   max-width: 150px;
   height: 150px;
   object-fit: cover;
@@ -228,23 +228,25 @@ table[border="0"], table.table-unstyled {
   padding-top: 5px;
 }
 
-// ===================================== 
+// =====================================
 // Callbox links from MadLib theme
-// ===================================== 
+// =====================================
 
 a.callbox {
   margin-left: 10px;
   font-size: 13px;
   text-transform: uppercase;
-  color: #a1b70d;
-  border: 1px solid #a1b70d;
+  /*color: #a1b70d;*/
+  color: #6b7a09;
+  /*border: 1px solid #a1b70d;*/
+  border: 1px solid #6b7a09;
   padding: 5px;
   vertical-align: middle;
   font-weight: bold;
   &:hover {
     text-decoration: none !important;
     color: #fff;
-    background: #a1b70d;
+    /*background: #a1b70d;*/
+    background: #6b7a09;
   };
 }
-
