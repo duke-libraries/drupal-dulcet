@@ -8675,7 +8675,7 @@ ul.dropdown-menu li {
 /* Search Tabs */
 @media (min-width: 992px) {
   .search-resources-tabs {
-    background: #235f9c url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 8.98em 0;
+    background: #767676 url(/sites/all/themes/dulcet/assets/images/library-background-blue.jpg) no-repeat 8.98em 0;
     border-top: 3px solid #184d83;
     min-height: 7.95em; }
   .search-resources-tabs.single {
