@@ -6,14 +6,14 @@
       <h2<?php print $title_attributes; ?>><?php print $block->subject; ?></h2>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
-    
+
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
-      
+
         <!-- content above menu -->
             <p class="sidebar-logo"><a href="/music"> <img src="<?php print base_path(); ?>sites/default/files/east/music/music-library-windows.jpg" class="img-thumbnail menu-thumb" alt="Music Library"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="/music"> Music Library </a></li></ul>
         <!-- / content above menu -->
-      
-      
+
+
       <?php print $content ?>
 
 
@@ -26,12 +26,12 @@
         <strong>Connect With Music</strong>
         <div>
           <a href="http://twitter.com/DukeMusicLib">
-            <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="">
+            <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="twitter">
           </a>
           <a href="https://www.facebook.com/DukeMusicLibrary">
-            <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="">
+            <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="facebook">
           </a>
-        </div> 
+        </div>
       </div>
 
 
