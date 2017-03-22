@@ -11672,7 +11672,8 @@ ul.pdflinks a {
   margin-top: 10px !important; }
 
 .item-list-blog-images .views-row .date {
-  color: #999;
+  /*color: #999;*/
+  color: #767676;
   font-style: italic; }
 
 /* Views event display */
