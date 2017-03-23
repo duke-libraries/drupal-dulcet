@@ -142,12 +142,14 @@ drupal_add_css('https://cdn.datatables.net/fixedheader/3.1.2/css/fixedHeader.dat
 
             echo '<div class="filters">';
             echo '<p>Filter by Collection Group</p>';
-            echo '<select id="select1">';
+            echo '<form>';
+            echo '<select id="select1" aria-label="Select Group">';
               echo '<option value="">-- select a group --</option>';
               foreach ($groupArray as $group) {
                 echo '<option value="' . $group . '">' . $group . '</option>';
               }
             echo '</select>';
+            echo '</form>';
             echo '</div>';
 
             echo '<br clear="all" />';

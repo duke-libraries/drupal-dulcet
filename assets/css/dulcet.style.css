@@ -9327,6 +9327,12 @@ ul.dropdown-menu li {
 .text-muted, body.maintenance-page .tasks-list > div {
   color: #767676; }
 
+blockquote footer, blockquote small, blockquote .small {
+  color: #696969; }
+
+#carousel-bootstrap {
+  background: #333; }
+
 ::-webkit-input-placeholder {
   color: #767676;
   opacity: 1; }
@@ -9717,6 +9723,15 @@ iframe {
 
 .page-about-jobs .sidebar-box-content li {
   line-height: inherit; }
+
+/* Column Fixes */
+@media (min-width: 992px) {
+  .left-column {
+    padding-left: 0;
+    padding-right: 30px; }
+  .right-column {
+    padding-left: 30px;
+    padding-right: 0; } }
 
 #rubenstein-banner {
   height: 240px;
