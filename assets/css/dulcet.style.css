@@ -12142,6 +12142,18 @@ div.smallerThumbs .views-field-author {
   line-height: 1.2em;
   margin-top: 0.5em; }
 
+/* increase contrast */
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  color: #707070; }
+
+#thumbLessWrapper .text-muted, #thumbLessWrapper body.maintenance-page .tasks-list > div, body.maintenance-page #thumbLessWrapper .tasks-list > div {
+  color: #6a6a6a; }
+
 .columns-2 {
   -moz-column-count: 2;
        column-count: 2; }
