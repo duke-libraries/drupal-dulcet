@@ -5,7 +5,7 @@
   margin-top: 20px;
   margin-bottom: 15px;
   background: #eee;
-  padding: 15px 6px 15px 15px; 
+  padding: 15px 6px 15px 15px;
 }
 ul#thumbLess {
   margin-left: 0;
@@ -41,4 +41,20 @@ div.smallerThumbs .views-field-author {
   font-size: 13px;
   line-height: 1.2em;
   margin-top: 0.5em;
+}
+
+
+/* increase contrast */
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  color: #707070;
+}
+
+#thumbLessWrapper .text-muted {
+  color: #6a6a6a;
 }
