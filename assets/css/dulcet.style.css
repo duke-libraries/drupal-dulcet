@@ -11715,6 +11715,30 @@ ul.pdflinks a {
   display: block;
   margin-top: 1em; }
 
+/* blog grid display */
+.blogs-grid #rotate1 {
+  -moz-column-count: 2;
+  column-count: 2; }
+
+@media (min-width: 992px) {
+  .blogs-grid #rotate1 {
+    -moz-column-count: 3;
+    column-count: 3; } }
+
+.blogs-grid #rotate1 li {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 0 15px 0 15px;
+  text-align: center; }
+
+/* only display 6 items! */
+.blogs-grid #rotate1 li:nth-child(n+7) {
+  display: none; }
+
+.blogs-grid #rotate1 li p {
+  line-height: 1.2;
+  margin-top: 5px; }
+
 /* JS masthead styles lazily copied from MadLib theme */
 /* These exist to prevent a flash of unstyled content */
 /* before the JS injected mast can get its styles */
