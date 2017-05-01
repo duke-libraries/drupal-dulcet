@@ -62,7 +62,8 @@ function dulcet_preprocess_html(&$vars) {
     		//drupal_add_js('http://api.simile-widgets.org/exhibit/current/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/o10691579607600944814.3750460617597962526/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1ViDuOsdyvKyGPviGjzSVgu2IFurfkI3zzIFzEr2eNUc/od6/public/basic?alt=json-in-script'));
+		//https://spreadsheets.google.com/feeds/list/o10691579607600944814.3750460617597962526/od6/public/basic?alt=json-in-script
 	}
 
 	// webx projects
