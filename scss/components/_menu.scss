@@ -87,23 +87,3 @@ li.nav-header-gray { // maybe call this something difft?
   font-size: 60%;
   color: #ccc;
 }
-
-
-// Nav tabs
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  background: #fff;
-  color: #333;
-  border: 1px solid #d5d5d5;
-  border-bottom: 1px solid #fff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.nav-tabs > li > a:hover,
-.nav-tabs > li > a:focus {
-  text-decoration: underline;
-  background: #d0cdca;
-}

@@ -8778,6 +8778,26 @@ ul.dropdown-menu li {
   .page-rubenstein-index .search-resources-tabs .tab-content .inline li {
     margin-top: .25em; } }
 
+.nav-tabs > li > a {
+  background: #ddd;
+  color: #555;
+  border: 1px solid #d5d5d5; }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: #fff;
+  color: #333;
+  border: 1px solid #d5d5d5;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+  text-decoration: none; }
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  background-color: #c4c4c4;
+  border-color: #bebebe; }
+
 .search-resources-tabs #myTab {
   margin-bottom: 0;
   margin-left: 0;
@@ -8787,19 +8807,21 @@ ul.dropdown-menu li {
   background: #aaa;
   border-bottom: 0; }
 
-.nav-tabs > li > a,
-.nav-tabs > li > a:hover,
-.nav-tabs > li > a:focus {
+.search-resources-tabs .nav-tabs > li > a,
+.search-resources-tabs .nav-tabs > li > a:hover,
+.search-resources-tabs .nav-tabs > li > a:focus {
   background: #e8e5e2;
   color: #555;
-  border: 1px solid #d5d5d5; }
+  border: 1px solid #d5d5d5;
+  font-weight: normal; }
 
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
+.search-resources-tabs .nav-tabs > li.active > a,
+.search-resources-tabs .nav-tabs > li.active > a:hover,
+.search-resources-tabs .nav-tabs > li.active > a:focus {
   background: #235f9c;
   color: #fff;
-  border: 1px solid #235f9c; }
+  border: 1px solid #235f9c;
+  text-decoration: none; }
 
 /* IE Hack */
 .search-resources-tabs .tab-pane.options select::-ms-expand {
@@ -12128,21 +12150,6 @@ li.nav-header-gray {
   margin-left: 0.8em;
   font-size: 60%;
   color: #ccc; }
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  background: #fff;
-  color: #333;
-  border: 1px solid #d5d5d5;
-  border-bottom: 1px solid #fff;
-  font-weight: bold;
-  text-decoration: none; }
-
-.nav-tabs > li > a:hover,
-.nav-tabs > li > a:focus {
-  text-decoration: underline;
-  background: #d0cdca; }
 
 #thumbLessWrapper {
   margin-top: 20px;

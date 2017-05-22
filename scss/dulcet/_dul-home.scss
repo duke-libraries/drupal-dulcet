@@ -214,6 +214,35 @@ $discovery-tabs-text-off: #555;
 
 
 
+
+// default nav tabs
+
+.nav-tabs > li > a {
+  background: #ddd;
+  color: #555;
+  border: 1px solid #d5d5d5;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: #fff;
+  color: #333;
+  border: 1px solid #d5d5d5;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  background-color: #c4c4c4;
+  border-color: #bebebe;
+}
+
+
+
+
 .search-resources-tabs #myTab {
   margin-bottom: 0;
   margin-left: 0;
@@ -225,21 +254,29 @@ $discovery-tabs-text-off: #555;
   border-bottom: 0;
 }
 
-.nav-tabs > li > a,
-.nav-tabs > li > a:hover,
-.nav-tabs > li > a:focus {
-  background: $discovery-tabs-bg-off;
-  color: $discovery-tabs-text-off;
-  border: 1px solid lighten($discovery-tabs-text-off, 50%);
+
+.search-resources-tabs {
+
+  .nav-tabs > li > a,
+  .nav-tabs > li > a:hover,
+  .nav-tabs > li > a:focus {
+    background: $discovery-tabs-bg-off;
+    color: $discovery-tabs-text-off;
+    border: 1px solid lighten($discovery-tabs-text-off, 50%);
+    font-weight: normal;
+  }
+
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover,
+  .nav-tabs > li.active > a:focus {
+    background: $discovery-tabs-bg;
+    color: $discovery-tabs-text;
+    border: 1px solid $discovery-tabs-bg;
+    text-decoration: none;
+  }
+
 }
 
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  background: $discovery-tabs-bg;
-  color: $discovery-tabs-text;
-  border: 1px solid $discovery-tabs-bg;
-}
 
 
 /* IE Hack */
