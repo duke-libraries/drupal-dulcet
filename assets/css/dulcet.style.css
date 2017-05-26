@@ -8781,7 +8781,8 @@ ul.dropdown-menu li {
 .nav-tabs > li > a {
   background: #ddd;
   color: #555;
-  border: 1px solid #d5d5d5; }
+  border: 1px solid #d5d5d5;
+  text-decoration: none !important; }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -9338,6 +9339,44 @@ ul.dropdown-menu li {
     font-size: .9em; } }
 
 /* COLORS */
+/* Links */
+.content p a,
+.pane-custom .pane-content p a,
+.underlined-links p a {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #c0cce0;
+          text-decoration-color: #c0cce0;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip: ink; }
+
+.content p a:hover,
+.pane-custom .pane-content p a:hover,
+.underlined-links p a:hover {
+  -webkit-text-decoration-color: #021738;
+          text-decoration-color: #021738; }
+
+.underlined-li-links li a {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #c0cce0;
+          text-decoration-color: #c0cce0;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip: ink; }
+
+.underlined-li-links li a:hover {
+  -webkit-text-decoration-color: #021738;
+          text-decoration-color: #021738; }
+
+p.larger a,
+p strong.x-large a {
+  text-decoration: none; }
+
+p.larger a:hover,
+p strong.x-large a:hover {
+  text-decoration: underline; }
+
+.btn, .media-widget > a, .media-widget > a {
+  text-decoration: none !important; }
+
 /* TYPOGRAPHY */
 .page-header h1 {
   font-weight: 500; }
