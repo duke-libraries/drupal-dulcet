@@ -4,6 +4,48 @@ $dul-headers:         #001A57;
 $dul-links:           #0062A0;
 $dul-masthead:        #053482;
 
+
+/* Links */
+
+.content,
+.pane-custom .pane-content,
+.underlined-links {
+  p a {
+    text-decoration: underline;
+    text-decoration-color: #c0cce0;
+    text-decoration-skip: ink;
+  }
+  p a:hover {
+    text-decoration-color: #021738;
+  }
+}
+
+.underlined-li-links {
+  li a {
+    text-decoration: underline;
+    text-decoration-color: #c0cce0;
+    text-decoration-skip: ink;
+  }
+  li a:hover {
+    text-decoration-color: #021738;
+  }
+}
+
+p.larger,
+p strong.x-large {
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn, .media-widget > a {
+  text-decoration: none !important;
+}
+
+
 /* TYPOGRAPHY */
 
 .page-header h1 {
