@@ -12164,6 +12164,10 @@ li.nav-header-gray {
     border-left: 6px solid #235f9c;
     font-weight: bold; }
 
+.feature-box.pull-right .nav-list > li.leaf a,
+.feature-box.pull-right .nav-list > li.expanded a {
+  text-transform: none; }
+
 .nav-list .nav-list > li.leaf a {
   text-transform: none;
   font-size: 15px;

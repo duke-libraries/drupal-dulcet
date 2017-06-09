@@ -51,6 +51,11 @@ li.nav-header-gray { // maybe call this something difft?
   }
 }
 
+.feature-box.pull-right .nav-list > li.leaf a,
+.feature-box.pull-right .nav-list > li.expanded a {
+    text-transform: none;
+}
+
 // Nested menus
 .nav-list .nav-list > li.leaf {
   & a {
