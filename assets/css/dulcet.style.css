@@ -10144,7 +10144,8 @@ a.drupal-shib-login {
 
 .image-center {
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-bottom: 20px; }
 
 .image-left-tight {
   float: left;
