@@ -1,0 +1,24 @@
+variables:
+  APP_ROOT: /srv/perkins/apps
+  SUDO_PREFIX: ''
+
+before_script:
+
+deploy1:
+  variables:
+    DANCER2_APP: 'ASpaceLogView'
+    SUDO_PREFIX: 'sudo -u aspace'
+  tags:
+    - 'lib-aspace-dev-01'
+    - deploy_assets_to_dancer2
+  only:
+    - master
+  script:
+    - whoami
+    - pwd
+    - '$SUDO_PREFIX cp assets/js/dulcet.script.js $APP_ROOT/$DANCER2_APP/public/javascripts/dulcet.script.js'
+    - '$SUDO_PREFIX cp assets/css/dulcet.style.css $APP_ROOT/$DANCER2_APP/public/css/dulcet.style.css'
+    - '$SUDO_PREFIX [ -d $APP_ROOT/$DANCER2_APP/public/fonts ] || mkdir $APP_ROOT/$DANCER2_APP/public/fonts'
+    - '$SUDO_PREFIX cp -r assets/fonts/* $APP_ROOT/$DANCER2_APP/public/fonts/'
+    - '$SUDO_PREFIX cp -r assets/images/* $APP_ROOT/$DANCER2_APP/public/images/'
+    - echo "dulcet assets deployed."
