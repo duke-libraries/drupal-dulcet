@@ -2,7 +2,7 @@ variables:
   APP_ROOT: /srv/perkins/apps
   SUDO_PREFIX: ''
 
-# comment
+# comment to be removed later;
 before_script:
 
 deploy1:
