@@ -80,12 +80,16 @@ html > .duke-alert {
     color: #ffcccc;
     /*background-color: none;*/
     background: #ad1e17 url(//alertbar.oit.duke.edu/sites/all/themes/blackwell/images/struct/bg-alert.png) bottom center repeat-x;
+    border-left: 15px solid #720000;
 }
 
 .duke-alert-lev2 {
-    color: #ffffff;
+    /*color: #ffffff;*/
     /*background-color: none;*/
-    background: #F09905 url(//alertbar.oit.duke.edu/sites/all/themes/blackwell/images/struct/bg-alert-2.png) bottom center repeat-x;
+    /*background: #F09905 url(//alertbar.oit.duke.edu/sites/all/themes/blackwell/images/struct/bg-alert-2.png) bottom center repeat-x;*/
+    background: #f4e2c6;
+    color: #000;
+    border-left: 15px solid #f09905;
 }
 
 .duke-alert ul {
@@ -99,10 +103,6 @@ html > .duke-alert {
     margin-left: 30px;
 }
 
-.duke-alert h2, .duke-alert strong {
-    color: #fff !important;
-}
-
 .duke-alert .dukealert-header {
     width: 20%;
     float: left;
@@ -111,6 +111,10 @@ html > .duke-alert {
 
 .duke-alert-lev2 .dukealert-header, .duke-alert-lev1 .dukealert-header {
     padding: 10px;
+}
+
+.duke-alert h2, .duke-alert strong {
+  color: #fff !important;
 }
 
 .duke-alert .dukealert-description {
@@ -125,9 +129,9 @@ html > .duke-alert {
     border-left: 1px solid #c15752;
 }
 
-.duke-alert-lev2 .dukealert-description {
+/*.duke-alert-lev2 .dukealert-description {
     border-left: 1px solid #ffffff;
-}
+}*/
 
 .duke-alert .dukealert-description a {
     color: #ffffff;
@@ -221,6 +225,33 @@ html > .duke-alert {
 #dukealert .dukealert-description p {
     color: #fff
 }
+
+
+
+
+.duke-alert-lev2 h2.dukealert-standardHeadline {
+  color: #422f0e !important;
+  font-size: 34px !important;
+  height: 30px;
+}
+
+.duke-alert-lev2 .dukealert-description p {
+  color: #422f0e !important;
+}
+
+.duke-alert-lev2 .dukealert-description {
+  border-left: 1px solid rgba(66,47,15,.25);
+}
+
+.duke-alert-lev2 .dukealert-alertLink span {
+  color: #422f0e !important;
+}
+
+.duke-alert-lev2 .dukealert-description a {
+    color: #422f0e;
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width: 979px) {
     .duke-alert .dukealert-header {
