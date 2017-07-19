@@ -38,6 +38,13 @@ html {
 
 }
 
+.page-kiosks-edge .region-alerts {
+	position: absolute;
+  z-index: 1000000000;
+  width: 2560px;
+  opacity: .9;
+}
+
 .page-kiosks-edge .container {
 	width: 100%;
 	margin:0;
@@ -814,6 +821,13 @@ html {
 	background: #fff;
 	overflow: hidden;
 
+}
+
+.page-kiosks-lobby .region-alerts {
+	position: absolute;
+  z-index: 1000000000;
+  width: 1920px;
+  opacity: .9;
 }
 
 .page-kiosks-lobby .wrapper {

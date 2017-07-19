@@ -9916,12 +9916,16 @@ html > .duke-alert {
 .duke-alert-lev1 {
   color: #ffcccc;
   /*background-color: none;*/
-  background: #ad1e17 url(//alertbar.oit.duke.edu/sites/all/themes/blackwell/images/struct/bg-alert.png) bottom center repeat-x; }
+  background: #ad1e17 url(//alertbar.oit.duke.edu/sites/all/themes/blackwell/images/struct/bg-alert.png) bottom center repeat-x;
+  border-left: 15px solid #720000; }
 
 .duke-alert-lev2 {
-  color: #ffffff;
+  /*color: #ffffff;*/
   /*background-color: none;*/
-  background: #F09905 url(//alertbar.oit.duke.edu/sites/all/themes/blackwell/images/struct/bg-alert-2.png) bottom center repeat-x; }
+  /*background: #F09905 url(//alertbar.oit.duke.edu/sites/all/themes/blackwell/images/struct/bg-alert-2.png) bottom center repeat-x;*/
+  background: #f4e2c6;
+  color: #000;
+  border-left: 15px solid #f09905; }
 
 .duke-alert ul {
   margin: 5px 5px 10px 0px; }
@@ -9932,9 +9936,6 @@ html > .duke-alert {
   background-image: none;
   margin-left: 30px; }
 
-.duke-alert h2, .duke-alert strong {
-  color: #fff !important; }
-
 .duke-alert .dukealert-header {
   width: 20%;
   float: left;
@@ -9942,6 +9943,9 @@ html > .duke-alert {
 
 .duke-alert-lev2 .dukealert-header, .duke-alert-lev1 .dukealert-header {
   padding: 10px; }
+
+.duke-alert h2, .duke-alert strong {
+  color: #fff !important; }
 
 .duke-alert .dukealert-description {
   border-left: 1px solid #c15752;
@@ -9953,9 +9957,9 @@ html > .duke-alert {
 .duke-alert-lev1 .dukealert-description {
   border-left: 1px solid #c15752; }
 
-.duke-alert-lev2 .dukealert-description {
-  border-left: 1px solid #ffffff; }
-
+/*.duke-alert-lev2 .dukealert-description {
+    border-left: 1px solid #ffffff;
+}*/
 .duke-alert .dukealert-description a {
   color: #ffffff;
   text-decoration: underline; }
@@ -10032,6 +10036,24 @@ html > .duke-alert {
 
 #dukealert .dukealert-description p {
   color: #fff; }
+
+.duke-alert-lev2 h2.dukealert-standardHeadline {
+  color: #422f0e !important;
+  font-size: 34px !important;
+  height: 30px; }
+
+.duke-alert-lev2 .dukealert-description p {
+  color: #422f0e !important; }
+
+.duke-alert-lev2 .dukealert-description {
+  border-left: 1px solid rgba(66, 47, 15, 0.25); }
+
+.duke-alert-lev2 .dukealert-alertLink span {
+  color: #422f0e !important; }
+
+.duke-alert-lev2 .dukealert-description a {
+  color: #422f0e;
+  text-decoration: underline; }
 
 @media screen and (max-width: 979px) {
   .duke-alert .dukealert-header {
@@ -10218,6 +10240,12 @@ html {
   width: 2560px;
   height: 1440px;
   background: #fff; }
+
+.page-kiosks-edge .region-alerts {
+  position: absolute;
+  z-index: 1000000000;
+  width: 2560px;
+  opacity: .9; }
 
 .page-kiosks-edge .container {
   width: 100%;
@@ -10873,6 +10901,12 @@ html {
   height: 1080px;
   background: #fff;
   overflow: hidden; }
+
+.page-kiosks-lobby .region-alerts {
+  position: absolute;
+  z-index: 1000000000;
+  width: 1920px;
+  opacity: .9; }
 
 .page-kiosks-lobby .wrapper {
   width: 1920px; }
