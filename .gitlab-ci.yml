@@ -16,6 +16,7 @@ deploy1:
   script:
     - whoami
     - pwd
+    - pwd
     - '$SUDO_PREFIX cp assets/js/dulcet.script.js $APP_ROOT/$DANCER2_APP/public/javascripts/dulcet.script.js'
     - '$SUDO_PREFIX cp assets/css/dulcet.style.css $APP_ROOT/$DANCER2_APP/public/css/dulcet.style.css'
     - '$SUDO_PREFIX [ -d $APP_ROOT/$DANCER2_APP/public/fonts ] || mkdir $APP_ROOT/$DANCER2_APP/public/fonts'
