@@ -3,6 +3,11 @@
 /* before the JS injected mast can get its styles */
 /* Likely needs refinement to be more seamless in dulcet */
 
+#mast {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .zone-masthead {
   background: #053482;
   /*border-bottom: 1px solid #262626;*/
@@ -309,6 +314,11 @@
 }
 
 @include breakpoint(sm) {
+
+  #mast {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   #dul-masthead-filler #region-myaccount {
     width: 260px;

@@ -11683,12 +11683,15 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
   ul:not([class]):not([id]) > li:before, ul.bullet-green > li:before, ul.bullet-gray > li:before, ul.bullet-blue > li:before, ul.list-styled > li:before {
     content: "\f111";
     font-family: FontAwesome;
-    display: inline-block;
+    /*display: inline-block;*/
+    display: block;
     margin-left: -2.3em;
     width: 2.3em;
     color: #888;
     font-size: 0.42em;
-    vertical-align: middle; }
+    vertical-align: middle;
+    float: left;
+    margin-top: 1em; }
 
 #mast ul:not([class]):not([id]) li, .item-list ul:not([class]):not([id]) li, .search-resources-wrapper ul:not([class]):not([id]) li {
   padding-left: 0;
@@ -11843,6 +11846,10 @@ ul.pdflinks a {
 /* These exist to prevent a flash of unstyled content */
 /* before the JS injected mast can get its styles */
 /* Likely needs refinement to be more seamless in dulcet */
+#mast {
+  padding-left: 0;
+  padding-right: 0; }
+
 .zone-masthead {
   background: #053482;
   /*border-bottom: 1px solid #262626;*/
@@ -12072,6 +12079,9 @@ ul.pdflinks a {
   padding-left: 25px; }
 
 @media (min-width: 768px) {
+  #mast {
+    padding-left: 15px;
+    padding-right: 15px; }
   #dul-masthead-filler #region-myaccount {
     width: 260px;
     max-width: 260px;
