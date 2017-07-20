@@ -17,12 +17,15 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
   & > li:before {
     content: "\f111";
     font-family: FontAwesome;
-    display: inline-block;
+    /*display: inline-block;*/
+    display: block;
     margin-left: -2.3em;
     width: 2.3em;
     color: #888;
     font-size: 0.42em;
     vertical-align: middle;
+    float: left;
+    margin-top: 1em;
   }
 }
 
