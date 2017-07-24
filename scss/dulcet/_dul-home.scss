@@ -657,6 +657,12 @@ $discovery-tabs-text-off: #555;
 .page-home .cycle-slideshow li {
   overflow: visible;
   vertical-align: text-top;
+  max-width: 250px;
+  display: none;
+}
+
+.page-home .cycle-slideshow li.first {
+  display: block;
 }
 
 .page-home .cycle-slideshow li a {
@@ -674,6 +680,7 @@ $discovery-tabs-text-off: #555;
 .page-home .cycle-slideshow .blog-content img {
   width: calc(100% - 10px);
   margin-left: 10px;
+  max-width: 240px;
 }
 
 .page-home .cycle-slideshow .blog-content p {
