@@ -9079,7 +9079,12 @@ ul.dropdown-menu li {
 
 .page-home .cycle-slideshow li {
   overflow: visible;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+  max-width: 250px;
+  display: none; }
+
+.page-home .cycle-slideshow li.first {
+  display: block; }
 
 .page-home .cycle-slideshow li a {
   color: #666; }
@@ -9092,7 +9097,8 @@ ul.dropdown-menu li {
 
 .page-home .cycle-slideshow .blog-content img {
   width: calc(100% - 10px);
-  margin-left: 10px; }
+  margin-left: 10px;
+  max-width: 240px; }
 
 .page-home .cycle-slideshow .blog-content p {
   word-wrap: break-word;
@@ -11896,7 +11902,8 @@ ul.pdflinks a {
 #dul-masthead-region-megamenu-temp-mobile {
   display: block;
   position: absolute;
-  top: 65px; }
+  /*top: 65px;*/
+  top: 71px; }
 
 #dul-masthead-mobile-menu {
   position: absolute;
@@ -12028,7 +12035,8 @@ ul.pdflinks a {
   max-width: 240px;
   float: right;
   width: 150px;
-  margin-right: 35px;
+  /*margin-right: 35px;*/
+  margin-right: -5px;
   margin-top: 15px; }
 
 .dul-masthead-mega_toplevel-temp a {
