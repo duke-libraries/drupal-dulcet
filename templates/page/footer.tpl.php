@@ -90,7 +90,7 @@
       	$signin .= '/Shibboleth.sso/Login?target=' . htmlspecialchars( $redirect );
       ?>
       <div>
-        <small><a aria-hidden="true" class="drupal-shib-login" href="<?php print $signin; ?>">Library Staff Sign In</a></small>
+        <small><a aria-hidden="true" class="drupal-shib-login" href="<?php print $signin; ?>">Library&nbsp;Staff&nbsp;Sign&nbsp;In</a></small>
       </div>
     </div>
   </div>
