@@ -12097,7 +12097,8 @@ ul.pdflinks a {
   font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
   font-size: 13px;
   margin-left: 12px;
-  display: block; }
+  display: block;
+  font-weight: bold; }
 
 #region-scoped-search-temp #region-myaccount a {
   font-weight: bold; }
@@ -12176,7 +12177,7 @@ ul.pdflinks a {
     box-shadow: none;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px; }
+    font-size: 14px; }
   #region-scoped-search-temp .dul-masthead-btn-group {
     display: inline; }
   #region-scoped-search-temp button.dul-masthead-btn {
