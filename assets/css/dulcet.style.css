@@ -10505,7 +10505,8 @@ html {
 .edge-content-area .view-content .item-list .event-location {
   font-size: 2.5em; }
 
-.edge-content-area .view-content .item-list .event-campus {
+.edge-content-area .view-content .item-list .event-campus,
+.edge-content-area .view-content .item-list .event-image-wrapper {
   display: none; }
 
 .view-kiosk-edge-events .views-field-description .field-content,
@@ -10526,7 +10527,7 @@ html {
 
 .view-kiosk-edge-events .views-field-description,
 .view-kiosk-edge-events-libcal- .views-field-description {
-  height: 9em;
+  /*height: 9em;*/
   overflow: hidden;
   margin-bottom: 2em; }
 
