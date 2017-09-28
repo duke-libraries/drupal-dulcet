@@ -4,7 +4,7 @@
 <footer id="footer-dulcet" class="container" role="footer">
   <div class="row">
     <div class="col-md-1">
-      <a onclick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Branding', eventLabel: 'Library Logo'});" href="http://library.duke.edu"><img alt="Duke University Libraries" src="<?php echo base_path() . drupal_get_path('theme','dulcet') . '/assets/images/devillogo-60pct-60.png'; ?>"></a>
+      <a onclick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Branding', eventLabel: 'Library Logo'});" href="https://library.duke.edu"><img alt="Duke University Libraries" src="<?php echo base_path() . drupal_get_path('theme','dulcet') . '/assets/images/devillogo-60pct-60.png'; ?>"></a>
     </div>
     <div class="col-md-2">
       <h4><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Contact Info', eventLabel: 'Contact Us'});" href="/about/contact">Contact Us</a></h4>
@@ -40,9 +40,9 @@
 
       	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Facebook'});" href="https://www.facebook.com/dukelibraries" title="Facebook"><div class="facebook">Facebook</div></a>
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Youtube'});" href="http://www.youtube.com/user/DukeUnivLibraries" title="Youtube"><div class="youtube">Youtube</div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Youtube'});" href="https://www.youtube.com/user/DukeUnivLibraries" title="Youtube"><div class="youtube">Youtube</div></a>
 
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Flickr'});" href="http://www.flickr.com/photos/dukeunivlibraries/" title="Flickr"><div class="flickr">Flickr</div></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Flickr'});" href="https://www.flickr.com/photos/dukeunivlibraries/" title="Flickr"><div class="flickr">Flickr</div></a>
 
       	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Instagram'});" href="https://instagram.com/dukelibraries" title="Instagram"><div class="instagram">Instagram</div></a>
 
@@ -58,11 +58,11 @@
       	<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Re-use and Attribution'});" href="/about/reuse-attribution">Re-use &amp; Attribution</a> / <a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Privacy'});" href="/about/privacy">Privacy</a></li>
       	<li><a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Support the Libraries'});" href="/support">Support the Libraries</a></li>
       </ul>
-      <a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Creative Commons'});" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US" ><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/3.0/80x15.png" title="This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License" /></a>
+      <a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Links', eventLabel: 'Creative Commons'});" rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US" ><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/3.0/80x15.png" title="This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License" /></a>
     </div>
     <div class="col-md-2">
       <div id="duke-logo">
-      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Branding', eventLabel: 'Duke Logo'});" href="http://www.duke.edu"><img src="<?php echo base_path() . drupal_get_path('theme','dulcet') . '/assets/images/dukelogo_vert_60pct_140.png'; ?>" alt="Duke University" /></a>
+      	<a onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Branding', eventLabel: 'Duke Logo'});" href="https://www.duke.edu"><img src="<?php echo base_path() . drupal_get_path('theme','dulcet') . '/assets/images/dukelogo_vert_60pct_140.png'; ?>" alt="Duke University" /></a>
       </div>
 
       <?php

@@ -20,8 +20,8 @@
       <div class="sidebar-extras">
         <strong>Connect With Us</strong>
         <div>
-          <a href="http://www.facebook.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="Facebook"> </a>
-          <a href="http://www.twitter.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> </a>
+          <a href="https://www.facebook.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="Facebook"> </a>
+          <a href="https://www.twitter.com/JHFResearchCen"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> </a>
         </div>
 
         <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>

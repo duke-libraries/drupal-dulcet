@@ -41,7 +41,7 @@
 
         <!-- content above block -->
 
-    	<h3><a href="http://blogs.library.duke.edu/news-events-exhibits/all-library-events/" onClick="ga('send', 'event', { eventCategory: 'dulHome', eventAction: 'Upcoming Events', eventLabel: 'Header'});">Upcoming Library Events</a></h3>
+    	<h3><a href="https://blogs.library.duke.edu/news-events-exhibits/all-library-events/" onClick="ga('send', 'event', { eventCategory: 'dulHome', eventAction: 'Upcoming Events', eventLabel: 'Header'});">Upcoming Library Events</a></h3>
 
     	<!-- / content above block -->
 
@@ -49,7 +49,7 @@
 
         <!-- content below block -->
 		<div class="view-all">
-			<a href="http://blogs.library.duke.edu/news-events-exhibits/all-library-events/" onClick="ga('send', 'event', { eventCategory: 'dulHome', eventAction: 'Upcoming Events', eventLabel: 'View All'});">View All Events »</a>
+			<a href="https://blogs.library.duke.edu/news-events-exhibits/all-library-events/" onClick="ga('send', 'event', { eventCategory: 'dulHome', eventAction: 'Upcoming Events', eventLabel: 'View All'});">View All Events »</a>
 		</div>
         <!-- / content below block -->
 

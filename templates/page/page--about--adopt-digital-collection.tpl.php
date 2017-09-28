@@ -201,7 +201,7 @@ drupal_add_css('https://cdn.datatables.net/fixedheader/3.1.2/css/fixedHeader.dat
 
                 $tempNumberRounded = ceil($tempNumber / 10) * 10;
 
-                echo '<span class="hidden-numbers">' . $tempNumberRounded . '</span><a href="https://www.gifts.duke.edu/library?level=' . str_replace(' ', '', $item['gsx$slug']['$t']) . '" target="_blank" class="btn btn-default">Adopt for <span class="money">' . number_format($tempNumberRounded) . '</span></a>';
+                echo '<span class="hidden-numbers">' . $tempNumberRounded . '</span><a href="https://www.gifts.duke.edu/library?level=ADOPT_' . str_replace(' ', '', $item['gsx$slug']['$t']) . '" target="_blank" class="btn btn-default">Adopt for <span class="money">' . number_format($tempNumberRounded) . '</span></a>';
 
               } else {
 

@@ -19,7 +19,7 @@
       <div class="sidebar-extras">
         <strong>Connect With Us</strong>
         <div>
-          <a href="http://www.flickr.com/photos/dukeunivlibraries/sets/72157626835680449/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png" alt="Flickr"> </a>
+          <a href="https://www.flickr.com/photos/dukeunivlibraries/sets/72157626835680449/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png" alt="Flickr"> </a>
         </div>
 
         <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
