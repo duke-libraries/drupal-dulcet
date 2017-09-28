@@ -24,9 +24,9 @@
         </p>
         <strong>Connect With Lilly</strong>
         <div>
-          <a href="http://twitter.com/LillyLibDuke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> </a>
-          <a href="http://www.facebook.com/LillyLibraryDuke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="Facebook"> </a>
-          <a href="http://instagram.com/lillylibduke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/instagram24.png" alt="Instagram"> </a>
+          <a href="https://twitter.com/LillyLibDuke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> </a>
+          <a href="https://www.facebook.com/LillyLibraryDuke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="Facebook"> </a>
+          <a href="https://instagram.com/lillylibduke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/instagram24.png" alt="Instagram"> </a>
         </div>
       </div>
 

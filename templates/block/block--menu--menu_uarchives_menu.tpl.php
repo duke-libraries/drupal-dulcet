@@ -19,7 +19,7 @@
       <div class="sidebar-extras">
         <strong>Connect With Us</strong>
         <div>
-          <a href="http://www.facebook.com/dukeuniversityarchives"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="Facebook"> </a><a href="http://www.flickr.com/photos/dukeyearlook/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png" alt="Flickr"> </a> <a href="http://twitter.com/dukeuarchives/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> </a>
+          <a href="https://www.facebook.com/dukeuniversityarchives"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="Facebook"> </a><a href="https://www.flickr.com/photos/dukeyearlook/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png" alt="Flickr"> </a> <a href="https://twitter.com/dukeuarchives/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> </a>
         </div>
       </div>
 

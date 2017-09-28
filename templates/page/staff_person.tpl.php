@@ -73,7 +73,7 @@
 			// When that is FALSE, $person->postal_address will NOT be sett.
 		?>
 		<?php if (isset($person->postal_address)): ?>
-		<div class="personInfo personAddress personBox" itemprop="address" itemtype="http://schema.org/PostalAddress" property="schema:address" typeof="schema:PostalAddress">
+		<div class="personInfo personAddress personBox" itemprop="address" itemtype="https://schema.org/PostalAddress" property="schema:address" typeof="schema:PostalAddress">
 			<div property="schema:streetAddress"><?php print $person->postal_address['office']; ?></div>
 			<?php
 				// only print the box office when detected

@@ -41,7 +41,7 @@
 
         <!-- content above block -->
 
-    	<h3><a href="http://blogs.library.duke.edu/">News, Events &amp; Exhibits</a></h3>
+    	<h3><a href="https://blogs.library.duke.edu/">News, Events &amp; Exhibits</a></h3>
 
     	<a class="left carousel-control" href="#" id="prev">&lsaquo;</a>
     	<!-- / content above block -->

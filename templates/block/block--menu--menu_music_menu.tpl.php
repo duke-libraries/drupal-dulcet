@@ -25,7 +25,7 @@
         </p>
         <strong>Connect With Music</strong>
         <div>
-          <a href="http://twitter.com/DukeMusicLib">
+          <a href="https://twitter.com/DukeMusicLib">
             <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="twitter">
           </a>
           <a href="https://www.facebook.com/DukeMusicLibrary">

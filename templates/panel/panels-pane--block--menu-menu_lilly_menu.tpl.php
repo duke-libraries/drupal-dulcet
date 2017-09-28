@@ -40,15 +40,15 @@
   <div class="pane-content clearfix">
 
         <!-- content above menu -->
-            <p><a href="http://library.duke.edu/lilly/"> <img src="<?php print base_path(); ?>sites/default/files/east/lilly-other/lilly035A.jpg" class="img-thumbnail"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="http://library.duke.edu/lilly/"> Lilly Library </a></li></ul>
+            <p><a href="https://library.duke.edu/lilly/"> <img src="<?php print base_path(); ?>sites/default/files/east/lilly-other/lilly035A.jpg" class="img-thumbnail"> </a></p><ul class="nav nav-list"><li class="nav-header nav-header-gray"><a href="https://library.duke.edu/lilly/"> Lilly Library </a></li></ul>
         <!-- / content above menu -->
-    
+
     <?php print render($content); ?>
-    
+
         <!-- content below menu -->
-            <div class="sideContact"><ul class="nav nav-list list-unstyled"><li class="divider"></li><li class="nav-header nav-header-gray"><a href="#"> Contact Us </a></li><li style="font-size: 9pt; font-weight: normal; padding: 3px;">(919) 660-5995</li><li style="font-size: 9pt; font-weight: normal;"><a href="#"> lilly-requests@duke.edu </a></li></ul></div><ul class="nav nav-list list-unstyled"><li class="nav-header">Connect With Lilly</li></ul><div><a href="http://twitter.com/LillyLibDuke"><img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt=""> </a> <a href="https://www.facebook.com/LillyLibraryDuke"><img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a> <a href="http://instagram.com/lillylibduke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/instagram24.png" alt=""> </a></div>
+            <div class="sideContact"><ul class="nav nav-list list-unstyled"><li class="divider"></li><li class="nav-header nav-header-gray"><a href="#"> Contact Us </a></li><li style="font-size: 9pt; font-weight: normal; padding: 3px;">(919) 660-5995</li><li style="font-size: 9pt; font-weight: normal;"><a href="#"> lilly-requests@duke.edu </a></li></ul></div><ul class="nav nav-list list-unstyled"><li class="nav-header">Connect With Lilly</li></ul><div><a href="https://twitter.com/LillyLibDuke"><img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt=""> </a> <a href="https://www.facebook.com/LillyLibraryDuke"><img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt=""> </a> <a href="https://instagram.com/lillylibduke"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/instagram24.png" alt=""> </a></div>
         <!-- / content below menu -->
-        
+
   </div>
 
   <?php if ($links): ?>

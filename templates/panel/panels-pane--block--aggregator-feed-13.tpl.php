@@ -40,19 +40,19 @@
   <div class="pane-content">
 
         <!-- content above block -->
-    	
-    	<h3><a href="http://blogs.library.duke.edu/news-events-exhibits/all-library-events/">Upcoming Library Events</a></h3>
-    	
+
+    	<h3><a href="https://blogs.library.duke.edu/news-events-exhibits/all-library-events/">Upcoming Library Events</a></h3>
+
     	<!-- / content above block -->
-    
+
     <?php print render($content); ?>
-    
+
         <!-- content below block -->
 		<div class="view-all">
-			<a href="http://blogs.library.duke.edu/news-events-exhibits/all-library-events/">View All Events »</a>
+			<a href="https://blogs.library.duke.edu/news-events-exhibits/all-library-events/">View All Events »</a>
 		</div>
         <!-- / content below block -->
-        
+
   </div>
 
   <?php if ($links): ?>
@@ -62,7 +62,7 @@
   <?php endif; ?>
 
   <?php if ($more): ?>
-    
+
   <?php endif; ?>
 </div>
 <?php if ($pane_suffix): ?>
