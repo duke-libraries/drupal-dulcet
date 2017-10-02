@@ -11851,6 +11851,10 @@ ul.pdflinks a {
   line-height: 1.2;
   margin-top: 5px; }
 
+/* adding some padding to definition list items */
+dl dd {
+  padding-bottom: .5em; }
+
 /* JS masthead styles lazily copied from MadLib theme */
 /* These exist to prevent a flash of unstyled content */
 /* before the JS injected mast can get its styles */
