@@ -26,7 +26,7 @@
 
         <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
         <div style="text-align:center;">
-        <a href="https://www.gifts.duke.edu/fund?additional_designations=Sallie+Bingham+Center+Operating+Fund+3949007" target="_blank"><button style="width:100%;" class="btn btn-primary">Give Now</button></a>
+        <a href="/rubenstein/bingham/donate"><button style="width:100%;" class="btn btn-primary">Give Now</button></a>
         </div>
       </div>
 
