@@ -22,5 +22,16 @@
  * the view is modified.
  */
 ?>
-<?php printf('<a href="%s">%s</a>', '$row->aggregator_item_link', $row->aggregator_item_title); ?>
-<?php #print $output; ?>
+<?php //print $output; ?>
+
+<?php
+
+$itemLink = $row->aggregator_item_link;
+
+if ( substr($itemLink, -1) == '_' ) {
+  $itemLink = substr($itemLink, 0, -1);
+};
+
+printf('<a href="%s">%s</a>', $itemLink, $row->aggregator_item_title); 
+
+?>
