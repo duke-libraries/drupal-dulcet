@@ -8672,6 +8672,63 @@ ul.dropdown-menu li {
   padding: 20px;
   overflow: hidden; }
 
+/* Auto suggest */
+.page-home .ac_results {
+  padding: 0;
+  border: 2px solid #cecece;
+  background-color: white;
+  overflow: hidden;
+  z-index: 99999;
+  font-size: 12px; }
+
+.page-home .ac_results ul {
+  list-style-position: outside;
+  list-style: none;
+  margin: 0px 0 -4px 0;
+  padding: 4px; }
+
+.page-home .ac_results li {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  padding: 5px 0px;
+  text-align: left;
+  margin-left: 0 !important;
+  overflow: hidden; }
+
+.page-home div.ac_results ul li span span.as_sleft {
+  float: left;
+  margin-left: 1.5em;
+  _margin-left: 0em;
+  text-indent: -1.5em;
+  _text-indent: 0em;
+  width: 75%; }
+
+.page-home div.ac_results ul li span small {
+  float: right;
+  white-space: nowrap;
+  font-weight: bold;
+  color: #000066; }
+
+.page-home div.ac_results ul li span strong {
+  color: #000066; }
+
+.page-home div.ac_results ul li.ac_odd {
+  background-color: #FFF; }
+
+.page-home div.ac_results ul li.ac_odd {
+  background-color: #F9F9FF; }
+
+.page-home div.ac_results ul li.ac_over {
+  background-color: #99AACD;
+  color: #FFF; }
+
+.page-home div.ac_results ul li.ac_over strong {
+  color: #DDF; }
+
+.page-home div.ac_results ul li.ac_over small {
+  color: #D3DDE7; }
+
 /* Search Tabs */
 @media (min-width: 992px) {
   .search-resources-tabs {
