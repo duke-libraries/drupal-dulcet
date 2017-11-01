@@ -56,6 +56,12 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+
+  <?php if (drupal_is_front_page()) {
+      echo '<script type="text/javascript" src="/sites/all/modules/dul_bento/assets/js/scripts.min.js"></script>';
+    }
+  ?>
+
   <!--[if lt IE 9]>
    <script>
       document.createElement('header');
