@@ -20,7 +20,7 @@
         <strong>Contact Us</strong>
         <p class="small">
           <a href="mailto:askdata@duke.edu">askdata@duke.edu</a><br/>
-          <a href="/data/about/lab">Data and Visualization Lab</a> (in the Edge)<br/>
+          <a href="https://duke.qualtrics.com/jfe/form/SV_8GEQBCQOfUAb1s1">Contact Form</a><br/>
           <a href="https://twitter.com/duke_data"><img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> @duke_data</a>
         </p>
       </div>
