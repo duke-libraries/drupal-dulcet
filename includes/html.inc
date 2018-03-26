@@ -264,8 +264,8 @@ function dulcet_preprocess_html(&$vars) {
 		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AjiSV3Fr8fZ1dDM3UDlCWjh4allVY19EaWRzaXh3Snc/od6/public/basic?alt=json-in-script'));
 	}
 
-	// data collections
-	if ($alias == "collections") {
+	// data collections, now named Data Sources
+	if ($alias == "sources") {
 		$GLOBALS['conf']['cache'] = FALSE;
 		if ($mybrowser == "IE") {
     		drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
