@@ -249,10 +249,24 @@ ul.rl-collections {
 
 /* RL Current Exhibits */
 /* =================== */
+.rl-exhibits-widget {
+  clear: both;
+}
 
 .rl-exhibits-widget .views-row {
   margin-right: 8px;
   vertical-align: top;
+}
+
+.rl-exhibits-newspage .rl-exhibits-widget .views-row {
+  display: inline-block;
+}
+
+@media (min-width:600px) {
+  .rl-exhibits-newspage .rl-exhibits-widget .views-row {
+    max-width: 45% !important
+  }
+
 }
 
 .rl-exhibits-widget .item-list ul#rotate1 {
@@ -265,6 +279,8 @@ ul.rl-collections {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
 
 
 /* RL Homepage Blog Posts */
