@@ -4094,7 +4094,7 @@ tbody.collapse.in {
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "/ ";
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
@@ -10116,11 +10116,20 @@ ul.rl-collections li {
 /* RL Current Exhibits */
 /* =================== */
 .rl-exhibits-widget .views-row {
-  margin-right: 8px; }
+  margin-right: 8px;
+  vertical-align: top;
+}
 
 .rl-exhibits-widget .item-list ul#rotate1 {
   clear: both;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
+
+.rl-exhibits-widget .views-field-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 /* RL Homepage Blog Posts */
 /* ====================== */
