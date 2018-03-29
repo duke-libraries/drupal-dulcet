@@ -12528,7 +12528,7 @@ li.nav-header-gray {
   padding-left: 0;
   padding-bottom: 7px;
   line-height: 1.3em; }
-  .nav-list > li.leaf a:hover, .nav-list > li.leaf a:active, .nav-list > li.expanded a:hover, .nav-list > li.expanded a:active {
+  .nav-list > li.leaf a:hover, .nav-list > li.leaf a:focus, .nav-list > li.leaf a:active, .nav-list > li.expanded a:hover, .nav-list > li.expanded a:focus, .nav-list > li.expanded a:active {
     background: #fafafa;
     margin-left: -14px;
     padding-left: 8px;
