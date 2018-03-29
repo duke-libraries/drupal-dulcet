@@ -35,7 +35,7 @@ li.nav-header-gray { // maybe call this something difft?
     padding-left: 0;
     padding-bottom: 7px;
     line-height: 1.3em;
-    &:hover, &:active {
+    &:hover, &:focus, &:active {
       background: #fafafa;
       margin-left: -14px;
       padding-left: 8px;
