@@ -4094,7 +4094,7 @@ tbody.collapse.in {
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "/ ";
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
@@ -9783,7 +9783,7 @@ iframe {
   -webkit-column-gap: 10px;
   column-count: 1;
   -moz-column-gap: 15px;
-  column-gap: 15px;
+       column-gap: 15px;
   clear: both; }
 
 .studyrooms .exhibit-bookmarkWidget-popup {
@@ -9797,7 +9797,7 @@ iframe {
     -webkit-column-gap: 10px;
     column-count: 2;
     -moz-column-gap: 15px;
-    column-gap: 15px;
+         column-gap: 15px;
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9812,7 +9812,7 @@ iframe {
     -webkit-column-gap: 10px;
     column-count: 3;
     -moz-column-gap: 15px;
-    column-gap: 15px;
+         column-gap: 15px;
     clear: both; } }
 
 /* Residence Hall Librarians */
@@ -9940,7 +9940,7 @@ ul.rl-mainlinks {
   margin: 20px 0;
   padding: 0;
   -moz-column-gap: 5px;
-  column-gap: 5px; }
+       column-gap: 5px; }
   ul.rl-mainlinks li {
     list-style: none; }
     ul.rl-mainlinks li a {
@@ -10843,7 +10843,8 @@ html {
   -moz-column-gap: 10px;
   -moz-column-fill: auto;
   column-count: 3;
-  column-gap: 15px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
   column-fill: auto; }
 
 .page-kiosks-edge .room_reserve {
@@ -12628,15 +12629,15 @@ div.smallerThumbs .views-field-author {
 
 .columns-2 {
   -moz-column-count: 2;
-  column-count: 2; }
+       column-count: 2; }
 
 .columns-3 {
   -moz-column-count: 3;
-  column-count: 3; }
+       column-count: 3; }
 
 .columns-4 {
   -moz-column-count: 4;
-  column-count: 4; }
+       column-count: 4; }
 
 table[border="0"] thead, table[border="0"] tbody, table[border="0"] tr, table[border="0"] td, table.table-unstyled thead, table.table-unstyled tbody, table.table-unstyled tr, table.table-unstyled td {
   border: none; }
