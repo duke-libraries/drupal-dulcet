@@ -11733,7 +11733,8 @@ html {
 .page-kiosks-lobby-events .pane-all-library-events-libcal .pane-content {
   background: rgba(255, 255, 255, 0.5);
   width: 100%;
-  padding: 30px; }
+  padding: 30px;
+  overflow: hidden; }
 
 .page-kiosks-lobby-events .view-content .item-list ul,
 .page-kiosks-lobby-events .view-content .item-list ul li {
