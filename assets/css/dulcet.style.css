@@ -9516,6 +9516,13 @@ blockquote footer, blockquote small, blockquote .small {
 #carousel-bootstrap {
   background: #333; }
 
+.not-front .carousel-control {
+  font-size: 80px !important; }
+
+@media only screen and (min-width: 768px) {
+  .not-front .carousel-control {
+    font-size: 120px !important; } }
+
 ::-webkit-input-placeholder {
   color: #767676;
   opacity: 1; }
