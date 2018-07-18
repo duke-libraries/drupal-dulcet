@@ -11975,6 +11975,13 @@ html {
 .page-kiosks-lobby-exhibits .view-content .views-field-field-opening-date-1 .field-content {
   margin-left: .25em; }
 
+/* Alerts Position */
+.page-kiosks-edge .zone-masthead .region-alerts,
+.page-kiosks-lobby .zone-masthead .region-alerts {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -5px; }
+
 ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.list-styled {
   padding-left: 0; }
   ul:not([class]):not([id]) li, ul.bullet-green li, ul.bullet-gray li, ul.bullet-blue li, ul.list-styled li {
