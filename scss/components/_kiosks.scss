@@ -43,6 +43,9 @@ html {
   z-index: 1000000000;
   width: 2560px;
   opacity: .9;
+	margin-top: -5px !important;
+	margin-left: -15px !important;
+	margin-right: -15px !important;
 }
 
 .page-kiosks-edge .container {
@@ -829,6 +832,9 @@ html {
   z-index: 1000000000;
   width: 1920px;
   opacity: .9;
+	margin-top: -5px !important;
+	margin-left: -15px !important;
+	margin-right: -15px !important;
 }
 
 .page-kiosks-lobby .wrapper {
@@ -1782,14 +1788,4 @@ html {
 
 .page-kiosks-lobby-exhibits .view-content .views-field-field-opening-date-1 .field-content {
 	margin-left: .25em;
-}
-
-
-/* Alerts Position */
-
-.page-kiosks-edge .zone-masthead .region-alerts,
-.page-kiosks-lobby .zone-masthead .region-alerts {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-top: -5px;
 }
