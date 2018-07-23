@@ -51,7 +51,7 @@
       </div>
 
       <div class="newsletter-signup">
-        <a href="/about/sign-our-newsletter" onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Email List'});">Join Our Email List</a>
+        <a href="/about/sign-our-newsletter" onClick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Social', eventLabel: 'Email List'});">Sign Up for Our Newsletter</a>
       </div>
 
       <ul class="list-unstyled">
