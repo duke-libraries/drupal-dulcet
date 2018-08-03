@@ -23,6 +23,13 @@
         </div>
       </div>
 
+      <div class="sidebar-extras rl-hours-today">
+        <strong>Today's Hours</strong>
+
+        <?php $hours_block = module_invoke('dul_hours', 'block_view', 'upcoming_days-rubenstein') ?>
+        <?php print $hours_block['content']?>
+      </div>
+
     </div>
   </div>
 </<?php print $tag; ?>>
