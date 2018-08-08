@@ -9573,7 +9573,6 @@ img.rl-logo {
 
 /* Flex Coulmns */
 .row-flex-wrap {
-  -webkit-flex-flow: row wrap;
   -ms-flex-line-pack: start;
       align-content: flex-start;
   -ms-flex: 0;
@@ -9789,8 +9788,7 @@ iframe {
   -webkit-column-count: 1;
   -webkit-column-gap: 10px;
   column-count: 1;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
   clear: both; }
 
 .studyrooms .exhibit-bookmarkWidget-popup {
@@ -9803,8 +9801,7 @@ iframe {
     -webkit-column-count: 2;
     -webkit-column-gap: 10px;
     column-count: 2;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9818,8 +9815,7 @@ iframe {
     -webkit-column-count: 3;
     -webkit-column-gap: 10px;
     column-count: 3;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
     clear: both; } }
 
 /* Residence Hall Librarians */
@@ -9943,11 +9939,22 @@ iframe {
   margin-top: .5em;
   max-width: 150px; }
 
+.hours-heading {
+  border-bottom: 1px dotted #e3e3e3;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.3em;
+  font-weight: bold; }
+  .hours-heading:before {
+    padding-right: 0.3em;
+    content: "\f017";
+    font-family: "FontAwesome";
+    color: #a1b70d;
+    font-weight: normal; }
+
 ul.rl-mainlinks {
   margin: 20px 0;
   padding: 0;
-  -moz-column-gap: 5px;
-       column-gap: 5px; }
+  column-gap: 5px; }
   ul.rl-mainlinks li {
     list-style: none; }
     ul.rl-mainlinks li a {
@@ -10043,12 +10050,9 @@ ul.rl-collections li {
 .rl-menu .navbar-default {
   background-color: #f5f5f5;
   border: none;
-  border-bottom: 4px solid #a1b70d;
+  border-bottom: 6px solid #a1b70d;
   color: #333 !important;
   margin-bottom: 0px; }
-
-#rl-menu-full .rl-menu .navbar-default {
-  border-bottom: none; }
 
 .rl-menu .navbar-collapse {
   padding-left: 0;
@@ -10070,6 +10074,29 @@ ul.rl-collections li {
 .rl-menu .navbar-default .navbar-nav > .open > a, .rl-menu .navbar-default .navbar-nav > .open > a:hover, .rl-menu .navbar-default .navbar-nav > .open > a:focus {
   background-color: #a1b70d;
   color: white; }
+
+/* Suppress dropdowns in mobile view */
+@media (max-width: 768px) {
+  .rl-menu .navbar-nav li {
+    padding: 0 0.5em; }
+  .rl-menu .dropdown .caret {
+    display: none; }
+  .rl-menu .dropdown-menu {
+    display: none; } }
+
+/* Delay dropdowns from opening on hover */
+@media (min-width: 768px) {
+  .rl-menu .dropdown:not(.open) .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 200ms ease-in;
+    transition-delay: 0s; }
+  .rl-menu .dropdown.open:hover .dropdown-menu, .rl-menu .dropdown.open .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.5s; } }
 
 .rl-menu .imgback {
   background-repeat: no-repeat;
@@ -10158,6 +10185,17 @@ ul.rl-collections li {
 
 .vertical-blogs.rl-home-news ul li:nth-of-type(1n+5) {
   display: none; }
+
+/* RL Sidebars */
+/* ====================== */
+.rl-hours-today .hours-row:not(.hours-today) {
+  display: none; }
+
+.rl-hours-today .day {
+  display: none; }
+
+.rl-hours-today .other {
+  font-size: 14px; }
 
 .region-alerts .alert {
   margin-bottom: 15px;
@@ -10853,8 +10891,7 @@ html {
   -moz-column-gap: 10px;
   -moz-column-fill: auto;
   column-count: 3;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
   column-fill: auto; }
 
 .page-kiosks-edge .room_reserve {
@@ -12127,12 +12164,10 @@ ul.pdflinks a {
 
 /* blog grid display */
 .blogs-grid #rotate1 {
-  -moz-column-count: 2;
   column-count: 2; }
 
 @media (min-width: 992px) {
   .blogs-grid #rotate1 {
-    -moz-column-count: 3;
     column-count: 3; } }
 
 .blogs-grid #rotate1 li {
@@ -12642,16 +12677,13 @@ div.smallerThumbs .views-field-author {
   color: #6a6a6a; }
 
 .columns-2 {
-  -moz-column-count: 2;
-       column-count: 2; }
+  column-count: 2; }
 
 .columns-3 {
-  -moz-column-count: 3;
-       column-count: 3; }
+  column-count: 3; }
 
 .columns-4 {
-  -moz-column-count: 4;
-       column-count: 4; }
+  column-count: 4; }
 
 table[border="0"] thead, table[border="0"] tbody, table[border="0"] tr, table[border="0"] td, table.table-unstyled thead, table.table-unstyled tbody, table.table-unstyled tr, table.table-unstyled td {
   border: none; }
