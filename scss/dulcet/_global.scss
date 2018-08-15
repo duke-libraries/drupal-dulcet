@@ -358,6 +358,10 @@ iframe {
   border: none;
 }
 
+.modal-backdrop {
+  z-index: 1001;
+}
+
 .img-polaroid {
   padding: 4px;
   background-color: #fff;
