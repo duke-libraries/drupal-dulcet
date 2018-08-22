@@ -4,7 +4,7 @@ variables:
 
 before_script:
 
-# a comment for a test :)
+# a comment for a test
 deploy1:
   variables:
     DANCER2_APP: 'ASpaceLogView'
