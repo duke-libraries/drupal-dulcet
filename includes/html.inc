@@ -380,7 +380,7 @@ function dulcet_preprocess_html(&$vars) {
 
 
 	// 2018 course reserves
-	if ($alias == "course-support/course-reserves/textbooks/test") {
+	if ($alias == "course-support/course-reserves/textbooks/fall-2018") {
 		$GLOBALS['conf']['cache'] = FALSE;
 		if ($mybrowser == "IE") {
     		drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
