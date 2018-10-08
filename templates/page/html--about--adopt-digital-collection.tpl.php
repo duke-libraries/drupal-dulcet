@@ -45,12 +45,6 @@
 
 <meta property="dc:publisher" content="Duke University Libraries" />
 
-<?php if(isset($_SERVER['REQUEST_URI']) && $_SERVER['REQUEST_URI'] != "/"): ?>
-<!--base href="http://<?php echo $dul_hostname . $_SERVER['REQUEST_URI']; ?>"/-->
-<?php else: ?>
-<!--base href="http://<?php echo $dul_hostname ?>"-->
-<?php endif; ?>
-
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
