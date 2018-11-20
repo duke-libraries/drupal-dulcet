@@ -4094,7 +4094,7 @@ tbody.collapse.in {
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "/ ";
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
@@ -12637,6 +12637,35 @@ li.nav-header-gray {
   margin-left: 0.8em;
   font-size: 60%;
   color: #ccc; }
+
+ul.new-additions {
+  margin: 0;
+  padding: 0; }
+  ul.new-additions li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+    vertical-align: top;
+    break-inside: avoid; }
+  ul.new-additions img {
+    max-width: 100%; }
+  ul.new-additions.new-additions-with-thumb {
+    list-style: none; }
+    ul.new-additions.new-additions-with-thumb li {
+      padding: 0;
+      width: 130px;
+      display: inline-block;
+      margin-right: 10px; }
+  ul.new-additions.smaller-thumbs li {
+    width: 105px; }
+  ul.new-additions.smaller-thumbs .new-additions-title {
+    font-size: 14px; }
+  ul.new-additions.smaller-thumbs .new-additions-author {
+    font-size: 13px;
+    line-height: 1.2em;
+    margin-top: 0.5em; }
+
+/* The following styles are deprecated as of Jan 2019 */
+/* Unique to Endeca -> Huginn -> Drupal new additions */
 
 #thumbLessWrapper {
   margin-top: 20px;
