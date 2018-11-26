@@ -1,6 +1,49 @@
 // Styles for New Additions from Catalog Feeds
 // ---------------------------------------------------------------------
 
+ul.new-additions {
+  margin: 0;
+  padding: 0;
+  li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+    vertical-align: top;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  &.new-additions-with-thumb {
+    list-style: none;
+    li {
+      padding: 0;
+      width: 130px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+  &.smaller-thumbs {
+    li {
+      width: 105px;
+    }
+    .new-additions-title {
+      font-size: 14px;
+    }
+    .new-additions-author {
+      font-size: 13px;
+      line-height: 1.2em;
+      margin-top: 0.5em;
+    }
+  }
+}
+
+/* The following styles are deprecated as of Jan 2019 */
+/* Unique to Endeca -> Huginn -> Drupal new additions */
+
 #thumbLessWrapper {
   margin-top: 20px;
   margin-bottom: 15px;

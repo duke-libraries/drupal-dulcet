@@ -29,6 +29,7 @@ stylesheets[all][]     = assets/css/dulcet.style.css
 
 ; Javascript
 scripts[] = assets/js/dulcet.script.js
+scripts[] = assets/js/catalog-new-additions.js
 
 ; Maximum depth for dropdown menus (1 = no dropdowns, 2 = single dropdown,
 ; 3 or greater = nested dropdown menus).
