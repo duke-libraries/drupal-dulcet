@@ -8670,9 +8670,9 @@ ul.dropdown-menu li {
 
 .search-resources-tabs .tab-content {
   padding: 20px;
-  overflow: hidden; }
+  /*overflow: hidden;*/ }
 
-/* Auto suggest */
+/* Endeca Auto suggest: DEPRECATED */
 .page-home .ac_results {
   padding: 0;
   border: 2px solid #cecece;
@@ -8728,6 +8728,36 @@ ul.dropdown-menu li {
 
 .page-home div.ac_results ul li.ac_over small {
   color: #D3DDE7; }
+
+/* ============================== */
+/* Blacklight Catalog Autosuggest */
+/* ============================== */
+.twitter-typeahead .tt-menu {
+  background: white;
+  min-height: 100px;
+  max-height: 250px;
+  overflow-y: auto;
+  font-family: inherit;
+  padding: 0.2em;
+  font-size: 85%;
+  border: 1px solid #aaa; }
+
+.twitter-typeahead .tt-suggestion {
+  padding: 0.5em;
+  margin: 0;
+  text-align: left;
+  clear: both; }
+
+.twitter-typeahead .tt-suggestion:hover {
+  background: #eee;
+  cursor: pointer; }
+
+.twitter-typeahead .tt-suggestion .tt-category {
+  float: right;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 10px;
+  color: #053482; }
 
 /* Search Tabs */
 @media (min-width: 992px) {
@@ -8963,12 +8993,18 @@ ul.dropdown-menu li {
   width: 100%;
   padding: .6em; }
 
+.search-resources-tabs .twitter-typeahead {
+  width: 100%;
+  float: left; }
+
 @media (min-width: 768px) {
   .search-resources-tabs .searchbox,
-  .search-resources-tabs .homeSearchBox {
+  .search-resources-tabs .homeSearchBox,
+  .search-resources-tabs .twitter-typeahead {
     max-width: 23.75em; }
   .search-resources-tabs .tab-pane.options .searchbox,
-  .search-resources-tabs .tab-pane.options .homeSearchBox {
+  .search-resources-tabs .tab-pane.options .homeSearchBox,
+  .search-resources-tabs .tab-pane.options .twitter-typeahead {
     max-width: 17.25em; }
   .search-resources-tabs .tab-pane.options .searchselect,
   .search-resources-tabs .tab-pane.options .homeSelect {
@@ -8982,22 +9018,32 @@ ul.dropdown-menu li {
     width: 100%;
     padding: .6em;
     max-width: 21.75em; }
-  .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
+  .search-resources-tabs .twitter-typeahead {
+    width: 100%;
+    max-width: 21.75em; }
+  .page-home .search-resources-tabs .tab-pane.options .homeSearchBox,
+  .page-home .search-resources-tabs .tab-pane.options .twitter-typeahead {
     max-width: 15.25em; }
-  .search-resources-tabs .tab-pane.options .searchbox {
+  .search-resources-tabs .tab-pane.options .searchbox,
+  .search-resources-tabs .tab-pane.options .twitter-typeahead {
     max-width: 15em; }
   /* find */
-  .search-resources-tabs.medium .tab-pane.options .searchbox {
+  .search-resources-tabs.medium .tab-pane.options .searchbox,
+  .search-resources-tabs.medium .tab-pane.options .twitter-typeahead {
     max-width: 10.75em; }
   /* rubenstein */
-  .page-rubenstein-index .search-resources-tabs .searchbox {
+  .page-rubenstein-index .search-resources-tabs .searchbox,
+  .page-rubenstein-index .search-resources-tabs .twitter-typeahead {
     max-width: 20.75em; }
-  .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
+  .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox,
+  .page-rubenstein-index .search-resources-tabs #booksandmore .twitter-typeahead {
     max-width: 14.25em; }
   /* lilly & music */
-  .search-resources-tabs.hasnav .tab-pane .searchbox {
+  .search-resources-tabs.hasnav .tab-pane .searchbox,
+  .search-resources-tabs.hasnav .tab-pane .twitter-typeahead {
     max-width: 17.25em; }
-  .search-resources-tabs.hasnav .tab-pane.options .searchbox {
+  .search-resources-tabs.hasnav .tab-pane.options .searchbox,
+  .search-resources-tabs.hasnav .tab-pane.options .twitter-typeahead {
     max-width: 10.75em; }
   .search-resources-tabs .tab-pane.options .searchselect,
   .search-resources-tabs .tab-pane.options .homeSelect {
@@ -9008,33 +9054,42 @@ ul.dropdown-menu li {
   .search-resources-tabs .tab-pane.options .homeSelect {
     width: 8.5em; }
   .search-resources-tabs .searchbox,
-  .search-resources-tabs .homeSearchBox {
+  .search-resources-tabs .homeSearchBox,
+  .search-resources-tabs .twitter-typeahead {
     max-width: 23em; }
   .search-resources-tabs .searchbox.wide {
     max-width: 36.25em; }
-  .search-resources-tabs .tab-pane.options .searchbox {
-    max-width: 14.5em;
+  .search-resources-tabs .tab-pane.options .searchbox,
+  .search-resources-tabs .tab-pane.options .twitter-typeahead {
     max-width: 19.5em; }
   /* find */
-  .search-resources-tabs.medium .tab-pane.options .searchbox {
+  .search-resources-tabs.medium .tab-pane.options .searchbox,
+  .search-resources-tabs.medium .tab-pane.options .twitter-typeahead {
     max-width: 15.75em; }
   .search-resources-tabs.wider .tab-pane .searchbox,
-  .search-resources-tabs.wider .tab-pane.options .searchbox {
+  .search-resources-tabs.wider .tab-pane.options .searchbox,
+  .search-resources-tabs.wider .tab-pane .twitter-typeahead {
     max-width: 28.25em; }
   /* homepage */
-  .page-home .search-resources-tabs .homeSearchBox {
+  .page-home .search-resources-tabs .homeSearchBox,
+  .page-home .search-resources-tabs .twitter-typeahead {
     max-width: 28.25em; }
-  .page-home .search-resources-tabs .tab-pane.options .homeSearchBox {
+  .page-home .search-resources-tabs .tab-pane.options .homeSearchBox,
+  .page-home .search-resources-tabs .tab-pane.options .twitter-typeahead {
     max-width: 19.75em; }
   /* rubenstein */
-  .page-rubenstein-index .search-resources-tabs .searchbox {
+  .page-rubenstein-index .search-resources-tabs .searchbox,
+  .page-rubenstein-index .search-resources-tabs .twitter-typeahead {
     max-width: 28.25em; }
-  .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox {
+  .page-rubenstein-index .search-resources-tabs #booksandmore .searchbox,
+  .page-rubenstein-index .search-resources-tabs #booksandmore .twitter-typeahead {
     max-width: 19.75em; }
   /* lilly & music */
-  .search-resources-tabs.hasnav .tab-pane .searchbox {
+  .search-resources-tabs.hasnav .tab-pane .searchbox,
+  .search-resources-tabs.hasnav .tab-pane .twitter-typeahead {
     max-width: 23em; }
-  .search-resources-tabs.hasnav .tab-pane.options .searchbox {
+  .search-resources-tabs.hasnav .tab-pane.options .searchbox,
+  .search-resources-tabs.hasnav .tab-pane.options .twitter-typeahead {
     max-width: 14.5em; } }
 
 .search-resources-tabs .homeSelect,
