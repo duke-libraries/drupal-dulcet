@@ -153,8 +153,8 @@ function dulcet_preprocess_html(&$vars) {
     		drupal_add_js('//api.simile-widgets.org/exhibit/current/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
     		//drupal_add_js('http://api.simile-widgets.org/exhibit/current/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
-		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai2xmU8Ueb8kdHpJR19tWkFQX3VxdHhuTVlDVFU3aUE/od6/public/basic?alt=json-in-script'));
+		} // THIS IS A TEST ONLY
+		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/17tBTvGywWPO22FxVYePTwATocmaKDNuyXiEnU3FV_D4/od6/public/basic?alt=json-in-script'));
 	}
 
 	// afghanistan-filmography
