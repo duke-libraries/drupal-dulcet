@@ -57,7 +57,7 @@ jQuery(document).ready(function ($) {
   }
 
   function build_thumb(obj) {
-    thumb_url = 'http://www.syndetics.com/index.aspx?isbn=';
+    thumb_url = 'https://syndetics.com/index.aspx?isbn=';
     if(obj.hasOwnProperty('isbn_number_a')) {
       thumb_url += obj.isbn_number_a[0];
     }
@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
     }
   }
 
-  var catalog_base_url = 'https://find-dev.library.duke.edu';
+  var catalog_base_url = 'https://find.library.duke.edu';
 
   $("[id^=catalog-feed-items]").each(function(){
     var $this_widget = $(this);
@@ -104,7 +104,7 @@ jQuery(document).ready(function ($) {
     $(this).html('');
     
     $.ajax({
-      url: catalog_base_url + '/catalog.json?utf8=âœ“&amp;sort=date_cataloged+desc&amp;'
+      url: catalog_base_url + '/catalog.json?sort=date_cataloged+desc&amp;'
         + 'per_page=' + fetchresults + '&amp;' + blacklight_query,
       type: "GET",
       dataType: 'json',
