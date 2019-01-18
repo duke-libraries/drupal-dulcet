@@ -4094,7 +4094,7 @@ tbody.collapse.in {
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "/ ";
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
@@ -9323,71 +9323,52 @@ ul.dropdown-menu li {
   margin-bottom: .75em; }
 
 .page-home .home-more .more-item {
-  margin-left: 5px;
-  display: block;
-  width: 30px;
-  height: 30px; }
-
-.page-home .home-more .more-item a {
-  padding: 5px 10px 9px 35px;
-  margin-top: 10px;
-  display: block;
-  white-space: nowrap; }
-
-.page-home .home-more .ask {
-  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat 0 0; }
-
-.page-home .home-more .research {
-  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -30px 0; }
-
-.page-home .home-more .cite {
-  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -60px 0; }
-
-.page-home .home-more .delivery {
-  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -90px 0; }
-
-.page-home .home-more .reserve {
-  background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -120px 0; }
-
-@media (min-width: 768px) {
+  margin-left: 4px;
+  margin-top: 8px;
+  display: block; }
+  .page-home .home-more .more-item:first-of-type {
+    margin-top: 0; }
   .page-home .home-more .more-item a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+    .page-home .home-more .more-item a .fa {
+      color: #fff;
+      background: #235f9c;
+      width: 30px;
+      height: 30px;
+      padding-top: 5px;
+      text-align: center;
+      margin-right: 10px;
+      border-radius: 5px; }
+    .page-home .home-more .more-item a .fa-question {
+      font-size: 1.3em;
+      padding-top: 3px; }
+    .page-home .home-more .more-item a .fa-calendar-check-o {
+      padding-left: 2px; }
+    .page-home .home-more .more-item a .fa-truck {
+      padding-right: 2px; }
+    .page-home .home-more .more-item a:hover {
+      text-decoration: none; }
+      .page-home .home-more .more-item a:hover .text {
+        text-decoration: underline; }
+
+/* delete sites/all/themes/madlib/images/quick_nav_icon_sprite.png */
+@media (min-width: 768px) {
+  .page-home .home-more .more-item a .fa {
+    display: none; }
+  .page-home .home-more .more-item a .text {
     font-size: .825em;
-    white-space: nowrap;
-    display: block;
-    padding: 0; }
-  .page-home .home-more .ask,
-  .page-home .home-more .research,
-  .page-home .home-more .cite,
-  .page-home .home-more .delivery,
-  .page-home .home-more .reserve {
-    background: none; } }
+    white-space: nowrap; } }
 
 @media (min-width: 992px) {
-  .page-home .home-more .more-item {
-    margin-left: 5px;
-    display: block;
-    width: 30px;
-    height: 30px; }
-  .page-home .home-more .more-item a {
-    padding: 5px 10px 9px 35px;
-    margin-top: 10px; } }
+  .page-home .home-more .more-item a .fa {
+    display: block; } }
 
 @media (min-width: 1200px) {
-  .page-home .home-more .more-item a {
-    padding: 5px 10px 9px 40px;
+  .page-home .home-more .more-item a .text {
     font-size: 1em; } }
-
-@media (min-width: 992px) {
-  .page-home .home-more .ask {
-    background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat 0 0; }
-  .page-home .home-more .research {
-    background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -30px 0; }
-  .page-home .home-more .cite {
-    background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -60px 0; }
-  .page-home .home-more .delivery {
-    background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -90px 0; }
-  .page-home .home-more .reserve {
-    background: url(/sites/all/themes/madlib/images/quick_nav_icon_sprite.png) no-repeat -120px 0; } }
 
 .page-home .radix-layouts-sidebar .home-give .btn, .page-home .radix-layouts-sidebar .home-give .media-widget > a {
   width: 100%;
@@ -9628,7 +9609,6 @@ img.rl-logo {
 
 /* Flex Coulmns */
 .row-flex-wrap {
-  -webkit-flex-flow: row wrap;
   -ms-flex-line-pack: start;
       align-content: flex-start;
   -ms-flex: 0;
@@ -9847,8 +9827,7 @@ iframe {
   -webkit-column-count: 1;
   -webkit-column-gap: 10px;
   column-count: 1;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
   clear: both; }
 
 .studyrooms .exhibit-bookmarkWidget-popup {
@@ -9861,8 +9840,7 @@ iframe {
     -webkit-column-count: 2;
     -webkit-column-gap: 10px;
     column-count: 2;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
     clear: both; }
   .page-node-436 .exhibit-facet {
     width: 47%;
@@ -9876,8 +9854,7 @@ iframe {
     -webkit-column-count: 3;
     -webkit-column-gap: 10px;
     column-count: 3;
-    -moz-column-gap: 15px;
-         column-gap: 15px;
+    column-gap: 15px;
     clear: both; } }
 
 /* Residence Hall Librarians */
@@ -10016,8 +9993,7 @@ iframe {
 ul.rl-mainlinks {
   margin: 20px 0;
   padding: 0;
-  -moz-column-gap: 5px;
-       column-gap: 5px; }
+  column-gap: 5px; }
   ul.rl-mainlinks li {
     list-style: none; }
     ul.rl-mainlinks li a {
@@ -10954,8 +10930,7 @@ html {
   -moz-column-gap: 10px;
   -moz-column-fill: auto;
   column-count: 3;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
   column-fill: auto; }
 
 .page-kiosks-edge .room_reserve {
@@ -12228,12 +12203,10 @@ ul.pdflinks a {
 
 /* blog grid display */
 .blogs-grid #rotate1 {
-  -moz-column-count: 2;
   column-count: 2; }
 
 @media (min-width: 992px) {
   .blogs-grid #rotate1 {
-    -moz-column-count: 3;
     column-count: 3; } }
 
 .blogs-grid #rotate1 li {
@@ -12721,7 +12694,6 @@ ul.new-additions {
 
 /* The following styles are deprecated as of Jan 2019 */
 /* Unique to Endeca -> Huginn -> Drupal new additions */
-
 #thumbLessWrapper {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -12772,16 +12744,13 @@ div.smallerThumbs .views-field-author {
   color: #6a6a6a; }
 
 .columns-2 {
-  -moz-column-count: 2;
-       column-count: 2; }
+  column-count: 2; }
 
 .columns-3 {
-  -moz-column-count: 3;
-       column-count: 3; }
+  column-count: 3; }
 
 .columns-4 {
-  -moz-column-count: 4;
-       column-count: 4; }
+  column-count: 4; }
 
 table[border="0"] thead, table[border="0"] tbody, table[border="0"] tr, table[border="0"] td, table.table-unstyled thead, table.table-unstyled tbody, table.table-unstyled tr, table.table-unstyled td {
   border: none; }
