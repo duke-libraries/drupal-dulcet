@@ -9354,7 +9354,6 @@ ul.dropdown-menu li {
       .page-home .home-more .more-item a:hover .text {
         text-decoration: underline; }
 
-/* delete sites/all/themes/madlib/images/quick_nav_icon_sprite.png */
 @media (min-width: 768px) {
   .page-home .home-more .more-item a .fa {
     display: none; }
