@@ -53,7 +53,7 @@ function dulcet_aggregator_block_item($variables) {
 	$div_img_shadow = sprintf('<a onClick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="%s">'
 
 		. '<div class="blog-content">'
-		. '<img alt="news image" class="img-thumbnail" src="%s" />', $hrefUrl, $imgSrc);
+		. '<img alt="" class="img-thumbnail" src="%s" />', $hrefUrl, $imgSrc);
 
 	$div_news_caption = sprintf('<p>'
 		. $linkTitle
