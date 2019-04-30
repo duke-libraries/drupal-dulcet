@@ -13,7 +13,7 @@ function dulcet_preprocess_html(&$vars) {
 
 
 	// Load external JS Navigation
-    drupal_add_js('//library.duke.edu/masthead/load-masthead.js.php?fixed=false&width=1280', array('group' => -201, 'weight' => -1000, 'preprocess' => FALSE));
+    drupal_add_js('//library.duke.edu/masthead/dev/load-masthead.js.php?fixed=false&width=1280', array('group' => -201, 'weight' => -1000, 'preprocess' => FALSE));
 
 
 	drupal_add_css(path_to_theme() . '/css/ie-lte-8.css', array('group' => CSS_THEME, 'weight' => 115, 'browsers' => array('IE' => 'lte IE 8', '!IE' => FALSE), 'preprocess' => FALSE));

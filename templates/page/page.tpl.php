@@ -20,7 +20,7 @@
   <div id="main" class="main">
     <div id="mast" class="container">
       <?php require "js_masthead.tpl.php" ?>
-      <?php drupal_add_js('//library.duke.edu/masthead/load-masthead.js.php?fixed=false&width=1280', 'external'); ?>
+      <?php drupal_add_js('//library.duke.edu/masthead/dev/load-masthead.js.php?fixed=false&width=1280', 'external'); ?>
 
 
       <?php if ($page['breadcrumb']): ?>
