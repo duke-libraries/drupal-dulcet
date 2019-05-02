@@ -3,9 +3,21 @@
 
 
 $brand-primary:         #053482;
-$brand-success:         #A1B70D;
-$brand-warning:         #F09905;
-$brand-danger:          #CC3300;
+$brand-primary-lighter: #c0cce0;
+$brand-primary-darker:  #041b5e;
+
+$brand-success:         #a1b70d; /* insufficient contrast as bg w/ white text */
+$brand-success-lighter: #e7edc2;
+$brand-success-darker:  #4a6007;
+
+$brand-warning:         #F09905; /* insufficient contrast as bg w/ white text */
+$brand-warning-lighter: #f3e3c2;
+$brand-warning-darker:  #3c2c0b;
+
+$brand-danger:          #9b1b02;
+$brand-danger-lighter:  #e9cdc7;
+$brand-danger-darker:   #6c1003;
+
 $brand-info:            #235F9C;
 
 
