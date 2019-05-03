@@ -22,6 +22,101 @@
 }
 
 
+.alert {
+    p a {
+      text-decoration: underline;
+    }
+
+    .close {
+      opacity: 0.7;
+      &:hover {
+        opacity: 1.0;
+      }
+    }
+  
+    /* blue */
+    &.alert-info {
+      border-left: 10px solid $brand-primary-darker;
+      background-color: $brand-primary;
+      color: #fff;
+  
+      p, a {
+        color: #fff;
+      }
+  
+      a.btn {
+        border-color: $brand-primary-darker;
+        background-color: $brand-primary-darker;
+        color: $brand-primary-lighter;
+      }
+  
+    }
+  
+    /* green */
+    &.alert-success {
+      border-left: 10px solid $brand-success;
+      background-color: $brand-success-lighter;
+      color: $brand-success-darker;
+  
+      p, a {
+        color: $brand-success-darker;
+      }
+  
+      a.btn {
+        border-color: $brand-success;
+        background-color: $brand-success;
+        color: $brand-success-darker;
+      }
+  
+      .close:hover {
+        color: $brand-success-darker;
+      }
+  
+    }
+  
+    /* orange */
+    &.alert-warning {
+      border-left: 10px solid $brand-warning;
+      background-color: $brand-warning-lighter;
+      color: $brand-warning-darker;
+  
+      p, a {
+        color: $brand-warning-darker;
+      }
+  
+      a.btn {
+        border-color: $brand-warning;
+        background-color: $brand-warning;
+        color: $brand-warning-darker;
+      }
+  
+      .close:hover {
+        color: $brand-warning-darker;
+      }
+  
+    }
+  
+    /* red */
+    &.alert-danger {
+      border-left: 10px solid  $brand-danger-darker;
+      background-color: $brand-danger;
+      color: #fff;
+  
+      p, a {
+        color: #fff;
+      }
+  
+      a.btn {
+        border-color: $brand-danger-darker;
+        background-color: $brand-danger-darker;
+        color: $brand-danger-lighter;
+      }
+  
+    }
+  
+  }
+
+
 
 // Duke Alert
 // =======================
