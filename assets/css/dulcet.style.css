@@ -8811,9 +8811,10 @@ ul.dropdown-menu li {
 
 .search-resources-tabs .tab-content .inline li {
   margin-top: .5em;
+  margin-bottom: .5em;
   float: left;
   color: #fff;
-  margin-right: .5em; }
+  margin-right: 1em; }
 
 .search-resources-tabs .tab-content .inline li a {
   color: #fff;
@@ -8826,8 +8827,7 @@ ul.dropdown-menu li {
 
 .search-resources-tabs .tab-content .limitOptions label {
   color: #fff;
-  font-size: .95em;
-  margin-top: .5em; }
+  font-size: .95em; }
 
 .search-resources-tabs .tab-content label.checkbox {
   font-weight: normal;
