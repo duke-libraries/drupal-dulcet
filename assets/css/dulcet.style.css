@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/* ================================= */
+/* Duke Branding Guide colors        */
+/* https://brand.duke.edu/colors/    */
+/* ================================= */
+/* ================================= */
+/* DUL website colors (dulcet theme) */
+/* ================================= */
 /* insufficient contrast as bg w/ white text */
 /* insufficient contrast as bg w/ white text */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -8645,6 +8652,10 @@ ul.dropdown-menu li {
 .views-exposed-form .views-reset-button {
   margin-top: 3px; }
 
+/* ============================================================== */
+/* Custom Sass functions                                          */
+/* See https://css-tricks.com/snippets/sass/tint-shade-functions/ */
+/* ============================================================== */
 /* DUL Homepage Styles */
 /* VARIABLES */
 /* Layout */
@@ -10235,6 +10246,13 @@ ul.rl-collections li {
 .rl-hours-today .other {
   font-size: 14px; }
 
+/* ================================= */
+/* Duke Branding Guide colors        */
+/* https://brand.duke.edu/colors/    */
+/* ================================= */
+/* ================================= */
+/* DUL website colors (dulcet theme) */
+/* ================================= */
 /* insufficient contrast as bg w/ white text */
 /* insufficient contrast as bg w/ white text */
 .region-alerts .alert {
