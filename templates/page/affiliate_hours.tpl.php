@@ -7,12 +7,22 @@
  */
 ?>
 
-<div>
-	<h3>Duke University Professional School Libraries Hours</h3>
+<hr />
+
+<section aria-labelledby="visiting">
+	<h2 id="visiting">Visiting the Libraries without a DukeCard</h2>
+	<p class="lead">Members of the public are welcome to use the Duke University Libraries. </p>
+	<p>Most Duke University Libraries are open to the public during typical business hours. When the Libraries are open into the evening, the doors automatically lock after 7pm. After that time, users must swipe their DukeCards to enter the building.</p>
+</section>
+
+<hr />
+
+<section aria-labelledby="professional-hours">
+	<h2 id="professional-hours">Duke University Professional School Libraries Hours</h2>
 	<ul>
-		<li><a href="https://library.divinity.duke.edu/hours"><strong>Divinity School Library</strong></a></li>
-		<li><a href="https://library.fuqua.duke.edu/hours.htm"><strong>Ford Library, Fuqua School of Business</strong></a></li>
-		<li><a href="https://law.duke.edu/lib/hours"><strong>Goodson Law Library</strong></a></li>
-		<li><a href="https://mclibrary.duke.edu/accounts-access/building-access"><strong>Medical Center Library</strong></a></li>
+		<li><a href="https://library.divinity.duke.edu/hours">Divinity School Library</a></li>
+		<li><a href="https://library.fuqua.duke.edu/hours.htm">Ford Library, Fuqua School of Business</a></li>
+		<li><a href="https://law.duke.edu/lib/hours">Goodson Law Library</a></li>
+		<li><a href="https://mclibrary.duke.edu/accounts-access/building-access">Medical Center Library</a></li>
 	</ul>
-</div>
+</section>
