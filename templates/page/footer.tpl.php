@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<footer id="footer-dulcet" class="container" role="footer">
+<footer id="footer-dulcet" class="container" role="contentinfo">
   <div class="row">
     <div class="col-md-1">
       <a onclick="ga('send', 'event', { eventCategory: 'Footer', eventAction: 'Branding', eventLabel: 'Library Logo'});" href="https://library.duke.edu"><img alt="Duke University Libraries" src="<?php echo base_path() . drupal_get_path('theme','dulcet') . '/assets/images/devillogo-60pct-60.png'; ?>"></a>
