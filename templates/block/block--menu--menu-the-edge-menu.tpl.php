@@ -19,7 +19,7 @@
       <div class="sidebar-extras">
         <strong>Contact Us</strong>
         <p class="small">
-          <a href="mailto:edge@duke.edu">edge@duke.edu</a><br/>
+          <a href="mailto:asklib@duke.edu">asklib@duke.edu</a><br/>
           <a href="https://twitter.com/EdgeDuke"><img src="/data/sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> @EdgeDuke </a>
         </p>
       </div>
