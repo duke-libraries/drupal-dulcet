@@ -36,7 +36,7 @@ On `vagrant@drupalvm`
 $ sudo apt-get update
 $ sudo apt-get install -y g++
 $ sudo curl -sL https://deb.nodesource.com/setup_0.12 | sudo sh
-$ sudo apt-get install -y nodejs
+$ sudo apt-get install -y nodejs (note: for ubuntu 16.04 may need to run: sudo apt-get install nodejs-legacy instead)
 ```
 Running Node.js & NPM in a Vagrant environment presents a few additional challenges [documented here](http://jmfeurprier.com/2015/10/02/how-to-install-node-js-with-ubuntu-and-vagrant-in-a-synced-folder/), so these instructions vary from those provided in the [Radix theme setup instructions](http://docs.radixtheme.org/en/latest/drupal/).
 

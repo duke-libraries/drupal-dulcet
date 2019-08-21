@@ -24,8 +24,9 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
     color: #888;
     font-size: 0.42em;
     vertical-align: middle;
-    float: left;
+    /*float: left;*/
     margin-top: 1em;
+    position: absolute;
   }
 }
 
