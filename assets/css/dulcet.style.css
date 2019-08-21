@@ -12148,8 +12148,9 @@ ul:not([class]):not([id]), ul.bullet-green, ul.bullet-gray, ul.bullet-blue, ul.l
     color: #888;
     font-size: 0.42em;
     vertical-align: middle;
-    float: left;
-    margin-top: 1em; }
+    /*float: left;*/
+    margin-top: 1em;
+    position: absolute; }
 
 #mast ul:not([class]):not([id]) li, .item-list ul:not([class]):not([id]) li, .search-resources-wrapper ul:not([class]):not([id]) li {
   padding-left: 0;
