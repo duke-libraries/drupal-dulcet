@@ -46,7 +46,7 @@ function dulcet_preprocess_html(&$vars) {
     		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdGx3OE1ySXMtZThseVRFR1JXaF9JeXc/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdGx3OE1ySXMtZThseVRFR1JXaF9JeXc/od6/public/basic?alt=json-in-script'));
 
 	}
 
@@ -62,23 +62,10 @@ function dulcet_preprocess_html(&$vars) {
     		//drupal_add_js('http:/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1ViDuOsdyvKyGPviGjzSVgu2IFurfkI3zzIFzEr2eNUc/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1ViDuOsdyvKyGPviGjzSVgu2IFurfkI3zzIFzEr2eNUc/od6/public/basic?alt=json-in-script'));
 		//https://spreadsheets.google.com/feeds/list/o10691579607600944814.3750460617597962526/od6/public/basic?alt=json-in-script
 	}
-
-	// webx projects
-	if ($alias == "about/depts/ux/webx-projects") {
-		$GLOBALS['conf']['cache'] = FALSE;
-		if ($mybrowser == "IE") {
-    		drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-    		// echo "<!--" . $mybrowser . "-->";
-		}
-		if ($mybrowser == "NOT-IE") {
-    		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-			// echo "<!--" . $mybrowser . "-->";
-		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Apy3MwfBCSfXdE0tZ1dfYTBnckdtM212N3B2bU5TVXc/od6/public/basic?alt=json-in-script'));
-	}
+	
 
 	// chinese-filmscript-and-advertisement-collection
 	if ($alias == "research/subject/guides/chinese-studies/research-guide/film-studies/chinese-filmscript-and-advertisement-collection") {
@@ -92,7 +79,7 @@ function dulcet_preprocess_html(&$vars) {
     		//drupal_add_js('http:/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ajg49nLm71UPdDdxaDNPSE5MWU5ackxjcDktZDJkVlE/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ajg49nLm71UPdDdxaDNPSE5MWU5ackxjcDktZDJkVlE/od6/public/basic?alt=json-in-script'));
 	}
 
 	// ngo-research-guide
@@ -107,7 +94,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/cells/1Lw9FvfRffACIC2mbIyC-pMuabvE3EJZebqnX0obJuNM/1/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/cells/1Lw9FvfRffACIC2mbIyC-pMuabvE3EJZebqnX0obJuNM/1/public/basic?alt=json-in-script'));
 
 	}
 
@@ -123,7 +110,7 @@ function dulcet_preprocess_html(&$vars) {
     		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdExFcHJTdmNzSzdZdTlQQzZJa1pfSVE/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdExFcHJTdmNzSzdZdTlQQzZJa1pfSVE/od6/public/basic?alt=json-in-script'));
 	}
 
 	// lilly-book-reserves
@@ -138,7 +125,7 @@ function dulcet_preprocess_html(&$vars) {
     		//drupal_add_js('http:/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdFEwYlhEOXBsQURDTVlMUi1qS282bGc/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdFEwYlhEOXBsQURDTVlMUi1qS282bGc/od6/public/basic?alt=json-in-script'));
 	}
 
 	// music-reserves
@@ -154,7 +141,7 @@ function dulcet_preprocess_html(&$vars) {
     		//drupal_add_js('http:/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai2xmU8Ueb8kdHpJR19tWkFQX3VxdHhuTVlDVFU3aUE/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai2xmU8Ueb8kdHpJR19tWkFQX3VxdHhuTVlDVFU3aUE/od6/public/basic?alt=json-in-script'));
 	}
 
 	// afghanistan-filmography
@@ -170,7 +157,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/ts9nzsj_q9rgUNxiDkrNADg/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/ts9nzsj_q9rgUNxiDkrNADg/od6/public/basic?alt=json-in-script'));
 	}
 
 
@@ -187,7 +174,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdGJIc3B3M281VnlDRzdMdm1yRElzN2c/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdGJIc3B3M281VnlDRzdMdm1yRElzN2c/od6/public/basic?alt=json-in-script'));
 	}
 
 	// bollywood-filmography
@@ -211,7 +198,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/tvJy9SxdtsVslY2tzVlP4QA/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/tvJy9SxdtsVslY2tzVlP4QA/od6/public/basic?alt=json-in-script'));
 	}
 
 	// early-african-american-filmography
@@ -227,7 +214,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/t99QiV0ZUj8Sieadgztl_kQ/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/t99QiV0ZUj8Sieadgztl_kQ/od6/public/basic?alt=json-in-script'));
 	}
 
 
@@ -243,7 +230,7 @@ function dulcet_preprocess_html(&$vars) {
     		//drupal_add_js('http:/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdDQxeFExamlnRTVya3lfcXlGWml4ZEE/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AlnornlpYwpUdDQxeFExamlnRTVya3lfcXlGWml4ZEE/od6/public/basic?alt=json-in-script'));
 	}
 
 	// rubenstein-library-processing
@@ -261,7 +248,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AjiSV3Fr8fZ1dDM3UDlCWjh4allVY19EaWRzaXh3Snc/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AjiSV3Fr8fZ1dDM3UDlCWjh4allVY19EaWRzaXh3Snc/od6/public/basic?alt=json-in-script'));
 	}
 
 	// data collections, now named Data Sources
@@ -276,7 +263,7 @@ function dulcet_preprocess_html(&$vars) {
     		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
 			// echo "<!--" . $mybrowser . "-->";
 		}
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AmPARjiW2O9udFY1UjVTb1BLcnFsXzQ3cW00bkpqamc/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0AmPARjiW2O9udFY1UjVTb1BLcnFsXzQ3cW00bkpqamc/od6/public/basic?alt=json-in-script'));
 	}
 
 	// subject experts aka subject specialists
@@ -292,7 +279,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
 	}
 
 
@@ -309,24 +296,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
-	}
-
-
-	// database list (temp)
-	if ($alias == "find/databaseslist") {
-		$GLOBALS['conf']['cache'] = FALSE;
-		if ($mybrowser == "IE") {
-    		drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-    		// echo "<!--" . $mybrowser . "-->";
-		}
-
-		if ($mybrowser == "NOT-IE") {
-    		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-			// echo "<!--" . $mybrowser . "-->";
-		}
-
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/cells/13dwY3So9S1AHY0WCCpqqubE4haRp8J73Mkr1xjuv78M/1/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
 	}
 
 
@@ -343,7 +313,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
 	}
 
 	// science research people (uses same datasource as subject specialists)
@@ -359,40 +329,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
-	}
-
-	// perkins course reserves
-	if ($alias == "course-support/course-reserves/perkins") {
-		$GLOBALS['conf']['cache'] = FALSE;
-		if ($mybrowser == "IE") {
-    		drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-    		// echo "<!--" . $mybrowser . "-->";
-		}
-
-		if ($mybrowser == "NOT-IE") {
-    		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-			// echo "<!--" . $mybrowser . "-->";
-		}
-
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1jkAfQCn8ruJFVsHSy8SOWKRDH9lbgQPyRHUErt_feIk/od6/public/basic?alt=json-in-script'));
-	}
-
-
-	// 2018 course reserves -- DEPRECATED; remove once corresponding page is deleted
-	if ($alias == "course-support/course-reserves/textbooks/fall-2018") {
-		$GLOBALS['conf']['cache'] = FALSE;
-		if ($mybrowser == "IE") {
-    		drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-    		// echo "<!--" . $mybrowser . "-->";
-		}
-
-		if ($mybrowser == "NOT-IE") {
-    		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-			// echo "<!--" . $mybrowser . "-->";
-		}
-
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1jvaibAbzz4e-ZiS-KZNZe2CyDkUs_i3bZHYWLro6DlY/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
 	}
 
 	// textbook reserves
@@ -408,7 +345,7 @@ function dulcet_preprocess_html(&$vars) {
 			// echo "<!--" . $mybrowser . "-->";
 		}
 
-		drupal_add_html_head_link(array('ex:converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1jvaibAbzz4e-ZiS-KZNZe2CyDkUs_i3bZHYWLro6DlY/od6/public/basic?alt=json-in-script'));
+		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1jvaibAbzz4e-ZiS-KZNZe2CyDkUs_i3bZHYWLro6DlY/od6/public/basic?alt=json-in-script'));
 	}
 
 
