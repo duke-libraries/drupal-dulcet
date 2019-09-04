@@ -31,8 +31,8 @@ if (isset($_GET['search'])) {
   	<div class="exhibit-facet-header ">
   		<span class="bold">Search the Collections</span>
   	</div>	
-	
-  	<div facetclass="TextSearch" role="facet" id="search-facet" ex:query="<?php echo str_replace("+"," ",$searchString); ?>">
+
+		<div data-ex-facet-class="TextSearch" data-ex-role="facet" id="search-facet" data-ex-query="<?php echo str_replace("+"," ",$searchString); ?>">
 	
   	<div class="exhibit-text-facet"> 
 		
