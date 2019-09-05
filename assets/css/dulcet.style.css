@@ -13008,3 +13008,201 @@ a.callbox {
     color: #fff;
     /*background: #a1b70d;*/
     background: #6b7a09; }
+
+@media print {
+  /* hide things */
+  #mast,
+  #footer-dulcet,
+  .search-resources-wrapper,
+  .embed-responsive,
+  #sidebar-first .nav,
+  .cycle-slideshow,
+  .feature-box .nav,
+  .feature-box .shaded-column-left > img,
+  .alert button,
+  #page-header > .tabs {
+    display: none; }
+  /* fix links (only display external) */
+  a[href]:after {
+    content: none; }
+  a[href^="http://"]:after,
+  a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+    font-style: italic;
+    word-wrap: break-word;
+    font-size: 90%; }
+  /* add title to top of printed page */
+  /* bootstrap tabs */
+  .nav-tabs {
+    display: none; }
+  .tab-content > .tab-pane {
+    display: block !important; }
+  /* carousels */
+  #carousel-bootstrap .carousel-caption {
+    position: relative;
+    margin-top: -390px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px; }
+  /* responsive tables */
+  #content .table-responsive {
+    width: 100% !important; }
+    #content .table-responsive table {
+      width: 100% !important; }
+  /* staff directory */
+  .staff-directory-nav,
+  .expandable-content-controls,
+  .contact-wrap a.scheduler-button,
+  #subject-specialist-filter,
+  #dept-filter,
+  .dept-nav,
+  .abc-nav,
+  .dept-info .btn,
+  .dept-info .media-widget > a,
+  .icon-links,
+  .research-guides .btn,
+  .research-guides .media-widget > a,
+  ul.subject-specialist-actions {
+    display: none; }
+  body.page-about-directory-dept .col-sm-3,
+  body.page-about-directory-dept .col-sm-4 {
+    display: none; }
+  body.page-about-directory-dept .col-sm-8,
+  body.page-about-directory-dept .col-sm-9 {
+    width: 100%;
+    left: 0; }
+  body.page-about-directory-dept .panel-default,
+  body.page-about-directory-dept .panel-default > .panel-heading,
+  body.page-about-directory-dept .all-depts .dept-2 .dept-2-children {
+    border: none; }
+  body.page-about-directory-dept .all-depts .dept-group {
+    break-inside: auto; }
+    body.page-about-directory-dept .all-depts .dept-group .panel-body {
+      border-top: 1px solid #e3e3e3;
+      padding-top: 1em;
+      padding-bottom: 0;
+      padding-left: 0;
+      margin-top: 1em; }
+    body.page-about-directory-dept .all-depts .dept-group .panel-heading {
+      padding-bottom: 0;
+      padding-left: 0;
+      break-inside: avoid; }
+    body.page-about-directory-dept .all-depts .dept-group .dept-2,
+    body.page-about-directory-dept .all-depts .dept-group .dept-3 {
+      break-inside: avoid; }
+  body.page-about-directory-dept .dept-3 > a::before {
+    content: '□';
+    font-size: 14px;
+    margin-left: -12px; }
+  body.page-about-directory-dept .dept-name {
+    line-height: 1.1; }
+  body.page-about-directory-dept .all-depts .dept-1 .dept-head-name,
+  body.page-about-directory-dept .all-depts .dept-2 .dept-head-name,
+  body.page-about-directory-dept .all-depts .dept-3 .dept-head-name {
+    font-weight: normal; }
+  body.page-about-directory-dept .dept-head-title {
+    font-style: italic; }
+  #directory-main-content a[href]:after {
+    content: none !important; }
+  #directory-main-content .eg-member,
+  #directory-main-content .research-guides,
+  #directory-main-content .departments,
+  #directory-main-content .subject_areas {
+    break-inside: avoid;
+    page-break-inside: avoid; }
+  #directory-main-content .person-content .expandable-content-wrapper .contracted {
+    max-height: unset; }
+  #directory-main-content .person-view ul.contact-info li.contact-email {
+    white-space: normal;
+    overflow: unset; }
+  #directory-main-content.people-grid,
+  #directory-main-content .people-grid {
+    display: table; }
+  #directory-main-content .person-wrap {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    width: calc(20% - 20px);
+    display: inline-table;
+    margin-right: 20px;
+    margin-bottom: 30px; }
+    #directory-main-content .person-wrap:nth-child(5n) {
+      margin-right: 0; }
+    #directory-main-content .person-wrap .person-name {
+      font-size: 15px;
+      line-height: 1.1; }
+    #directory-main-content .person-wrap .person-job-title {
+      font-style: italic;
+      line-height: 1.1;
+      font-size: 14px; }
+  #directory-main-content.person-view .col-sm-4 {
+    left: 0;
+    clear: both;
+    width: 100%; }
+  #directory-main-content.person-view .col-sm-6,
+  #directory-main-content.person-view .col-sm-8 {
+    width: 100%;
+    left: 0; }
+  #directory-main-content.person-view .contact-wrap {
+    border-right: none;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    break-inside: avoid;
+    page-break-inside: avoid; }
+  #directory-main-content.person-view .photo {
+    float: left;
+    margin-right: 30px;
+    width: 150px; }
+  #directory-main-content.person-view .contact {
+    float: left; }
+  #subject-specialist-list {
+    width: 100%; }
+    #subject-specialist-list .person-job-title {
+      font-style: italic; }
+    #subject-specialist-list a[href^="http://"]:after,
+    #subject-specialist-list a[href^="https://"]:after {
+      content: none; }
+  #subject-specialist-list div.subject-group {
+    overflow: hidden;
+    break-inside: avoid; }
+  #subject-specialist-list div.subject-group > div {
+    width: 100%; }
+  #subject-specialist-list div.subject-group .col-xs-12 {
+    width: 66% !important; }
+  #subject-specialist-list img.person-thm {
+    max-width: 100px; }
+  .dept-about-column,
+  .dept-description {
+    margin-bottom: 0; }
+  /* special things */
+  body.page-about.panel-layout-radix_bartlett_flipped p {
+    text-align: left !important; }
+  .page-home .cycle-slideshow,
+  .page-index .cycle-slideshow {
+    display: block; }
+    .page-home .cycle-slideshow a,
+    .page-index .cycle-slideshow a {
+      margin-bottom: 2em;
+      overflow: hidden;
+      display: block; }
+    .page-home .cycle-slideshow a::after,
+    .page-index .cycle-slideshow a::after {
+      float: left;
+      margin-left: 160px;
+      margin-top: -60px; }
+    .page-home .cycle-slideshow li,
+    .page-index .cycle-slideshow li {
+      display: block;
+      width: 100%;
+      max-width: 100%; }
+    .page-home .cycle-slideshow .blog-content img,
+    .page-index .cycle-slideshow .blog-content img {
+      float: left;
+      margin-left: 0;
+      width: 150px; }
+    .page-home .cycle-slideshow .blog-content p,
+    .page-index .cycle-slideshow .blog-content p {
+      float: left;
+      margin-top: 15px; }
+  .edge-quick-links div a {
+    width: 700px; } }
