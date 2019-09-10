@@ -1,0 +1,338 @@
+// Print styles
+// -----------------------------------------------------------------------------
+
+@media print {
+
+  /* hide things */
+  #mast,
+  #footer-dulcet,
+  .search-resources-wrapper,
+  .embed-responsive,
+  #sidebar-first .nav,
+  .cycle-slideshow,
+  .feature-box .nav,
+  .feature-box .shaded-column-left > img,
+  .alert button,
+  #page-header > .tabs {
+    display: none;
+  }
+
+  /* fix links (only display external) */
+  a[href]:after {
+    content: none;
+  }
+  a[href^="http://"]:after,
+  a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+    font-style: italic;
+    word-wrap: break-word;
+    font-size: 90%;
+  }
+
+  /* add title to top of printed page */
+  // head,
+  // title {
+  //   display: block !important;
+  //   font-size: 13pt;
+  //   line-height: 1.3;
+  //   text-align: center;
+  //   border: 1px solid #ccc;
+  //   padding: 10px;
+  //   page-break-before: avoid !important;
+  //   page-break-after: avoid !important;
+  // }
+
+  /* bootstrap tabs */
+  .nav-tabs {
+    display: none;
+  }
+
+  .tab-content > .tab-pane {
+    display: block !important;
+  }
+
+  /* carousels */
+  #carousel-bootstrap .carousel-caption {
+    position: relative;
+    margin-top: -390px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 20px;
+  }
+
+  /* responsive tables */
+  #content .table-responsive {
+    width: 100% !important;
+
+    table {
+      width: 100% !important;
+    }
+
+  }
+  
+
+  /* staff directory */
+  .staff-directory-nav,
+  .expandable-content-controls,
+  .contact-wrap a.scheduler-button,
+  #subject-specialist-filter,
+  #dept-filter,
+  .dept-nav,
+  .abc-nav,
+  .dept-info .btn,
+  .icon-links,
+  .research-guides .btn,
+  ul.subject-specialist-actions {
+    display: none;
+  }
+
+  body.page-about-directory-dept {
+    
+    .col-sm-3,
+    .col-sm-4 {
+      display: none;
+    }
+
+    .col-sm-8,
+    .col-sm-9 {
+      width: 100%;
+      left: 0;
+    }
+
+    .panel-default,
+    .panel-default > .panel-heading,
+    .all-depts .dept-2 .dept-2-children {
+      border: none;
+    }
+
+    .all-depts .dept-group { 
+      -webkit-column-break-inside: auto;
+      page-break-inside: auto;
+      break-inside: auto;
+
+      .panel-body {
+        border-top: 1px solid #e3e3e3;
+        padding-top: 1em;
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-top: 1em;
+      }
+
+      .panel-heading {
+        padding-bottom: 0;
+        padding-left: 0;
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+
+      .dept-2, 
+      .dept-3 {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+      
+    }
+
+    .dept-3 > a::before {
+      content: '□';
+      font-size: 14px;
+      margin-left: -12px;
+    }
+
+    .dept-name {
+      line-height: 1.1;
+    }
+
+    .all-depts .dept-1 .dept-head-name,
+    .all-depts .dept-2 .dept-head-name,
+    .all-depts .dept-3 .dept-head-name {
+      font-weight: normal;
+    }
+
+    .dept-head-title {
+      font-style: italic;
+    }
+
+  }
+
+  #directory-main-content {
+
+    a[href]:after {
+      content: none !important;
+    }
+
+    .eg-member,
+    .research-guides,
+    .departments,
+    .subject_areas {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .person-content .expandable-content-wrapper .contracted {
+      max-height: unset;
+    }
+
+    .person-view ul.contact-info li.contact-email {
+      white-space: normal;
+      overflow: unset;
+    }
+
+    &.people-grid,
+    .people-grid {
+      display: table;
+    }
+
+    .person-wrap {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      width: calc(20% - 20px);
+      display: inline-table;
+      margin-right: 20px;
+      margin-bottom: 30px;
+
+      &:nth-child(5n) {
+        margin-right: 0;
+      }
+      
+      .person-name {
+        font-size: 15px;
+        line-height: 1.1;
+      }
+
+      .person-job-title {
+        font-style: italic;
+        line-height: 1.1;
+        font-size: 14px;
+      }
+    }
+
+
+    &.person-view {
+      
+      .col-sm-4 {
+        left: 0;
+        clear: both;
+        width: 100%;
+      }
+
+      .col-sm-6,
+      .col-sm-8 {
+        width: 100%;
+        left: 0;
+      }
+
+      .contact-wrap {
+        border-right: none;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        overflow: hidden;
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      .photo {
+        float: left;
+        margin-right: 30px;
+        width: 150px;
+      }
+
+      .contact {
+        float: left;
+      }
+
+    }
+
+  }
+
+
+  #subject-specialist-list {
+
+    width: 100%;
+
+    .person-job-title {
+      font-style: italic;
+    }
+
+    a[href^="http://"]:after,
+    a[href^="https://"]:after {
+      content: none;
+    }
+  }
+
+  #subject-specialist-list div.subject-group {
+    overflow: hidden;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  } 
+
+  #subject-specialist-list div.subject-group > div {
+    width: 100%
+  }
+
+  #subject-specialist-list div.subject-group .col-xs-12 {
+    width: 66% !important;
+  }
+
+  #subject-specialist-list img.person-thm {
+    max-width: 100px;
+  }
+
+  .dept-about-column,
+  .dept-description {
+    margin-bottom: 0;
+  }
+
+
+
+  /* special things */
+
+  body.page-about.panel-layout-radix_bartlett_flipped p {
+    text-align: left !important;
+  }
+
+  .page-home .cycle-slideshow,
+  .page-index .cycle-slideshow {
+    display: block;
+
+    a {
+      margin-bottom: 2em;
+      overflow: hidden;
+      display: block;
+    }
+
+    a::after {
+      float: left;
+      margin-left: 160px;
+      margin-top: -60px;
+    }
+
+    li {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .blog-content img {
+      float: left;
+      margin-left: 0;
+      width: 150px;
+    }
+
+    .blog-content p {
+      float: left;
+      margin-top: 15px;
+    }
+    
+  }
+
+
+  .edge-quick-links div a {
+    width: 700px;
+  }
+  
+
+}
