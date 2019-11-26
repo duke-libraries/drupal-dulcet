@@ -50,6 +50,15 @@ function dulcet_preprocess_html(&$vars) {
 
 	}
 
+
+	// Space Finder (places to study replacement based on itemsjs)
+	if ($alias == "using/library-spaces") {
+		$GLOBALS['conf']['cache'] = FALSE;
+    drupal_add_js('/sites/all/libraries/itemsjs/itemsjs.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
+		drupal_add_js('/sites/all/libraries/vue/vue.min.v2.5.22.js', array('preprocess' => TRUE));
+		drupal_add_js('/sites/all/libraries/itemsjs/spacefinder.js', array('preprocess' => FALSE));
+	}
+
 	// IAS Japan Images
 	if ($alias == "about/depts/ias/eastasian/images") {
 		$GLOBALS['conf']['cache'] = FALSE;
