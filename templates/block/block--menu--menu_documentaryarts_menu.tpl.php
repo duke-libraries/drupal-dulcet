@@ -19,7 +19,7 @@
 
       <div class="sidebar-extras">
         <div style="text-align:center;">
-        <a href="https://www.gifts.duke.edu/fund?additional_designations=Archive+of+Documentary+Arts+3942953" target="_blank"><button style="width:100%;" class="btn btn-primary">Give Now</button></a>
+        <a href="https://www.gifts.duke.edu/library?designation=3942953" target="_blank"><button style="width:100%;" class="btn btn-primary">Give Now</button></a>
         </div>
       </div>
 
