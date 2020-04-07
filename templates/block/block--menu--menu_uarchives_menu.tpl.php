@@ -21,6 +21,10 @@
         <div>
           <a href="https://www.facebook.com/dukeuniversityarchives"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/facebook24.png" alt="Facebook"> </a><a href="https://www.flickr.com/photos/dukeyearlook/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/flickr24.png" alt="Flickr"> </a> <a href="https://twitter.com/dukeuarchives/"> <img src="<?php print base_path(); ?>sites/all/themes/madlib/images/icons/twitter24.png" alt="Twitter"> </a>
         </div>
+        <ul class="nav nav-list list-unstyled"><li class="divider"></li></ul>
+        <div style="text-align:center;">
+          <a href="https://www.gifts.duke.edu/?designation=3990037"><button style="width:100%;" class="btn btn-primary">Give Now</button></a>
+        </div>
       </div>
 
       <div class="sidebar-extras rl-hours-today">
