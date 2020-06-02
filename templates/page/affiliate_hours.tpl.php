@@ -30,7 +30,7 @@
 	<ul>
 		<li><a href="https://library.divinity.duke.edu/hours">Divinity School Library</a></li>
 		<li><a href="https://library.fuqua.duke.edu/hours.htm">Ford Library, Fuqua School of Business</a></li>
-		<li><a href="https://law.duke.edu/lib/hours">Goodson Law Library</a></li>
+		<li><a href="https://law.duke.edu/lib/#hours">Goodson Law Library</a></li>
 		<li><a href="https://mclibrary.duke.edu/accounts-access/building-access">Medical Center Library</a></li>
 	</ul>
 </section>
