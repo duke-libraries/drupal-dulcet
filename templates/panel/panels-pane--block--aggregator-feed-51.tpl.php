@@ -17,6 +17,19 @@
  *   data including the contexts and all of the other panes being displayed.
  */
 ?>
+
+<?php
+
+  // Manually inserting the 'takeout' slide as the first item
+
+  $takeoutContent = '<ul id="rotate1"><!-- manually inserting takeout slide --><li class="cycle-slide cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="https://library.duke.edu/using/borrowing/pickup"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2020/07/DUL_Takeout_Blog-260x180.jpg"><p>Library Takeout Service: Now Taking Orders!</p></div></a></li>';
+
+  $updatedContent = str_replace('<li class="first">', '<li>', $content);
+
+  $updatedContent = str_replace('<ul id="rotate1">', $takeoutContent, $updatedContent);
+
+?>
+
 <?php if ($pane_prefix): ?>
   <?php print $pane_prefix; ?>
 <?php endif; ?>
@@ -58,7 +71,9 @@
         data-cycle-carousel-glide="true"
         data-cycle-slides="> div > ul > li">
 
-          <?php print render($content); ?>
+          <?php // print render($content); ?>
+
+          <?php print render($updatedContent); // output with takeout slide?>
 
         </div>
 
