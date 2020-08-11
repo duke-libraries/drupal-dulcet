@@ -10246,6 +10246,35 @@ ul.rl-collections li {
 .rl-hours-today .other {
   font-size: 14px; }
 
+
+/* CDVS Hours */
+/* ====================== */
+.cdvs-hours .item-list li {
+  display: block;
+  overflow: hidden; 
+}
+.cdvs-hours .item-list li:nth-of-type(1) {
+  font-weight: bold;
+}
+.cdvs-hours .view-content .item-list .hours-row {
+  float: right;
+}
+.cdvs-hours .view-content .item-list .hours-row p {
+  margin:0;
+  padding: 0;
+  text-align: right;
+}
+.cdvs-hours .view-content .item-list .hours-row p:nth-of-type(2) {
+  font-size: .9em;
+}
+.cdvs-hours .view-content .item-list .hours-row p:nth-of-type(2):before {
+  content: '(';
+}
+.cdvs-hours .view-content .item-list .hours-row p:nth-of-type(2):after {
+  content: ')';
+}
+
+
 /* ================================= */
 /* Duke Branding Guide colors        */
 /* https://brand.duke.edu/colors/    */
