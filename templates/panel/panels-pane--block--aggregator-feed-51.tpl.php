@@ -20,13 +20,13 @@
 
 <?php
 
-  // Manually inserting the 'takeout' slide as the first item
+  // Manually inserting a 'sticky' slide as the first item
 
-  $takeoutContent = '<ul id="rotate1"><!-- manually inserting takeout slide --><li class="cycle-slide cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="https://library.duke.edu/using/borrowing/pickup"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2020/07/DUL_Takeout_Blog-260x180.jpg"><p>Library Takeout Service: Now Taking Orders!</p></div></a></li>';
+  $stickyContent = '<ul id="rotate1"><!-- manually inserting fall 2020 slide --><li class="cycle-slide cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="https://library.duke.edu/about/fall2020"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2020/08/Fall2020_WebsiteGraphic-260x180.jpg"><p>Fall 2020: Everything You Need to Know</p></div></a></li>';
 
   $updatedContent = str_replace('<li class="first">', '<li>', $content);
 
-  $updatedContent = str_replace('<ul id="rotate1">', $takeoutContent, $updatedContent);
+  $updatedContent = str_replace('<ul id="rotate1">', $stickyContent, $updatedContent);
 
 ?>
 
@@ -73,7 +73,7 @@
 
           <?php // print render($content); ?>
 
-          <?php print render($updatedContent); // output with takeout slide?>
+          <?php print render($updatedContent); // output with sticky slide ?>
 
         </div>
 
