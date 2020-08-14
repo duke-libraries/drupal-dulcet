@@ -20,7 +20,8 @@
 
 <?php
 
-  // Manually inserting a 'sticky' slide as the first item
+  // Manually inserting a 'sticky' slide as the first item.
+  // Also see "Toggle this to turn on sticky slide" below.
 
   $stickyContent = '<ul id="rotate1"><!-- manually inserting fall 2020 slide --><li class="cycle-slide cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="https://library.duke.edu/about/fall2020"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2020/08/Fall2020_WebsiteGraphic-260x180.jpg"><p>Fall 2020: Everything You Need to Know</p></div></a></li>';
 
@@ -71,9 +72,9 @@
         data-cycle-carousel-glide="true"
         data-cycle-slides="> div > ul > li">
 
-          <?php // print render($content); ?>
-
-          <?php print render($updatedContent); // output with sticky slide ?>
+          <?php // Toggle this to turn on sticky slide ?>
+          <?php print render($content); ?>
+          <?php //print render($updatedContent);  ?>
 
         </div>
 
