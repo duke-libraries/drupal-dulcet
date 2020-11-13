@@ -23,7 +23,7 @@
   // Manually inserting a 'sticky' slide as the first item.
   // Also see "Toggle this to turn on sticky slide" below.
 
-  $stickyContent = '<ul id="rotate1"><!-- manually inserting fall 2020 slide --><li class="cycle-slide cycle-slide-manual cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="https://library.duke.edu/about/fall2020"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2020/08/Fall2020_WebsiteGraphic-260x180.jpg"><p>Fall 2020: Everything You Need to Know</p></div></a></li>';
+  $stickyContent = '<ul id="rotate1"><!-- manually inserting "closing out 2020" slide --><li class="cycle-slide cycle-slide-manual cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="https://blogs.library.duke.edu/blog/2020/11/13/closing-out-2020-at-the-libraries/"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2020/11/closing_out_2020_featured_with_text-260x180.jpg"><p>Closing Out 2020 at the Libraries</p></div></a></li>';
 
   // remove 'first' class from original first slide
   $updatedContent = str_replace('<li class="first">', '<li>', $content);
