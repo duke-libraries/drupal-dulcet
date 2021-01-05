@@ -341,21 +341,21 @@ function dulcet_preprocess_html(&$vars) {
 		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/0Ai1EAVMshswCdEVrdkRGT1RnQUVIRHo0VlN5bzlMMUE/od6/public/basic?alt=json-in-script'));
 	}
 
-	// textbook reserves
-	if ($alias == "course-support/course-reserves/textbooks") {
-		$GLOBALS['conf']['cache'] = FALSE;
-		if ($mybrowser == "IE") {
-    		drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-    		// echo "<!--" . $mybrowser . "-->";
-		}
+	// textbook reserves (removed for Spring 2021)
+	// if ($alias == "course-support/course-reserves/textbooks") {
+		// $GLOBALS['conf']['cache'] = FALSE;
+		// if ($mybrowser == "IE") {
+    		// drupal_add_js('https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
+    		// // echo "<!--" . $mybrowser . "-->";
+		// }
 
-		if ($mybrowser == "NOT-IE") {
-    		drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
-			// echo "<!--" . $mybrowser . "-->";
-		}
+		// if ($mybrowser == "NOT-IE") {
+    		// drupal_add_js('/sites/all/libraries/simile/3.1.2-rc3/exhibit-api.js', array('group' => -101, 'weight' => -1000, 'preprocess' => TRUE));
+			// // echo "<!--" . $mybrowser . "-->";
+		// }
 
-		drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1jvaibAbzz4e-ZiS-KZNZe2CyDkUs_i3bZHYWLro6DlY/od6/public/basic?alt=json-in-script'));
-	}
+		// drupal_add_html_head_link(array('data-ex-converter' => 'googleSpreadsheets', 'type' => 'application/jsonp', 'rel' => 'exhibit/data', 'href' => 'https://spreadsheets.google.com/feeds/list/1jvaibAbzz4e-ZiS-KZNZe2CyDkUs_i3bZHYWLro6DlY/od6/public/basic?alt=json-in-script'));
+	//}
 
 
 }
