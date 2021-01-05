@@ -23,7 +23,7 @@
   // Manually inserting a 'sticky' slide as the first item.
   // Also see "Toggle this to turn on sticky slide" below.
 
-  $stickyContent = '<ul id="rotate1"><!-- manually inserting "December and Holiday Services" slide --><li class="cycle-slide cycle-slide-manual cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="http://blogs.library.duke.edu/blog/2020/12/01/reduced-services-in-december/"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2020/12/December-and-Holiday-Services-260x180.jpg"><p>December and Holiday Services</p></div></a></li>';
+  $stickyContent = '<ul id="rotate1"><!-- manually inserting "Reopening 2021" slide --><li class="cycle-slide cycle-slide-manual cycle-slide-active" style="position: static; top: 0px; left: 0px; z-index: 100; opacity: 1; display: block; visibility: hidden; width: 250px;"><a onclick="ga(\'send\', \'event\', { eventCategory: \'dulHome\', eventAction: \'Feature Blog Posts\', eventLabel: \'Item\'});" href="https://blogs.library.duke.edu/blog/2021/01/01/reopening-2021/"><div class="blog-content"><img alt="" class="img-thumbnail" src="https://blogs.library.duke.edu/wp-content/uploads/2021/01/reopening_2021-260x180.jpg"><p>Reopening 2021</p></div></a></li>';
 
   // remove 'first' class from original first slide
   $updatedContent = str_replace('<li class="first">', '<li>', $content);
