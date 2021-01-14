@@ -10,7 +10,7 @@
     <div class="shaded-column-left" <?php print $content_attributes; ?>>
 
       <!-- content above menu -->
-            <p class="sidebar-logo"><a href="/data"><img src="<?php print base_path(); ?>sites/default/files/datagis/images/data_gis_logo.png" class="img-thumbnail" alt="image" width="155" alt="logo"></a></p><ul class="nav nav-list"><!--<li class="nav-header nav-header-gray"><a href="/data">Data and GIS Services</a></li>--></ul>
+            <p class="sidebar-logo"><a href="/data"><img src="<?php print base_path(); ?>sites/default/files/datagis/images/CDVS-logo_sm_Spring2020.png" class="img-thumbnail" alt="image" width="155" alt="logo"></a></p>
         <!-- / content above menu -->
 
 
